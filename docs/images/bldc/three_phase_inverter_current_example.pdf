@@ -1,0 +1,1535 @@
+%PDF-1.4%‚„œ”
+1 0 obj<</Metadata 2 0 R/Pages 3 0 R/Type/Catalog>>endobj2 0 obj<</Length 85661/Subtype/XML/Type/Metadata>>stream
+<?xpacket begin="Ôªø" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 10.0-c000 1.000000, 0000/00/00-00:00:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:stMfs="http://ns.adobe.com/xap/1.0/sType/ManifestItem#"
+            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+         <dc:format>application/pdf</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">three_phase_inverter_current_example</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <xmp:MetadataDate>2026-09-29T21:54:13-07:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2026-09-29T21:54:13-07:00</xmp:ModifyDate>
+         <xmp:CreateDate>2026-09-29T21:54:13-07:00</xmp:CreateDate>
+         <xmp:CreatorTool>Adobe Illustrator 30.8 (Windows)</xmp:CreatorTool>
+         <xmp:Thumbnails>
+            <rdf:Alt>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>196</xmpGImg:height>
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEAAAAAAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAAAAAAAAEA&#xA;AQAAAAAAAQAB/+4ADkFkb2JlAGTAAAAAAf/bAIQABgQEBAUEBgUFBgkGBQYJCwgGBggLDAoKCwoK&#xA;DBAMDAwMDAwQDA4PEA8ODBMTFBQTExwbGxscHx8fHx8fHx8fHwEHBwcNDA0YEBAYGhURFRofHx8f&#xA;Hx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8f/8AAEQgAxAEAAwER&#xA;AAIRAQMRAf/EAaIAAAAHAQEBAQEAAAAAAAAAAAQFAwIGAQAHCAkKCwEAAgIDAQEBAQEAAAAAAAAA&#xA;AQACAwQFBgcICQoLEAACAQMDAgQCBgcDBAIGAnMBAgMRBAAFIRIxQVEGE2EicYEUMpGhBxWxQiPB&#xA;UtHhMxZi8CRygvElQzRTkqKyY3PCNUQnk6OzNhdUZHTD0uIIJoMJChgZhJRFRqS0VtNVKBry4/PE&#xA;1OT0ZXWFlaW1xdXl9WZ2hpamtsbW5vY3R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo+Ck5SVlpeYmZ&#xA;qbnJ2en5KjpKWmp6ipqqusra6voRAAICAQIDBQUEBQYECAMDbQEAAhEDBCESMUEFURNhIgZxgZEy&#xA;obHwFMHR4SNCFVJicvEzJDRDghaSUyWiY7LCB3PSNeJEgxdUkwgJChgZJjZFGidkdFU38qOzwygp&#xA;0+PzhJSktMTU5PRldYWVpbXF1eX1RlZmdoaWprbG1ub2R1dnd4eXp7fH1+f3OEhYaHiImKi4yNjo&#xA;+DlJWWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+v/aAAwDAQACEQMRAD8A9U4q7FXYq7FWNaXo1pqd&#xA;pdy3NzePJJeX0bcL26RQqXUqIojWUIAEAAHGmKoy38p6TbwJDFJepHGAqqt/eKKD2WUKPoGKrU8n&#xA;6QlzLciS99WUKrN9euw1F6DkJQxHzJxVu58oaRcqiyyXrKjrIFa+u2FVNRs0rfeN8VVf8Nad/v6+&#xA;/wC4hff9VsVUrXyhpFtCIopL1VqWPG+u0qWNSaJKo/DFWj5P0g3a3RkvTKqGNWN9d1AJqaN6vP6K&#xA;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&#xA;xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV/9k=</xmpGImg:image>
+               </rdf:li>
+            </rdf:Alt>
+         </xmp:Thumbnails>
+         <xmpMM:InstanceID>uuid:fe571fff-a07b-4dc1-a8e9-9002467222aa</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:0cc82695-56f9-2040-a1ff-68005030f1f6</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>uuid:5D20892493BFDB11914A8590D31508C8</xmpMM:OriginalDocumentID>
+         <xmpMM:RenditionClass>proof:pdf</xmpMM:RenditionClass>
+         <xmpMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>uuid:eea9d43c-96a8-470e-8797-2096014b6193</stRef:instanceID>
+            <stRef:documentID>xmp.did:e3c1d7ad-80d4-bf4f-b8b2-8f126d506eb3</stRef:documentID>
+            <stRef:originalDocumentID>uuid:5D20892493BFDB11914A8590D31508C8</stRef:originalDocumentID>
+            <stRef:renditionClass>proof:pdf</stRef:renditionClass>
+         </xmpMM:DerivedFrom>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:6879d940-ee49-7a42-a12e-1e89bc3db893</stEvt:instanceID>
+                  <stEvt:when>2018-04-22T20:30:48-07:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator CC 2015.3 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:0cc82695-56f9-2040-a1ff-68005030f1f6</stEvt:instanceID>
+                  <stEvt:when>2026-09-29T21:54:13-07:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe Illustrator 30.8 (Windows)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <xmpMM:Manifest>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_f89ffdc4f6d8a97c.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:53e755de-bee2-11f1-0000-0a99349d5edf</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_b19ff1dd7a77e8b0.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:4fbb385e-bee2-11f1-0000-a1ade43d2307</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_de1cf1cd72ceff69.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:4af6845e-bee2-11f1-0000-0e6173d9e93a</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_2499ac1d238cad0d.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:9dd10835-bd19-11f1-0000-c64141c0daa4</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_5cc9be78118f8212.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:d66ae482-bd0d-11f1-0000-d78b546777ed</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_84c3ba7d8b4145ba.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:2e551b7f-bd0d-11f1-0000-566ab4d98301</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_a6b8b1c2242c0ada.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:2a28fdff-bd0d-11f1-0000-da82556c8172</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_f60c4391a887b4f6.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:2301efff-bd0d-11f1-0000-348f1e51c577</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_f00b4b6d4c83cb10.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:a251ecfe-bd2a-11f1-0000-fbb834e09e49</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_f4a919b812efa2e.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:6d8969b4-bd19-11f1-0000-3895f0e38e64</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_2e2233c3094b9ef8.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:737f4ab4-bd19-11f1-0000-c0c760f4d8af</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_d1056d57ca1e628d.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:2b139062-bee3-11f1-0000-c858aa841ebd</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_e3bf7fbdd2092eb2.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:27800962-bee3-11f1-0000-652b8f97163d</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_c841bc7d458cc38d.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:23ec8262-bee3-11f1-0000-b6a12d147452</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_77a8670ea6ad4fd4.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:695d4c34-bd19-11f1-0000-96800fa27912</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_2d6bc05ca4f448f5.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:619da7b4-bd19-11f1-0000-be58d7262fc7</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_18338892652db59d.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:58acd633-bd19-11f1-0000-e2ebb6252f1a</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_d07bc661aa68cc4a.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:65c9c534-bd19-11f1-0000-8c50213554fb</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_2b72b0a83116059b.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:5d718a34-bd19-11f1-0000-f54e1a856e10</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_94f07a016b5d5cc2.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:55194f33-bd19-11f1-0000-692014598f07</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_782a9edb78e3b8a9.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:08ce4266-bee4-11f1-0000-43c4b7383891</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_12090e09516f5661.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:92cba741-bd1c-11f1-0000-8f0ff19bc16f</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_d7d69c676b1b142c.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:7aa7583d-bd1b-11f1-0000-736ae9eedde6</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_28cc38bf9ad350d6.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:429f15b3-bd19-11f1-0000-e04f31341a9d</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_9b5fc79fa3344466.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:3dda61b3-bd19-11f1-0000-f5a894b38f4d</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_7b1839e6776dd80b.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:3915adb3-bd19-11f1-0000-8ef1280908b4</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_690293fd82609526.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:31560933-bd19-11f1-0000-13f1439d6956</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_a75d9a6a88d1ab1d.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:2d29ebb3-bd19-11f1-0000-fbb8129d4029</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_496b0e1a953cefd9.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:2a2efb33-bd19-11f1-0000-b737ad17358e</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_fbf1ddd50b6861ce.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:269b7433-bd19-11f1-0000-cfaac418d145</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_253975fd53031538.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:2307ed33-bd19-11f1-0000-e8b89ddf1e26</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_d35a3f25a3ec5f23.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:1edbcfb3-bd19-11f1-0000-7390e36848e7</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_8a590a83cd9636e.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:49378889-bd2d-11f1-0000-a0704ac8ae7e</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_2a4bcbf3c13c634b.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:450b6b09-bd2d-11f1-0000-7b390702fc9c</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_3b1b0177d8b5373f.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:40df4d89-bd2d-11f1-0000-41c478a394c3</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_aefeaa8375abfefa.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:3b810380-bd2b-11f1-0000-83e301465dca</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_bce5339a946c1745.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:5d7b8589-bd2d-11f1-0000-a0704ac8ae7e</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_dff6a968e5cfbf5.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:594f6809-bd2d-11f1-0000-7b390702fc9c</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_599b4f03f7038920.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:52285a09-bd2d-11f1-0000-41c478a394c3</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_9e453a4cefdc80dc.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:d45b52ba-bd1a-11f1-0000-9bbe82942a22</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_2c4e0c54ef9664d7.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:e473323a-bd1a-11f1-0000-20b1733e94cb</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_c2ad2d1ee5b75a14.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:e806b93a-bd1a-11f1-0000-929a23accd0d</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_9aeac6aa25eb8d12.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:e0dfab3a-bd1a-11f1-0000-56a17c045750</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_7a8394000796dc7a.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:dd4c243a-bd1a-11f1-0000-bbd316117f5b</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stMfs:linkForm>EmbedByReference</stMfs:linkForm>
+                  <stMfs:reference rdf:parseType="Resource">
+                     <stRef:filePath>D:\Repositories\mechatronics\courses\ME5305\working\note-revisions\BLDC\figures\links\three_phase_inverter_LaTeX2AI_477e78b397890de1.pdf</stRef:filePath>
+                     <stRef:documentID>uuid:0cf82da1-bd15-11f1-0000-f2282a861da3</stRef:documentID>
+                     <stRef:instanceID>0</stRef:instanceID>
+                  </stMfs:reference>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:Manifest>
+         <illustrator:StartupProfile>Print</illustrator:StartupProfile>
+         <illustrator:IsFileSavedViaInstantSave>True</illustrator:IsFileSavedViaInstantSave>
+         <illustrator:CreatorSubTool>Adobe Illustrator</illustrator:CreatorSubTool>
+         <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
+         <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
+         <xmpTPg:NPages>1</xmpTPg:NPages>
+         <xmpTPg:MaxPageSize rdf:parseType="Resource">
+            <stDim:w>432.000000</stDim:w>
+            <stDim:h>324.000000</stDim:h>
+            <stDim:unit>Points</stDim:unit>
+         </xmpTPg:MaxPageSize>
+         <xmpTPg:Fonts>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>JAAAAA+CMR10</stFnt:fontName>
+                  <stFnt:fontFamily>JAAAAA+CMR10</stFnt:fontFamily>
+                  <stFnt:fontType>Unknown</stFnt:fontType>
+                  <stFnt:versionString>Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>JAAAAA+CMMI10</stFnt:fontName>
+                  <stFnt:fontFamily>JAAAAA+CMMI10</stFnt:fontFamily>
+                  <stFnt:fontType>Unknown</stFnt:fontType>
+                  <stFnt:versionString>Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>JAAAAA+CMMI7</stFnt:fontName>
+                  <stFnt:fontFamily>JAAAAA+CMMI7</stFnt:fontFamily>
+                  <stFnt:fontType>Unknown</stFnt:fontType>
+                  <stFnt:versionString>Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>HAAAAA+CMR10</stFnt:fontName>
+                  <stFnt:fontFamily>HAAAAA+CMR10</stFnt:fontFamily>
+                  <stFnt:fontType>Unknown</stFnt:fontType>
+                  <stFnt:versionString>Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>JAAAAA+CMR7</stFnt:fontName>
+                  <stFnt:fontFamily>JAAAAA+CMR7</stFnt:fontFamily>
+                  <stFnt:fontType>Unknown</stFnt:fontType>
+                  <stFnt:versionString>Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>HAAAAA+CMMI10</stFnt:fontName>
+                  <stFnt:fontFamily>HAAAAA+CMMI10</stFnt:fontFamily>
+                  <stFnt:fontType>Unknown</stFnt:fontType>
+                  <stFnt:versionString>Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>LAAAAA+CMMI7</stFnt:fontName>
+                  <stFnt:fontFamily>LAAAAA+CMMI7</stFnt:fontFamily>
+                  <stFnt:fontType>Unknown</stFnt:fontType>
+                  <stFnt:versionString>Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>HAAAAA+CMMI12</stFnt:fontName>
+                  <stFnt:fontFamily>HAAAAA+CMMI12</stFnt:fontFamily>
+                  <stFnt:fontType>Unknown</stFnt:fontType>
+                  <stFnt:versionString>Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329</stFnt:versionString>
+                  <stFnt:composite>False</stFnt:composite>
+                  <stFnt:fontFileName>MyriadPro-Regular.otf</stFnt:fontFileName>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpTPg:Fonts>
+         <xmpTPg:PlateNames>
+            <rdf:Seq>
+               <rdf:li>Cyan</rdf:li>
+               <rdf:li>Magenta</rdf:li>
+               <rdf:li>Yellow</rdf:li>
+               <rdf:li>Black</rdf:li>
+            </rdf:Seq>
+         </xmpTPg:PlateNames>
+         <xmpTPg:SwatchGroups>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Default Swatch Group</xmpG:groupName>
+                  <xmpG:groupType>0</xmpG:groupType>
+                  <xmpG:Colorants>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>White</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>Black</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>100.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>CMYK Red</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>CMYK Yellow</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>CMYK Green</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>100.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>CMYK Cyan</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>100.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>CMYK Blue</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>100.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>CMYK Magenta</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=15 M=100 Y=90 K=10</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>15.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>90.000000</xmpG:yellow>
+                           <xmpG:black>10.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=90 Y=85 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>90.000000</xmpG:magenta>
+                           <xmpG:yellow>85.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=80 Y=95 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>80.000000</xmpG:magenta>
+                           <xmpG:yellow>95.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=50 Y=100 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>50.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=35 Y=85 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>35.000000</xmpG:magenta>
+                           <xmpG:yellow>85.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=5 M=0 Y=90 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>5.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>90.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=20 M=0 Y=100 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>20.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=50 M=0 Y=100 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>50.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=75 M=0 Y=100 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>75.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=85 M=10 Y=100 K=10</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>85.000000</xmpG:cyan>
+                           <xmpG:magenta>10.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>10.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=90 M=30 Y=95 K=30</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>90.000000</xmpG:cyan>
+                           <xmpG:magenta>30.000000</xmpG:magenta>
+                           <xmpG:yellow>95.000000</xmpG:yellow>
+                           <xmpG:black>30.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=75 M=0 Y=75 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>75.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>75.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=80 M=10 Y=45 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>80.000000</xmpG:cyan>
+                           <xmpG:magenta>10.000000</xmpG:magenta>
+                           <xmpG:yellow>45.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=70 M=15 Y=0 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>70.000000</xmpG:cyan>
+                           <xmpG:magenta>15.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=85 M=50 Y=0 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>85.000000</xmpG:cyan>
+                           <xmpG:magenta>50.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=100 M=95 Y=5 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>100.000000</xmpG:cyan>
+                           <xmpG:magenta>95.000000</xmpG:magenta>
+                           <xmpG:yellow>5.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=100 M=100 Y=25 K=25</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>100.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>25.000000</xmpG:yellow>
+                           <xmpG:black>25.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=75 M=100 Y=0 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>75.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=50 M=100 Y=0 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>50.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=35 M=100 Y=35 K=10</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>35.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>35.000000</xmpG:yellow>
+                           <xmpG:black>10.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=10 M=100 Y=50 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>10.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>50.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=95 Y=20 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>95.000000</xmpG:magenta>
+                           <xmpG:yellow>20.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=25 M=25 Y=40 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>25.000000</xmpG:cyan>
+                           <xmpG:magenta>25.000000</xmpG:magenta>
+                           <xmpG:yellow>40.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=40 M=45 Y=50 K=5</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>40.000000</xmpG:cyan>
+                           <xmpG:magenta>45.000000</xmpG:magenta>
+                           <xmpG:yellow>50.000000</xmpG:yellow>
+                           <xmpG:black>5.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=50 M=50 Y=60 K=25</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>50.000000</xmpG:cyan>
+                           <xmpG:magenta>50.000000</xmpG:magenta>
+                           <xmpG:yellow>60.000000</xmpG:yellow>
+                           <xmpG:black>25.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=55 M=60 Y=65 K=40</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>55.000000</xmpG:cyan>
+                           <xmpG:magenta>60.000000</xmpG:magenta>
+                           <xmpG:yellow>65.000000</xmpG:yellow>
+                           <xmpG:black>40.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=25 M=40 Y=65 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>25.000000</xmpG:cyan>
+                           <xmpG:magenta>40.000000</xmpG:magenta>
+                           <xmpG:yellow>65.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=30 M=50 Y=75 K=10</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>30.000000</xmpG:cyan>
+                           <xmpG:magenta>50.000000</xmpG:magenta>
+                           <xmpG:yellow>75.000000</xmpG:yellow>
+                           <xmpG:black>10.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=35 M=60 Y=80 K=25</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>35.000000</xmpG:cyan>
+                           <xmpG:magenta>60.000000</xmpG:magenta>
+                           <xmpG:yellow>80.000000</xmpG:yellow>
+                           <xmpG:black>25.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=40 M=65 Y=90 K=35</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>40.000000</xmpG:cyan>
+                           <xmpG:magenta>65.000000</xmpG:magenta>
+                           <xmpG:yellow>90.000000</xmpG:yellow>
+                           <xmpG:black>35.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=40 M=70 Y=100 K=50</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>40.000000</xmpG:cyan>
+                           <xmpG:magenta>70.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>50.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=50 M=70 Y=80 K=70</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>50.000000</xmpG:cyan>
+                           <xmpG:magenta>70.000000</xmpG:magenta>
+                           <xmpG:yellow>80.000000</xmpG:yellow>
+                           <xmpG:black>70.000000</xmpG:black>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpG:Colorants>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Grays</xmpG:groupName>
+                  <xmpG:groupType>1</xmpG:groupType>
+                  <xmpG:Colorants>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=100</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>100.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=90</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>89.999400</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=80</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>79.998800</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=70</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>69.999700</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=60</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>59.999100</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=50</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>50.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=40</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>39.999400</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=30</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>29.998800</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=20</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>19.999700</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=10</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>9.999100</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=0 Y=0 K=5</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>0.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>4.998800</xmpG:black>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpG:Colorants>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:groupName>Brights</xmpG:groupName>
+                  <xmpG:groupType>1</xmpG:groupType>
+                  <xmpG:Colorants>
+                     <rdf:Seq>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=100 Y=100 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>100.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=75 Y=100 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>75.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=0 M=10 Y=95 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>0.000000</xmpG:cyan>
+                           <xmpG:magenta>10.000000</xmpG:magenta>
+                           <xmpG:yellow>95.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=85 M=10 Y=100 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>85.000000</xmpG:cyan>
+                           <xmpG:magenta>10.000000</xmpG:magenta>
+                           <xmpG:yellow>100.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=100 M=90 Y=0 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>100.000000</xmpG:cyan>
+                           <xmpG:magenta>90.000000</xmpG:magenta>
+                           <xmpG:yellow>0.000000</xmpG:yellow>
+                           <xmpG:black>0.000000</xmpG:black>
+                        </rdf:li>
+                        <rdf:li rdf:parseType="Resource">
+                           <xmpG:swatchName>C=60 M=90 Y=0 K=0</xmpG:swatchName>
+                           <xmpG:mode>CMYK</xmpG:mode>
+                           <xmpG:type>PROCESS</xmpG:type>
+                           <xmpG:cyan>60.000000</xmpG:cyan>
+                           <xmpG:magenta>90.000000</xmpG:magenta>
+                           <xmpG:yellow>0.003100</xmpG:yellow>
+                           <xmpG:black>0.003100</xmpG:black>
+                        </rdf:li>
+                     </rdf:Seq>
+                  </xmpG:Colorants>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:SwatchGroups>
+         <pdf:Producer>Adobe PDF library 18.00</pdf:Producer>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?>
+endstreamendobj3 0 obj<</Count 1/Kids[55 0 R]/Type/Pages>>endobj55 0 obj<</ArtBox[19.3749 4.2749 420.105 308.032]/BleedBox[0.0 0.0 432.0 324.0]/Contents 56 0 R/CropBox[0.0 0.0 432.0 324.0]/LastModified(D:20260929215413-07'00')/MediaBox[0.0 0.0 432.0 324.0]/Parent 3 0 R/Resources<</ExtGState<</GS0 57 0 R/GS1 58 0 R>>/Font<</T1_0 5 0 R/T1_1 6 0 R/T1_10 15 0 R/T1_11 16 0 R/T1_12 17 0 R/T1_13 18 0 R/T1_14 19 0 R/T1_15 20 0 R/T1_16 21 0 R/T1_17 22 0 R/T1_18 23 0 R/T1_19 24 0 R/T1_2 7 0 R/T1_20 25 0 R/T1_21 26 0 R/T1_22 27 0 R/T1_23 28 0 R/T1_24 29 0 R/T1_25 30 0 R/T1_26 31 0 R/T1_27 32 0 R/T1_28 33 0 R/T1_29 34 0 R/T1_3 8 0 R/T1_30 35 0 R/T1_31 36 0 R/T1_32 37 0 R/T1_33 38 0 R/T1_34 39 0 R/T1_35 40 0 R/T1_36 41 0 R/T1_37 42 0 R/T1_38 43 0 R/T1_39 44 0 R/T1_4 9 0 R/T1_40 45 0 R/T1_41 46 0 R/T1_42 47 0 R/T1_43 48 0 R/T1_44 49 0 R/T1_45 50 0 R/T1_46 51 0 R/T1_47 52 0 R/T1_48 53 0 R/T1_49 54 0 R/T1_5 10 0 R/T1_6 11 0 R/T1_7 12 0 R/T1_8 13 0 R/T1_9 14 0 R>>/ProcSet[/PDF/Text]/Properties<</MC0 59 0 R/MC1 60 0 R/MC2 61 0 R/MC3 62 0 R/MC4 63 0 R/MC5 64 0 R>>>>/Thumb 65 0 R/TrimBox[0.0 0.0 432.0 324.0]/Type/Page>>endobj56 0 obj<</Filter/FlateDecode/Length 8457>>stream
+Hâ‘WÀÆ$9›◊W‰Tµ√ø∂04÷Ëj√Ò˜úàp•√ı∏7´%ƒµ˙Vùr§ès¬ë_~ˇßˇ¸¯ÛˆÂ˚Ô¬ˆ´_∑ù¬&ˇh˚›)mˇﬁN_~ÛCÿ˛¸Ø”?Òì-ƒ.yãïÒ˜ÌÔj/œ}˚z˙·Ùá{ÀB«Ï∏>Ÿë‡m≈ˇﬂn˛±ƒx(ÕGŒî∞COÒˆΩ∑¶ﬁDÛGPSc|§ru
+K)Ú∆)ng˘ÚÛèß?nˇÿ≥Ú∑ªÀ•ƒ@ﬁâKH≤1æ4|^«Ò]ˇºùƒK«¡√:]j¡#˙Òvrø9SøÖ€˙zú¸{;˝$È
+k‰í£•}œ—çQé”H +0„†ˇrW∏~[`Ì,è~Ω…ìRª\|5Ù±Gé	-n*∑V˙Œÿ«!ÖHÍ–Ω)∑',ïfûúXΩ^âˇæ#w"yÍ M2ƒ⁄MEâ7ËÒ®ÕÚc%ö›´Jî<Wb¨·àoÏ?øŒÂèu¶FØÍ,˙FùieÈ,Q?Æ≥a|Dg‚¡´:SØÈl8rLgíqHgƒí œTqg…|Ã.Ö◊tF<åÂËçKätXgjè|~vùQ•5≈èt¶F)ø¶3+Ò≤˜AùieR?†3™YŒXÎÚLg√8 ∑zP◊è,Ô2”ÔYY˝æw
+xÓ…öãc◊ôéÅGd6,?îŸ∞{Ufrø 3åÅ/…LÏ2ì˝Cô©—´2≥±Ò[d¶ï9$3õa lëôzöÃÙëC2~ìŸÉ\º05íôY~,3≥{UfróôLÅØ»LÌ2ìÅCô©—´2≥©Ò[d¶ï9$3õø lëôzöÃÙëC2~ìŸÉ\¨2[/æW√Ãè_˜ûô›^.∑[ñ˙¯ÇVªt°O∆ˆ;6‚ÚõÓ=	F;[ÔóV{ÃŸGs^¬9/ÒúG@Á%¢ÛÈÏb:˚†Œ«5nc{r+ÈÕwS¸x·VÒ7P⁄‰±Îˇ∑Sπt¨ò÷Õ™´ﬂˇõ.!}Î¶7îN%¨ŒrA)eãÉÆ§Ãæ÷d!ﬂ'ØeΩ'µg˙çn•±≥Ï÷¿û∞ª›ñÙÏ÷ìd-}„dQÈü.YÔ4ˆá◊ù›ÖÒˇÔfw5áüO;˘ìÒãXÀ_˘√ÒkX:f«œ∫'„ó^ﬂæÂ`P3Ê|ÀQ˚ÚÈ«/·‚í‚G|T£_ølæXˆ>8~ier90~QÕr∆Zóg„◊0ˆq<zƒ!˜‹SÓœ2ÁØGØWZøÔ»ùû∫rìåu˛∫Ìòù.TKø5.Ωì˙rÆóÄ=qπKÑäâã‡ö·»∫ﬁC6ú2	©'√\ïµ\ñê÷W÷NŸÎÿÆu2¢m◊.!w¡Lc‘Â‹£aÜp÷ó)`kkeùXZ2‹ãî{Í:zf÷·ÜB2úp%¶±ûy]Øp√?ﬂ≈‹ó^¢Ê˘$Yã”=`Æﬁ}¸P∏ŒÄ[·„áÓ”C§æÃ¸· ˜¸ßú]˛Òv¬Ÿ∏0ª
+„áJ≈™/ﬂëBø÷‚Êüm»òﬂª!TxkOßs≠IüôŒ£\>∏∆“£‚‹éÏ…_d†∫&OˆA´π&qTy∫ÌaEYΩ÷F√ﬁK'iÈÇGi√©ΩÙí«RóıÑo˛y·ΩﬂûZˆßSJﬁ∑– ‚z‡Í#®´:8‹»Â∏ˆôVYnK÷qç¯¢NK—BÎKMq)Óıé¬`ø(q/tIΩﬂ)¥ïq%ˆÖí6Õ™w„5<Ã»9{÷„Ú1e/©eØ|√U1ÖÖ/ÃNx®K"ØLâ£ì.~Hîù∂•ùí”>p7⁄öÊ¨ytá%÷‚º‡ÁÊº‰KIKπ≥ãì≠AÕDd∏S}™Ú%.πÃ®π\„Æ†ËãëUÆ\ÍÆæ†Nê/9~@À„ª$“Øuhp>\V™&rLföDïÂÓx} F>|¯Ω¶)qÜùä‡®æa’´uKNÇT˚¡µ:¯,2ììS8R◊öÎ ¿ëóu.À„¢ø}“Ü∞ü[˜æ…ÙË]èÈ’∏NyÛUß‘6_uJesE'ˆ]∏‘Õó‹˜lq•,%M!ÔÂNµ¨\Xn{Iä›sÔRÚJ∏⁄Ú¬»nvE_Æ¥±GO˙'íS∆é^6xw#Ø+å+ÅúÓ0≥¥ÊÖâ!˝“IwL%≥∏òKê2'"e±h÷§ÊMÛËN¡0íís£]
+π·∏ˆ%ôG»⁄≠IÕLt¯Õ>W¶K2«à≤gª#éÓÀ—UÆ`Íf_RL1ππö« U⁄¨Æﬂı˝`ÆQ‚I&¡ûjÇ˝U$∏∑ù©
+À$≤öÛ$∫nGSz‹Æq¶”ë`Ê©1“ùe:ÀN†¯¨09yÀpóù¸ë…õı≤¥èÆJ€≥ˆÉ˝tÊ‚}ÛçÉ¶Üπ◊=≈æ˘≤ß‡€"h–ÛÊãu<ÿk.S¶/yäº˘äßÏ{6|	…5 ‡2¶}â*%ﬂ ,ÏÖ.ï“°b\)◊Ÿç¸R&cÒ¨∫^ÔæÏ©tG|¸ê] ,Ω;Â‡ô3wiE“≤Ï“ã2ùeßÕ(„]qÍçcHŸÎe≤e◊"¶Ú”å÷®ÊQÈNùpØ∫Ò∏ÛÜ6„L÷ßf‹&ü)L)k.«ò≤'SäMW&Ω4gΩ"Î=+äH˙‘9~h„ …˚a}ZÍﬁEX(œ|ë≈2O ¥/€6é„ª˛};@6HZÉ#©UN¥œ7ê»˝|ˆˆÁeß≥?„|=X˛Ωù~Z˝-·Å´˚#∑›ü±ˇ»_ˇÎ›]ÿ◊|º„ÍLmõÆÇ
+h∏<3£`J)@fÇb≠9¯ó*PçYQ¡y∏"ã≠1>Î X‘ŒÅÀ0ì"®aØ
+0üTUÚWx.üMõµ†ÜSq€E[k0õSÇ$øiÆ∂Åt¥m ¢ı.EZO3$c%zMÓvv‘¢Ç≈P&cıXﬁ Â&∞p2~îiJ v‘ã¢ﬁY`™ñ1ôô‹.
+%ù5/R9}îõ§AJLÃfÃ
+ÀÄIQ«,«àú0]!Ç®(ÃŸ\R'0¢fµ%ñ’Ç1œ¢aV»I‚Ó™môr$	îtE•…6®€uoAÃ≤∆ë∏#i&E-IH[ÍŸÂπ5}Gm˙6&H∆Ã(Z„vI∫V™≠%d≤°˜DEåÁÒ∑ÑkïQ¯$Ÿ%iGkí˙6* ﬂãù‰ô»vñî€ŒWYQ1TõúïtwƒF¬µT¢≈Mb…i‰$ÛÚHû“∞åº÷"Ù≠’Rô£<÷ÕN∆td§
+ñ;•°º…ö©#kÁä≤¢ƒí…VÃíbû¨#H©ñTÅ%*ôr±Ug[∞UÌI	'(å™B÷0´AKŸâFëí1rQ%
+àŸ-‰jÏo¢4Î¨j›lÖ\x¡-ÚgÅñ¯PRP€\Ã{ô Àà\ïëÙΩV`ªâ!Ä@$«Y
+Â%GbJAyjñê|–A†*∞» Ë«a;Í;`R"ËK%N1 ßdgíÒ©HH⁄"ïl+^&f2ìnîitÕÉ*úaÖQ%9f2‹ËŸ`÷SÉj3b‘|ì¬ìÃ‚"ŸÄ$≈âÀ†ú5†A$íﬁ«ÜŸ÷cÎ\µú§˙¶=ŒX-òtˇ†å{iå“’i`	Ö¥c*ÎZÓÄyØÑ ≠êπ/—ây—Ë‰Sv◊”§gÈÊ]E€≠Ô¬ó4“÷î¬îl5#Ò®@„ˇ2_ı<≤‹F0ø_q°åƒÊ7SÜ‡¿6»Ç∞ËÔª∫™y;≥ª˜$Ez¡›NÕêM≤Y]›MGïê°Æs5›GÈdx≤L8…Zﬂ$ıW∏w]Hn…™õÆ}Övîãª8√¯ÌÃiÊq†Ø8êTl¸ÿõòY†IÄìmÒk–á˙‚ñZ\dó„fRﬁ´<Û°Xh0–‹¶°pYDYÇ≥¿$€øããÿŸ,,≈°\—ÈMÛ∏–QcY◊˛[!Ãai`/Ä5iáÀù
+∏=Êiq|yß8Â·⁄‹o.∆OWÆÃU˚¥ê¸yÜ-ô«ETh|ÎÀL1Fköÿ5åf•˙N>„ÿ≤…XíŒ≥…⁄«ã`.ªù'Jåbí¥ÅØ∆¿≈5
+~hÅõ7∞~ÈUÿeõû7·EœÖrVFáÀs‡ÃœÍ!LÆx)íÅ…á9‚ssˇ6ˆ¬≥ë scd-«
+‰,ÕÑt*ê3S∞h·ÊõpÙƒÈ∞∆Í$Fc´™Õ'a2ÇÀ7-g*íÄ Óõ¡ÒΩlﬂuÚYÕâ˚∂r¸ªp,„q◊÷≠7∏wÚñ!Q|ÀVWì∆^Ú≥"D(&íKb["˚R_°+˘FkË  U[Vï2…8zËäﬂÒ}Ùb8Ã-äW,‘iºÑ£ÜÏŒ]Q7ë∫ãE+KèaØ!¥PB	ÿ«ËU>ƒBhºÊ]C∏úMáyFu' ÿS&ÏQÇ5é]˚ÔF8√í«˙€î‰(?•√•x `hˆéC±ÊÂ¡Vàz‹WJ¬”vbÏ€·q›Sp⁄‰dõÇuj]Æç≈œ û É2‚&HÁ÷¸€}#öΩ⁄p?˙Â„®∑ÓŒﬂbÀÖ E÷;2}xÎ¿v¨´ÀÛ\0õBEÄ[∆Í8Ÿ·Y#˙:D⁄∆Ω’†±V∞aKÜø}Ò,øSöµÌ„YÀWì≥¢ùsΩ;ƒeÍ…‰›j◊ù\ˆx›˛›…Œáæw…’ag˛‹æı∏5Æº;ZÙ£H™ÊTπË9’°*Õ%?\ôÒR†¢j—;Wá¶|ÿf?Co≥88≤0ÿMKJj•—T$ÀÜ_ﬂPd<o8.uh^.‡JyVsQ?‚]
+`âR[íñ∆á∑qöJ˜¡`XBç}¿û®éJVÍÙä∞’ËÔ&øé°e*&êã®h2Ÿ·j•Ø∂€.Üè™R A‰m†:L|\—úv¶ÿ√5@_ã_;4 È+ôÂ›©›\¸ﬁ ™àq\™Æ†∏[]™∆[ÄJ	6§ö±x'0Õ±µNúiﬁ≈E„=ÌL9—ÓdçØºØ·ã0èZ‰COYE4Ù˛ç8hô±Æp'ˆzÅXüSó˘ñ‘NπÛiûzúIn'ñKIÀ”v\÷∏˝xM/ÀûMmGóäÌ,yWu$∂_∫º7‘Í5*Bµ
+è)o∂û>óﬁÛ p¡Æä:R”/œÑΩCıªùræÛ„B~ÚÍ∞gÁA€}ZuÿÈØ][«ûùCQ·Vg¡˙2 ﬂ!
+EÔÑ*%xÃâ≈Të{axÇ´ƒX%N”ÀP“≠ö[#õ#+˙éRîñù¨nëÔ(ûõ’‡~"úEÕ
+i±‘;z⁄n¡qï^+”≠ë-€·uao‡ƒq¡" Ø¨"$8d5fwQ¨åXm*zT∫Hmƒ3Í‡<Á(&Q%BÇ⁄≈õ5¢™ÄAs9Z›…B¯éhË{!Â
+√ú>Ì¬≠X∏ºè™˚…àW]!oæùŒÅ2kPB7ıΩ
+é:	{±—W± ≈F≥≈πŒÙÔXy¢E
+G(‚‰† Û¥ç¸slE¥Ùè8hZ<µã≈‹¨´RàìPä\≥ÑSìñπÀ∏ôX,≈—ñi3F5¿Ês‡!<≤ÏyEƒ≥[$/OÓö•ÔÕdø5Ç=æÁ*<∑´ìT<Q,qCŒÀKW7k§¥¢Ô√Ñß.vF‹çB\{§≠¶Ô•›˙8«ôÆö∆[TÀπ)J^Ò∏®øåxÔñX.Ze“I1%Z.S°>j9·hË4!:ºÏ
+CÉª•313EY:DlKªÕ®rá≠®--œ’]Üß^‘ùçËR‘r2Mî ¥y^S”Â&z‹±mõÆ(‚`£€.Ä;¨®€D’à5ˆ™a'glº‚∫∑UD‚ë¬dNö†òÙ¸¡ùÌÓ‰ã∫ΩŸy˚h£Få®$Á.Lò$¸Öjù”çÄ(5∫ñæ^üË
+õ∆èP…B§ÿXë9QÆL±#w¬ú∑*Mbëø¥=Éúﬁ^ebÂóA_9ÓQsZ™«‰Qh_u[
+T.Lì3Tö5µ⁄–Ál27vµG_¡|ì‰Yn±úÈ,ÕvÈ%Î5g¶o÷dÆTù%GÂV„{ZQÆpe mÚ˚¨¬ãß,åÈ^6ÊçÌ;]D›âê«QÖ∏ª^^Ïå–d†{€	®à<´ÌÓœàgã¿JÒbÏÜ∞êê ”å¡%ˆ•åD·∂„n„“wúi…fA`’qÔ/r$ÇŒë|Q∏ÎŒ:Ñ/îÿ∞hû^h˚.•.L21§P∂‘œîá0P≥‡	Èt Âpïp∑!`ÒbiF≥01vlõc∂Ñç≈5ì‡Ö˜^Nè∫gòF¥±W≠"ÿ¥ÿ∏G‹a™#*ï1ó¬hˆ¢ Vƒ¶ã`n|1§êQ7öKRæﬁ"d◊Ÿ—úßyó5ÓÚ¨Cäóím·Ö˜_ÿi˛Õµ)úæ|¥5Ó:€„‹⁄Áﬁˆ⁄⁄û;€sc{ÈkœmÌ•´Ωkj/=Ìè∂¥ËG°ÇÈn˜óπ´w+^vs›ÊiˇÁÉù|u≈≈Kˇ›voÈıwØß3X7‘-RP7xasªÄï‹H¢ö\ØÕ¿ArõÜçªQ∞g‘˘áan2,˜áaX¬f∫[“º…JÏê:Ûæ»[Ò¶Ù˜±xtW¯oºâÅ1Sìeœ)F…ÅﬂqK∏Ä◊Äø«ﬂ◊g_vƒ;&≠€◊sØÿB¨^OÚ8¨ª±qéàõµﬂø¸˙ÌÂ´ﬂ~cØˇ¯ﬂÀWoˆüÒˆ˜Û$•°âxŒﬁÁÅ6P)‡2ﬂ˛ıÚ´?!∫øx˚ûSMS˝¶Ò≠ÓO?º∫BßäÁ¶"'#ÔzÆŒÔ÷◊∑≈›ZrCµ'®’»ı∑ø^◊/πer≠xÙ û3ùG∏ﬂzçS?€gk,r‚™Ûan˚hŸ“=O°DŒ©<_∂ºlMv∆)≠ßÁÎéO∑”⁄|æÓ¸ƒq◊b:@M˚|ŸıÒ≤®0éãÚ‰qŸﬂºΩ¸Yr}≠*Ôˇ˝€À^ˇÌÙKNøeqYw≤ Æo ¶Ùœá	®`∆:ç±ãK“>óPP@œ°Üô5§û.1Eø‡ÛÎ„<˛∏X:Œk{·gZ/…ªﬂÍ˚î{Cèkº/ˇløÁ∑◊”={˚„~´˜¬ÓÒ·e‘˚$ ãPÊã£VYœ§ê°w„cC∑À∫˝ÛÙı~ò8¢0;˜ÌôÛ-]Nvm:ﬂ’˝M9©~‚ar…ü˘a¸‚a
+˘s<årï'öù§ûËWC{—ëú†¯É
+ÙGIË>^˝±„Ø}ÒÁ∑Øû$!M•ÑbµÁ…%Îö4
+ù—]¯(E;¬œ¡zr„ÒÓ«„Ï»'JÙÆ?‚À˚ ﬂ«≥”ç£&EÛ·G<nè*œæ˚(¯Ôéã¢‹ßW¸d/È˘Pﬂ_çxU“~U ~’ﬂ_≠x≈Ó4·Æh4Ω≤[ºï"a=Ô„x?ˇY=ÆÆ?Næ?û;ˇ‚˚'wx∫‹Ù˙iu˘ÖΩïK{Ù÷gÈ,Ê†_÷YÔ9˚3u÷MÌcu4‰©Óq⁄°èﬁÒ=‘ª‰~,‚+>´^‡BfuΩÿ¯?ÌÂ”„»mDÒ˚|
+„ÉzYXEw◊Fêƒ{ ‹‚ 0«@‡\ú Åø}^uèF≠ª%ÆZlk§.ˆÔë¨™WMO≤4Ò◊èlÿÔ∞›	º
+ú;Äô0ÌflÓ&∞mè]ÉqZòwKJLΩ‚Aﬂª«È |C¶≤Z≠≠Ø8üfÈ—Wb≥¨nÎ´∑ıµª‚‘4Æ{#a+jSlòœŒõ27\Fú\ùµÕáÎ7ûbŒw<u1·Œû¬s/Dp4éALOgf⁄<2û9*rô;Ñ.ËÜIPWÓ"”y6™óôÇW∫™#vq2Ô±oâ∑<ãøÿê„“º·ÛP∏ç/s|øƒ/>‰‚≤ÅØÔ¯ó)Á-¯ºœB≥ÕŸKõ›ÊÏvô-pu¿∫∑—Ò0¨lŒËecﬂqm9J¨oÏ∂¬^gÏh*Àkc`'.mvIÁ[cıÚ÷‡ΩeÑ≠M/¥uk|H˛è∂aMx·º.˙E)C2€Äó3º//çI*Ï∫uiÍêt∆^©]c%œ‡ó5&ñ›¢∑ÛµIºº8ñ≤n‡˚˛	≠lÙa≥A):5⁄õ7—Íyc]^]=jMÃi-4M¥Òák¿RPV¢[Ø!)Ø!±*“:Jÿ*í¨!mÙ~¡Øπn Â5$!Jé|]E≤ˆ~˜Â3ö‹˜?˛ˆ”Øá_>”·”∑Ò≈«_˛˚Ò%æ·ÈõÒπ≈√2˝4çÉ0Gá?µFI¥h	S;]Ôm≈jL¿˘P´Ã«J¥¯BË±◊—£•Ö{L£”Ö•å˛˝n„{G∑÷¸WP€PÅo!-&æJÉ9›V2≥
+	,Ÿﬁ¯µbS§üÆ|.]¸ú™≤7?·~ˆ¬£0%Õ]‚Éî¥;º √Jø ¥dÓêAcæªÄLÉ4W›`<=.∏‘j§sa¢æ_)8≈pEmã~V0¡ÁËY„*˜bÖ	˛Ù˝äÑÛ∫:HN∂ ≤&ÇKò_l≈896zo´MÛÕπWÑ)&)]"2r1µÏ$"£R°~›.≠∂bu’a3˜ÅëŒ¥Æ_Ì+H72è°Ì*óú¨ï‘éWd¯ªÎ‰nA{ôßµy>•u¸t#±=Jå‹ÑYä@7¨‰]"*ûÃ¸—eEZKo™‡Ñ™ì‘˝*`ˇÕaËvW¡f\˚UP≈œµKÖ`÷…˙ò$TrkÈmshÍRë”ÄÚ
+o,÷Ø"€êôrèäò£r≥<¨¬2í€˚U¿WƒÙ®(éÏnÑáUHπ]kñ*™¬“£B0E¡0∂.·£*$≈Ôµ[ÖéÈ±G£ëÂfAxXÃΩÍY∫T!
+8w©PÿöØzXj:}ø
+-»nª›-g!ÜÈ‘öØzXEˆÅï˚Uò!ªΩKÖ◊!Y≥ <¨F÷Ùé,]™(Ÿ]∏GEu!ÕW=¨3ERÌV°I£¯Gœá—˘lq¥ÅùG∏Çb⁄ìqääSƒH∆¯ÁâÇë¸ÄzÃìô5TxŒÇ?r0¯£ñ∫°•R‘FC¢ËÇ7òÆ¶Z!â∞›µ÷Ÿ§1⁄boﬁ/¥€§‹à	^ßs	á.„”˜««R§§÷∫ñ•kÅ‚”#˘ò3∫Ìﬁ"å
+w€-"ÓbsW◊E†4¢ÂËÓ"é≥ •∫E¿™z{W◊EPî´Lªã‡H&j≠{C1fæÊÆÆä‡Z£¯Ó"lQ’÷∫€"¬Oq{W◊E ≥≥Ï-Çã§ÂémX€‘ﬁ’uH@·‹J¿«D
+ÒW'¯®¡€õ∫Æn*ym¥«4(⁄wŒw ´yOßFIhd™$Á¿t@®:7∆÷SLÅ7Ã:o‡Ã;qÈ †ë±˝˛È˚Áu—T≠⁄*À™∑=",DŸ]¶æÍÚ"rà®}"FóŒ∫ªò'ªEHåpxEè∂øò¡ZË+DPàı#l≈`¿dOyw)D‰“-"Ú:&üë÷ÆªKà¨.µv+à§∂º~|çê»i/∂∑ÇHÈ*˝
+"£≠v)àÑ.Ï{+à|ÆóH£òﬂÂ§6E5:√≤ÛÎêâxÓpÅ?u∏¯·FÉ„¿7Añ(xóÄ5Ì. Ö £^ªßÖjá*°@¢R@%<[ÍW‡° w)∞PP!è)∞P†›∑à2¨Ûobƒ‰+õw‚lÒﬂ∞y§£mÊÎeoà<ÆJ7„f!
+|oë∆œ‹+ Ú=ºG ÚXà!è)à<∆»–´ iú°ºC@	˛º7$±§n|ßÈq)Qç.ºiΩ"?=ú	∑ïŒœN»Gå[Æc; ‡5>æAøˇ‘f?≠´-ÜÍÈNjOSô€€‘éÁΩﬁI]*äS}5\(:∞√pz…˜aS*‡.O‡éDG8QD¯Ω‰Ï ˜gêÛhZz»Güf˜í´MVdr∏VΩúónëÁà»˜í√ÄßîüAn=‰z/y‘›§œ Gü GyçπìúìÄ\ûA^£ÂH9ß±I›KŒ3√»ô ÿ,;»9"Ë^rEÁ|JÎdÒ‡Ë!ènÎÈ^r8˜îû—=9G;Ïè~kı^p/Ò·‡ûÉ£á<zÆ›€Bπ:><£ÖbàéåDæx=O’Ÿˆ0™¢CÙ®È™°«Ö›$„˜ˇ„?#ÚÈC1ª%ïÜåäJ–/6G∞ÂH4 ÛíW1ò%C·DºÎ|ûÀÉ`·£sû6À—%A]¬hi(¯”.æ∫uR·g*aO
+ö,œ€CÉj°Hﬁ®R—[“µ;O≠!APÀ©`·Îúq±ŸòP“4&LﬂﬂÛä£X‹DYJA\¬Ä–!◊çTvW‡:XâìËT`àÀ•Ù(Äâ¡∏πˇ!‰<òî˛CPƒëµ∂tUd -—è)‹˙j˝á¿àsÈ:∏˜DO»r$ÓWdB
+óçﬂ…¢ıÁüs,®%◊ﬁC–ÎHÍÃH'zJı±,"Õ$ »˙~E¬y›äãë◊HVh‹SóÇ¢˚+Pu¯)Î;X<Á'L)ß˛# FìÎ;4∫À¥ì›¸h'ñª ›&awzÃa^ªÒ—KjÓ⁄}cd⁄˛õOõj/=™	Ów–´5Ìø˘%§‹ø˘∏g	ˆRÚ≤Óx0kÙ Ü%¨1e]ÖËÄÊvÓ ZO _ﬂh \aôÏ&«Çü√Ó|?ÓôzmºÍ~˜®dﬁÕèæïY¥á7≠oºÍ~åîp¢•õ?£ËKÎ2¨ÛKZnºÍ~WükGå6‰ò/&+ C¯“„8@1#∆ µ¯kööéî}˛w¨˛ÈÀ¸¸Ú·˜¶√œˇy˘JSòö√Î?AŸ˛ˆÚ∑œÇ˛W*ÖÖÿ≈Øˇ~˘›I¸õ◊M¡e
+NHÈä¿◊,~Ø”Ô∏a‰bÌ∑è¬u(åCW6LnKì˘·ıÔá„€ßˇö®,MÂ
+’Z8)÷K±TLaª
+-πÏkπrÃfºó—‡W€ïﬂóVJÙÜ5~Z¡≤7WÁTôd‚.·çáiÒc‘ç2˛·¯Wø˘ÎÎ/w·ù8ZùØÄ]É):·˚Ô≤‹œï†™::=Û›ÎÀw_>^>|ˇ„o?˝z¯Â≥>}_|¸Âˇ*qÙ¥ âòBD¿Í¿   ˇˇ   ˇˇ ÌAëÄ
+endstreamendobj65 0 obj<</BitsPerComponent 8/ColorSpace 66 0 R/Filter[/ASCII85Decode/FlateDecode]/Height 40/Length 493/Width 54>>stream
+8;XF5>EZoI#Y"2kr*qtRbJg\X[keSXOAXG3RF+Wa2W0^ah>?)!p%eREb(i2(UAL.:
+3,C8p=%:=>neB5Ur]dL%<P_%,4W5j1fd@Q6%OHC]0ZZ=1j6!GcK2I;!N)fSC%2N>&
+_19haQ&(B!bls3i993_2ZCG3hd6>LQ^W]d@p@&3&AGOM4<non".k(E11fjP\g[A9c
+S95$RiH?6nV']D(%1]#:2lb^,1ag.D]En29q?9Hhr`J!e;K1h8XPUu7;EXEj\p5&8
++5::)T*V;Z[iE@!CYft9=pDE5'<BbmI?YcIYa3\+jFIJEBiIkDFbGcZ=k6p].OPQZ
+LPk6"24At'%[hOl1>pZc:m;)E:PDB!r<[[jk\H^Ea#B<&j^/\%Q`O]7o!ON0be$Y[
+a`Ab>q0e'EpVCq'^@9>3!-9`)D.;^E2.oqV0q%cB3iA?T:*=);T'sJd^agr6'7Ckm
+`X4l.ci*V>!!*'!!!!$!rrW8SUY?.~>
+endstreamendobj66 0 obj[/Indexed/DeviceRGB 255 67 0 R]endobj67 0 obj<</Filter[/ASCII85Decode/FlateDecode]/Length 441>>stream
+8;X]O>EqN@%''O_@%e@?J;%+8(9e>X=MR6S?i^YgA3=].HDXF.R$lIL@"pJ+EP(%0
+b]6ajmNZn*!='OQZeQ^Y*,=]?C.B+\Ulg9dhD*"iC[;*=3`oP1[!S^)?1)IZ4dup`
+E1r!/,*0[*9.aFIR2&b-C#s<Xl5FH@[<=!#6V)uDBXnIr.F>oRZ7Dl%MLY\.?d>Mn
+6%Q2oYfNRF$$+ON<+]RUJmC0I<jlL.oXisZ;SYU[/7#<&37rclQKqeJe#,UF7Rgb1
+VNWFKf>nDZ4OTs0S!saG>GGKUlQ*Q?45:CI&4J'_2j<etJICj7e7nPMb=O6S7UOH<
+PO7r\I.Hu&e0d&E<.')fERr/l+*W,)q^D*ai5<uuLX.7g/>$XKrcYp0n+Xl_nU*O(
+l[$6Nn+Z_Nq0]s7hs]`XX$6Ra!<<'!!!*'!!rrmPX()~>
+endstreamendobj59 0 obj<</Color[20224 32768 65535]/Dimmed false/Editable true/Preview true/Printed true/Title(Inverter)/Visible true>>endobj60 0 obj<</Color[65535 20224 20224]/Dimmed false/Editable false/Preview true/Printed true/Title(Stage Boundaries)/Visible false>>endobj61 0 obj<</AIType/HiddenLayer/Contents 68 0 R/Resources<</ExtGState<</GS0 69 0 R>>/Font<</TT0 70 0 R>>/ProcSet[/PDF/Text]>>>>endobj62 0 obj<</Color[20224 65535 20224]/Dimmed false/Editable false/Preview true/Printed true/Title(Example Currents)/Visible true>>endobj63 0 obj<</Color[20224 20224 65535]/Dimmed false/Editable true/Preview true/Printed true/Title(Gate Driver)/Visible false>>endobj64 0 obj<</AIType/HiddenLayer/Contents 71 0 R/Resources<<>>>>endobj71 0 obj<</Length 0>>stream
+
+endstreamendobj68 0 obj<</Length 1812>>stream
+0 0 0 0.5 K
+4 M 1 j 1 J 
+/GS0 gs
+q 1 0 0 1 333 92 cm
+0 0 m
+0 -2 l
+-2 -2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 326 90 cm
+0 0 m
+-222.5 0 l
+S
+Q
+[]0 d 
+q 1 0 0 1 101 90 cm
+0 0 m
+-2 0 l
+-2 2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 99 97 cm
+0 0 m
+0 195.5 l
+S
+Q
+[]0 d 
+q 1 0 0 1 99 295 cm
+0 0 m
+0 2 l
+2 2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 106 297 cm
+0 0 m
+222.5 0 l
+S
+Q
+[]0 d 
+q 1 0 0 1 331 297 cm
+0 0 m
+2 0 l
+2 -2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 333 290 cm
+0 0 m
+0 -195.5 l
+S
+Q
+[]0 d 
+q 1 0 0 1 333 47 cm
+0 0 m
+0 -2 l
+-2 -2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 326 45 cm
+0 0 m
+-222.5 0 l
+S
+Q
+[]0 d 
+q 1 0 0 1 101 45 cm
+0 0 m
+-2 0 l
+-2 2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 99 52 cm
+0 0 m
+0 33.5 l
+S
+Q
+[]0 d 
+q 1 0 0 1 99 88 cm
+0 0 m
+0 2 l
+2 2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 106 90 cm
+0 0 m
+222.5 0 l
+S
+Q
+[]0 d 
+q 1 0 0 1 331 90 cm
+0 0 m
+2 0 l
+2 -2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 333 83 cm
+0 0 m
+0 -33.5 l
+S
+Q
+[]0 d 
+q 1 0 0 1 18 47 cm
+0 0 m
+0 -2 l
+2 -2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 25 45 cm
+0 0 m
+69.5 0 l
+S
+Q
+[]0 d 
+q 1 0 0 1 97 45 cm
+0 0 m
+2 0 l
+2 2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 99 52 cm
+0 0 m
+0 240.5 l
+S
+Q
+[]0 d 
+q 1 0 0 1 99 295 cm
+0 0 m
+0 2 l
+-2 2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 92 297 cm
+0 0 m
+-69.5 0 l
+S
+Q
+[]0 d 
+q 1 0 0 1 20 297 cm
+0 0 m
+-2 0 l
+-2 -2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 18 290 cm
+0 0 m
+0 -240.5 l
+S
+Q
+BT
+0 0 0 0.5 k
+/TT0 1 Tf
+9 0 0 9 22.5 288 Tm
+(DC Bus)Tj
+9 0 Td
+[(P)28.2 (o)27.8 (w)28.2 (er Stage)]TJ
+0 -23 Td
+(Current Sense)Tj
+ET
+[]0 d 
+q 1 0 0 1 414 47 cm
+0 0 m
+0 -2 l
+-2 -2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 407 45 cm
+0 0 m
+-69.5 0 l
+S
+Q
+[]0 d 
+q 1 0 0 1 335 45 cm
+0 0 m
+-2 0 l
+-2 2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 333 52 cm
+0 0 m
+0 240.5 l
+S
+Q
+[]0 d 
+q 1 0 0 1 333 295 cm
+0 0 m
+0 2 l
+2 2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 340 297 cm
+0 0 m
+69.5 0 l
+S
+Q
+[]0 d 
+q 1 0 0 1 412 297 cm
+0 0 m
+2 0 l
+2 -2 l
+S
+Q
+[4 5]0 d 
+q 1 0 0 1 414 290 cm
+0 0 m
+0 -240.5 l
+S
+Q
+BT
+9 0 0 9 337.5 288 Tm
+[(Moto)28 (r)]TJ
+ET
+
+endstreamendobj70 0 obj<</BaseFont/HXPQYK+CMUSansSerif/Encoding/WinAnsiEncoding/FirstChar 32/FontDescriptor 72 0 R/LastChar 119/Subtype/TrueType/Type/Font/Widths[333 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 667 639 722 0 0 0 0 0 0 0 0 875 0 0 639 0 0 555 0 0 0 0 0 0 0 0 0 0 0 0 0 480 0 0 0 444 0 500 0 0 0 0 0 0 517 500 0 0 342 383 361 517 0 683]>>endobj72 0 obj<</Ascent 911/CapHeight 694/Descent -354/Flags 32/FontBBox[-1135 -354 1481 911]/FontFamily(CMU Sans Serif)/FontFile2 73 0 R/FontName/HXPQYK+CMUSansSerif/FontStretch/Normal/FontWeight 500/ItalicAngle 0/StemV 72/Type/FontDescriptor/XHeight 445>>endobj73 0 obj<</Filter/FlateDecode/Length 6054/Length1 10496>>stream
+HâƒVipS◊˛Ó[$Y∂l…≤¡X`_˘a\êºcÉ„ÄÜ&Æ	 Qg1^Xjc≥/)¬.vBH4@1JØå3⁄4&ìêN2dJ¶VyZh;-mX§◊ÛdH3ÈLˇÊÕËﬁ{æ{ñÔúwœª`√:»®~zzn¡ÙÅØÔ ‰+˙Õ¨o©k{∑£·¿
+ ef˝Ú•‹Êç5ÍV⁄/mjõ€2Ω+∑É‰ÀÄ‘8∑yUS˘yG%`Òê”Íyçu˜ﬂˇ˜ﬂÅ‰Iøx÷DÎíÉ$ù◊≤t•Û∑wíHæXœ6∑÷◊ﬁò⁄p“Qg∑‘≠lìØHóÄÃ§œ÷µ4Êæ]Jrò8u¥µ.Y™Àh≤⁄ç˝∂≈çmU≤%è‰i,ò¸,˚'T(j°zêêÙ˛Y˛íù√$#˙ÙB“kXﬂü	Rπ∫iR `{†òö"‰ﬂ\%”˚µIãEÁ$™≠§4ò$´0<⁄˘Ô√H˚±’ˇ˙-eb†¬3,àÅ±à£˜èÿ·@"ú50)ÑT∏0CêÜtp∏ëCëâa»¬0#‡ÅŸ»A.Úêèb$äPåQç<Å1ãq(≈x w Ò$&b*Pâ…òÇ*L≈4¸O·iT„G®¡t<ÉòâY¡èŸ¯1jÒ,û√Ûxuƒ-^¬zl¿vÏ¡´8à7p?√aºâ£¯9é·8⁄q'–ÅSxg6~Å_‚,Œ°]xG⁄ä64†s• ñ‚u,ƒ|È8c˘^áΩ4.ä÷©	KïÕO√¨`Â8Ç V°Õ“	ñ@o«O∞R⁄é9Xç5ÿç;¯´¥FZ+mî6IÎ§ıdyÅY§“1iè¥W:%ùñ∂aôÙ≤¥Y⁄Öüb#^ƒ&ºå-ÿämÿåùÿE;
+ˆcn≤$ñäV6Äd)XŒ\lKÜ"ç&ù q5¡Ì≠µîÛ	bvøBs27ÀdYÃ√ÚY{Çï≤âl2õ¡Ÿ"∂ñÌì\“«“yôºZ^+‰Ú1˘3˘™|CÓUV(õïœî{äŒm<â‡|ŒÛ˘>éóÒ
+^√ü·œÛcºùü‰ß˘ﬁÈŒ»0e§ﬁ¬E◊£•≤—9≠}.‚}\'ÓCâÀñ«F≤6éM`ï¨ö˘ÿ∂í∏§Hó•ÎÚ“(óçƒeó|ú∏\óo*PV+[ïﬂ)9∏ù∏§Dπ‰Ú‚2ûO¸ó∑ø≈˝Æ˛'˝˝íﬁ≠ˇFOø®ø´ü◊ﬂ—ªÙN˝¨~F?≠wË'Ù„˙a˝†~@ﬂ£Øâ|y*R>n
+ø~-º7º'º8‹n/7áöCBÛCÛBç°˙–s°Y°ô°°öPe®"4∂˜AÔΩﬁØ{ˇ’{∑˜oΩÎoΩyk{∆Is«ˇÙÍ˜˙»ª’‘;ÁÈ¨Ø§s∑ÅN›N:ÔçÙ∆.–Ÿ}Ö:È(uŒÍìÍ¶CXN]9ØQÆ
+8ßäi’>Qµ‹/†çO&èoú?ä≠ÒÛ/sÊ§dÊÂqûl!yß÷¯&i~w∂êΩÛS∏(´ˆπEô?[(^√‘≠πW˚n∏Æ¯]§Áªn˚]ö[®ü®XÓèn¯˝‰Oı⁄jggì7ò¡∂Rtæµ∂÷%@nÃﬁ‡–(TˆdÒ&:xIn∂àÒÚ5Fê…rÊçeXï@µ/–®„∆b¥ÀÌˆªQ©¶_2Z˚ŸŸ]v7yåıÚﬂG”âÛÚ\aˆ‘˙8Ø‘*Ípoò”Ô¬–≥ë)4 @Eù‡-N3úã2“§¸@î5ŸƒG#çÎIqª]º'@e £)ƒf∆#nÓ®ZÇW„=èÇk‹7u∫À-òﬂ†Ñ¶hç¶¥:√†ﬂƒò≤Ö›xâƒ€a$`,øì@¿ò¥∫/|;√‘È•$[å≤U5h≥‡’æ±Æn⁄IÚûC++/gS/ÿÈ3Â>c¨ÒisàΩVÓ¢âiÂT˘≤_'}û¨/Ôdú—$xΩ‘8¯q¨dØ îÍBC6]KIH2¡îNóîâ.ß8∫îÓ†”™¬#‚
+ÉÃ‹'ê4”d)`¬û+–”•–7GÒSÅPÏùà∑{DBAó‹:zDqjPâ€¢%Gq›A≥˝û"∫É&ÀUXraÍ∆€Ô©¬⁄-Lˆs™…‚Ù–¶ÖúùSï8ßG5‡òo`3	Ê∂⁄œ≈Z„	∂∆Gµc˚µ	∂}ì∂Õ–∆yE5≈ƒ⁄‚r=Ïºj∂ƒXc„lèQñ êó? ·vd∆0ß;Fu$©πø[*2Yi
+_	_ë
+•¬àS*J2≈ﬁª{U*ñ
+L†Òf¯S©(º"¸â2ﬂËr|D•z’ùtïß—]OÌxÇNµØìI¥»R˚∫“áÄŸ<¡tπèâ·FÉŒ§>ë^ úˆ‡@Ê	⁄ú}Çù#h∂ıG†9â¬ZÇ‡ca+ÈEV¢0ó‰Â:‹iRrí…ú∆íì≥IÀtçñ5Ã√ÃEÖ—5≠>bów~µjå8’~;Ú∞Kõ,„ÍµkØ&Œ˙át˜“ÕœøÏì‘ùìZWî4=Æ∂¯¬©,9”∞ËHÇ4Ì”£≥NÜÒ'fã˛π“•^§ø"„–…£πY˙:U#7õÖ“¢	Ÿ„˚ËÛ‡A–…âÒêast¬:∏§§D®â"ÜX;G&ñ≤¬Ç46–ú√¥8Ï(,(5çœ4é-À~ZX]ªfzÌæÖW"}l–’¨ä¸1CF≈óö‚Zèº˘cdìÙÒ)ñÒ^≥)Õ˝÷®¢»˛»√»˝»òÆ˙ÿ&Œ3˛æwˆŸÁœ;ú„`'±/ƒDV‚≈cLæ !J≥,ã¢4≥(!€≤vîYQ÷¢	uYQÑ“4*A4çP∂EdàΩw…:ÜhGF°⁄2∆€®∫˛Å*¥MVŸJ7Mé=ÔŸ®XzÔ}˝û?~œÔ˘=ø˜πYéÛ[#÷òi∫5ÅØ“¶.Ê>»áö™≈l8üdC2‚ÄÅÿÈœß†zÄnã?ØñPíS¸Ç‚Ä‰Ò»`∑"Ω=% 9r?ºqÚ‘Our'“™ˇ
+Œ}4}DˇÙ°˛ëyjpHøé~Gˇ·”ËÂ3ˇƒ&¸2¯ªÅß 	ö1±+¬+O∞HŒ<ë’XÏNãÍêDè F∞4ª2.{ v/VDYåYX,c&&ﬁ»„∆	c«çü,0æË◊NÍ7&Û‘∆∫>ø£˜≤ÈG£¶À≠]:ŸXg√x∏Ás¶»ïÈ,`sC”ŸY@W‡)™u	Üj]PNI \I"™DYÛÊ’2ò%°(÷ê4{TõHéÇE6ílfRıµeŒÂWˆGˇÔøm5ŒO9,<ø–Ω5ÚÃBNøgûÍi8?º†o0õÑy?3x†ÆfﬂP≥¡aˆÒüX4É∆R´¢emyM§H<¿€ñ Æ[j)∞X*®úQ@yµ«¡è.˝ÎÓo{ë?nsª@¯+jÿÙ?R~e•,\Óçkp•V*s.—ìA´º=\V^påß÷‘+‘R¯¡¬â+¨®™dàÏÅ:¶	b´‡ êÄ∏Ç]>ôﬁÉ/0—Ç%•Xö±Zú™ØTí˘s~ü=a)[˛¡Ì…•¡”££ÔbÙ«µ∑C˝'G'ü€æÀ˝XﬂX0∏ºº¯Bœd”˘˝…3˜áñ[wœË¯~ÿë7ß.Ë:ÕgˆqûUX14Ü4Õgê“÷£π1,lñ¸™l∫!±≤£¿Ë/$‰IHÄ#?Æö}…§ÍuÙ©!™<áä8*j6wêñ≥◊CDàŸÑ[»6ë82ƒM}
+µæôQRÆµƒ∂+I)  ):H˚(M8Íb≤£ó¥¨©NÈ>3Îò˚Ÿ‘o¨oYœèçù˙nÔ¿TÀƒâ˛tÂ“[ˆLÏl9ûΩ4π9›a›ö\ ¶;;∆ÖH≠+µC¨=´óæä4èQÁ&K√‹¬ÊW˝6a˙i…óa⁄‹yÕÜlÒï]6ûRh…;=ê*¡à¬ù!~öG√´¿©òÄ?Rñïpñ(„ç‘≤ê∑ˆáKMásù‹Ê$GéÃøÂú?{ıÛ7ÒÜcWOKx‰U|sK±ÏÍ—Üπµ‹±’=á¬Ç—¢¥ûe?f·—≠ÍÌ
+“(jŸÓDSÂ ËDT‘sûxí§6°¶†C≠ÿqÑh>ì ¸-bJ™-Ó<iH=5ê€8®Î`‚µB¢w‘=êæ Ïu,„Óº⁄s/z4Ü+ÉL™{¿™rT÷¶®dÉ‚ä[r`â‘ÜTA—≤Hò	yà)CZERñ!ûéóÇ©/’Í”U©˙t
+.êÍ@l{:`‰]Ç≥Ié∆∏ÄOj¿îG)‡3…— ¥è“	Âë-.ÏıkXMO(çmW'FMßó•¶FÓoœÂŸ\∑{Æc¯‘∞œÜı˚óﬂ’æ˛‚±]„ıõ„Ì{øŸ◊˛Ω·æˆ‹ÃdwÁ◊ˆı0£3Ô¥ôZ8gΩ8˘ªÊöÚÍ6õºØ£:˙“¬¬X™´|†}ä·zô∑á∆Ü«`PoYÑƒÖúî†=Ev(öôf+™èŸAC<%‡.Líî™ì⁄3TH)=∫KÄ(30ÊÉR!l¡¢˝¿FÎáÆ74„g_ZÌ:î)∑.0R¨gÁ°ÉÏ‹Îs5≠√›©Mçië´ªj‰ã∫èÍ∫	tΩ∫∂!?jGO‚≤uÌ•x$‡h™  8 C˚¡…µÚlÜöíKÂP∆ê3µå¶A>·º	Û◊0£¶ü÷ˇ≥p·Ô.åÊæváÙﬁ[◊?√‚Ì’ãó¥ÛÁœº‡ÊÅ'JO
+Kë$+µ`∑ %Rí((§Züf§ôI˚]@…“tpœ“¡‘cÏ‹ØcΩÃqFÓö—≥∆§Áôè!ˆË€HK”»y®ËR˘6¸I&A¸∑®ñIºpZ&A÷;©º˝,ã¡ç‚*/ñFk©¢ì5TAπ‡”9oÉˆáìÙ^©áÑÉ.„ä]ããˇ¢Õ]th0∞™t–TP‚ô]—o}Ω≥⁄˜Z¥o<‘65Ù∆iââs1w•?VVÿﬂ}ËΩÍŒ∏q`µ˝≥≈t	ñgSJõÉ€∂å&˙îñWØI0ª√t’µ5DΩëâ}âlv68ÿ
+ú5Õ /Dö@9∞Cˆ1Â⁄¨®àÀKÏÇ∫6ÒqL|	‚πEYÁ¡≈MIç˜–{ºÖèkû.=ÃŒOSbß'¥+Cêhòµ7©#˛àË3\NéÒV2ç#˙Ì√˝˚#3gŒ≤ÅóA!˙À∫U˚Úënlab∆E–ËQv–^§π©˚ÂÃE†ËlJA∞†RVPÌò>(®.jê69,‡–÷Ü3‹ó6‚ähòtZ∞îS ¶ñ]\`ZÜûˇëïYò?ÒQ”≥qâyƒÃnˆv4Â:}1¶i#7t$ñPLaË˚≤Ä…áÍ
+'q*¢“1€¿„O˚-’!‰iÛÇT‰ÉZay1cà‚	l˜*^„äe¶*∆±r¯Õ˜%Óœ3≥úÌØ≥˙ﬂ¥ª›¶ø¸Ñùﬁ<ÆΩ¬,ÎN]ØfÆm‰çOèlÓ¶‡µ¢¸‚È o∏Ô£r+›@8∏πÙd~pw3nˇ–“	o≠PÎÖY:7YÑ_ypW?fˇ∞;_ºòüsúf¨Œ«∫gBò·Œ°QBYòsúÄ˙òZgChFˆ'∏ ¡ﬁ5¯éèŒ∞G?ﬂ„bq¶#£FˇS{˝∆˜`¿o,√•3{ÂÃ˝∆H√∏f°cÊÎË™È:Z3M°5ÿ;f>á÷˛œ~µÖ∆YD·Û_wìﬁ∂IZwÀ¶∞] Øıa]k‘“6¨.•i≥]íEä-ÌJÉ6õ¶x°®!Êi-Çxy© À“-y¯[º‰°Ç!‘K±/EËÉ7 "çÇ-x˚˝Œ˘Áﬂl∑Ù°>$√ŸsôôŒ|ÁÃô	ÊÕ`,ø¬gÕ<ÕÑà.¬>k’17™∏Éæ¨e¨„27*Så9»41FﬂIŸgp«¨k¯0˝s„2ÃıT5 îœÄ˜Í%ŸG
+zEõ£wÙıﬁ∏1Gß!WÌUÿé˛û«sÙsò°î^ß˜°Íƒ¨1äÅÀ∆ÚΩ!ÏÂwÊÁÙˆ9 8x_bÌÙo√ÚÉ˝
+hî1g˙ :«'Õÿk‚ÏZùﬁ¬¯y5Á¢¬6u3≤Î‡¿Zpn"=Ì˝ ˇÜ}Ó˝âXPÁ‚\úõâqÆ—y‡YeLoF¯Ê^∆ô1n&mŒ˚ÿnˇX/–2Ö≠èq˘{ß«§øâgâ£+1O…z≠˚ÊıÂ»?+"ú8Æå˚∑ÁÂ<πÅ#o≈ØqÍñSÿ◊+ú«ú?úÀúO»ÂËΩú”:0≥àNÍoÀ‹Yû´¯ÑÂ«Ω'Ùbó¶ŒuŒ7≈_‰ºÁ‹[åÛô‡ºl„‚€{äWn‡ÍºHŒ∂Ú?hyÎw·€ËP{¸ﬁ k8Î◊á”†o¥2›∫üÍå}§ÂΩyª,üü∑£ﬁ|àºy„Ñ7oó!3/°/ÍπAm`åPórí´úÉ¿W’£©»ÈF]»£V®1R¯,¿W…Yˇ\ƒî\¿¸§»®wF	ﬂè‚Gi◊-∂I˝B-@Ãû‰~éèa;ÊÊåÔ$6å5˜ëÙ√ésa9≤µ,g‘º_‰[5˘ûp¯±{¨ä=ÌØ≈6U3ôÄoÆáÃπcO==ú[õÎV^ˆ:…±aL¯¸Ú˙·,%√∆Dë”¿…ÚÎjLqøÓ*|≠K~æ£Œ‰ÄgQ∆¯4kπî|YglÀ
+[ÆŸ\s”öè-∆ º0Öµ£L(ÍØÉÒ≈p?˙ˇ<r^KΩÿå≥≤6>Ss‘û6≥®≠ ‘›*IZ~›≠6’]©ŸFç¯ø‘òáåzkÓ˜ÁAØø™9çö8&5â«ß≠À¯Œ:Y√Ø?sî0÷—Icæ Øπﬁ„º~Õg‘nG~¨ìµ‚G÷Ø/ÃC˝4	Ï'±F>%BåIâ*ˆß¿ıiäµ·Æzâ*∞w„ŒËnOkÔï˚ !yá\
+Œ7b3~~¬Ω´ò7Ç8ÙÎ\j˚≈ãâ˛ù ˙Î2—?x±¸˝#—µ>¢´?3˛ÇÅÚçc%òïP∑Î<ˆ≥vÆSOPÖcŒ∏s‹#ƒú˜kÔ«ºk®5eπ◊!9ÚDågË3÷ΩTÂò⁄w z˛^ÇzZÚ„√5∏ôM\Ó∆Pñ⁄≠‚¬˜øÖ£∑ÏŒπ¯*Á{Bﬁ&ë;…∆‹ñoÖ‚»€í‘µÎÓπq5jyˆmñ~VL∑‚ñªŒGÊA¸ZyTaÈÔ5vWÛ˘ÏqL‰å Oln ÛnÅÀªÅüzyﬂLH{B∫Â•«Ô4êIÕﬂ–ä¡[¨A5JÇ¡g~{FÏ)‹Á®ô⁄1¢∂~YæC˙Æ0Yõ £è˝·ˇ0ÂmUß7@C"√Æ]¬>¢í≥x7x’PŸª¬˜*ﬂØ»ïIÏëﬂù\;º∂	u1Ö|≤«)ÖFÙ˛ÌjZá6§ùmm:IÀI˚iÒfÏUm⁄ò6_ΩÆ]∞÷JÀXÏ®]D;µ‘ñ⁄R[jˇﬂFÓà)zì⁄¸Î∫NkâŸFuÖ¥—Ö?É:˘ ŸÑ‹©d“Ùj&%è;»ó5XO(YßïÙ°íÿgïlBûS≤M¥UôÅæ]ÉYgÎé=˝˚èˆ<r®xk&⁄J√tò∆Ë >äﬂß˝Ù<~∑¿~ ÷É¢ÂÈ>¸ˆ—>Xá1>NEÙ”sêr3 ˛÷Q•Ù>⁄EÉî%kÏ†=‘/sG¡y≠CΩ“3tåûEœë[ús;G~¨<Ç|ìøiÕõpÒˇW÷˜ú—¥◊œÙ⁄Œ@∑Ã∫]ª!º<smÁ©rç¯v◊p∂πf|˚Y„›≈ÇbFïbC±Œ)%≈~M)a(°ùJiÉÓQJ;î∂{î≤Jª£îÂPñ=‡+öªB≠æ÷ÈŒ£wÍ*®+‘‘UßÍj®ë≠µÍÍ«j'‘éGj‘ŒGÍ®]7‘µP◊ƒu–Ìr˛  ˇˇ   ˇˇ b%≥8
+endstreamendobj69 0 obj<</AIS false/BM/Normal/CA 1.0/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 1.0/op false>>endobj5 0 obj<</BaseFont/YZBOCC+CMMI12/Encoding 74 0 R/FirstChar 31/FontDescriptor 75 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[570]>>endobj6 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 76 0 R/FirstChar 30/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[722 763]>>endobj15 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 78 0 R/FirstChar 29/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[763 750 784]>>endobj16 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 79 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[736]>>endobj17 0 obj<</BaseFont/TPOKKM+CMR7/Encoding 80 0 R/FirstChar 30/FontDescriptor 81 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[630 452]>>endobj18 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 82 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[619 339]>>endobj19 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 79 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[736]>>endobj20 0 obj<</BaseFont/TPOKKM+CMR7/Encoding 80 0 R/FirstChar 30/FontDescriptor 81 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[630 452]>>endobj21 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 84 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[502 339]>>endobj22 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 79 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[736]>>endobj23 0 obj<</BaseFont/TPOKKM+CMR7/Encoding 80 0 R/FirstChar 30/FontDescriptor 81 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[630 452]>>endobj24 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 85 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[510 339]>>endobj7 0 obj<</BaseFont/XVMIOE+CMMI10/Encoding 86 0 R/FirstChar 31/FontDescriptor 87 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[484]>>endobj25 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 88 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[784]>>endobj26 0 obj<</BaseFont/QNASUS+CMR7/Encoding 89 0 R/FirstChar 31/FontDescriptor 90 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[843]>>endobj27 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 82 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[619 339]>>endobj28 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 88 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[784]>>endobj29 0 obj<</BaseFont/QNASUS+CMR7/Encoding 89 0 R/FirstChar 31/FontDescriptor 90 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[843]>>endobj30 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 84 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[502 339]>>endobj31 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 88 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[784]>>endobj32 0 obj<</BaseFont/QNASUS+CMR7/Encoding 89 0 R/FirstChar 31/FontDescriptor 90 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[843]>>endobj33 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 85 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[510 339]>>endobj34 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 88 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[784]>>endobj8 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 91 0 R/FirstChar 31/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[619]>>endobj35 0 obj<</BaseFont/QNASUS+CMR7/Encoding 92 0 R/FirstChar 31/FontDescriptor 90 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[706]>>endobj36 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 82 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[619 339]>>endobj37 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 88 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[784]>>endobj38 0 obj<</BaseFont/QNASUS+CMR7/Encoding 92 0 R/FirstChar 31/FontDescriptor 90 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[706]>>endobj39 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 84 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[502 339]>>endobj40 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 88 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[784]>>endobj41 0 obj<</BaseFont/QNASUS+CMR7/Encoding 92 0 R/FirstChar 31/FontDescriptor 90 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[706]>>endobj42 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 85 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[510 339]>>endobj43 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 93 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[555]>>endobj44 0 obj<</BaseFont/QNASUS+CMR7/Encoding 92 0 R/FirstChar 31/FontDescriptor 90 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[706]>>endobj9 0 obj<</BaseFont/XVMIOE+CMMI10/Encoding 86 0 R/FirstChar 31/FontDescriptor 87 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[484]>>endobj45 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 82 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[619 339]>>endobj46 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 93 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[555]>>endobj47 0 obj<</BaseFont/QNASUS+CMR7/Encoding 92 0 R/FirstChar 31/FontDescriptor 90 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[706]>>endobj48 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 84 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[502 339]>>endobj49 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 93 0 R/FirstChar 31/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[555]>>endobj50 0 obj<</BaseFont/QNASUS+CMR7/Encoding 92 0 R/FirstChar 31/FontDescriptor 90 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[706]>>endobj51 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 85 0 R/FirstChar 30/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[510 339]>>endobj52 0 obj<</BaseFont/YZBOCC+CMR10/Encoding 94 0 R/FirstChar 27/FontDescriptor 77 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[500 500 777 388 388]>>endobj53 0 obj<</BaseFont/EQBYIQ+CMMI10/Encoding 95 0 R/FirstChar 30/FontDescriptor 96 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[277 613]>>endobj54 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 97 0 R/FirstChar 29/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[510 502 619]>>endobj10 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 98 0 R/FirstChar 31/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[502]>>endobj11 0 obj<</BaseFont/XVMIOE+CMMI10/Encoding 86 0 R/FirstChar 31/FontDescriptor 87 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[484]>>endobj12 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 99 0 R/FirstChar 31/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[510]>>endobj13 0 obj<</BaseFont/XVMIOE+CMMI10/Encoding 86 0 R/FirstChar 31/FontDescriptor 87 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[484]>>endobj14 0 obj<</BaseFont/TPOKKM+CMMI7/Encoding 100 0 R/FirstChar 31/FontDescriptor 83 0 R/LastChar 31/Subtype/Type1/Type/Font/Widths[706]>>endobj100 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/n]/Type/Encoding>>endobj83 0 obj<</Ascent 441/CapHeight 441/CharSet(/a/b/c/comma/n)/Descent -193/Flags 131076/FontBBox[0 -193 571 441]/FontFamily(CMM I 7)/FontFile3 101 0 R/FontName/TPOKKM+CMMI7/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 85/Type/FontDescriptor/XHeight 441>>endobj101 0 obj<</Filter/FlateDecode/Length 883/Subtype/Type1C>>stream
+Hâ \£¸  TPOKKM+CMMI7 ¯ã˚U¯œ¯M˜F˜P˜Wö˘· zCopyright \050c\051 1997, 2009 American Mathematical Society \050<http://www.ams.org>\051, with Reserved Font Name CMMI7.     B O  ;abcn    ; ‘a¬z ˚V†˜A˜˜gß˜gõTÅKGKááààÜÑìÑëô‡€˜…s∫]jsqlk¢qÆ£õõåóÅß¯ß»‹¯:¯¨vi•[˚˚˚!˚$*ÃF·¡ª™≤≥Oû≈Å•Ø§°™ù°≤òƒèò~ãà}äápÑ[xPaqÑ°¶úìØí•í¶ï¥ê°ü◊ë•ó∫ê°yï{ztoÖK˚ïÑouwuxÉÇck`fg•“¿®˜¢≥€πæöß—û?ÄáâÑäà"Åß¯ß˜bªŒ—˜í‹˜ú˘,åçéòåêáîw8ÉârÉä}äv}ôãóªãÑÉÑÅcÖtt/ÇiT˚oâ~Üsã~&ÀKﬁ˜˜˜˜(˜	:ΩFW_nqmû¸Zo∂∆∞î≠ß˜ëûãçû°∑±∏°Ø≤≠nGbu%mQZsY[X*Åß˜§Á™ß…ﬁ˜ÖÎ¯J¯gÖ|oup†Åù°Æõªœ=ûU˚*˚˚˚5«3˜˜=⁄ÓôëÇñÉÖââÉÉ/=˚	ãyCkº…®ô˜ø–º±øßΩôªâo§ÓÅß¯ß¯7”ç’˜ á~ÖràuùÅõùõòîêêîì´ê†êûñπë§ë°ë°ê¢ñ¥çì®¥≥ß∫ø÷≈åXxO`˚{aÄoáÇzV∑jæÔ∑˜öò~ãà}äÖÄá;t`bcváô†¢êòù∏ó™¥ı√Ï>úV8SXcm–ÑP°b`tlt~uf}RÜ~ôãéôåé¶í∆öûº≤•íupxÇfÑpÑpÅbÜu†Cy ˇ	˜Á¯Û   ˇˇ   ˇˇ }˙~n
+endstreamendobj86 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/v]/Type/Encoding>>endobj87 0 obj<</Ascent 442/CapHeight 442/CharSet(/v)/Descent -11/Flags 131076/FontBBox[0 -11 468 442]/FontFamily(CMM I 10)/FontFile3 102 0 R/FontName/XVMIOE+CMMI10/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 70/Type/FontDescriptor/XHeight 442>>endobj102 0 obj<</Filter/FlateDecode/Length 325/Subtype/Type1C>>stream
+Hâbd`ab`dd‰ãÛıÙw’vˆıı44 âà˛êfÏn¯ëÒ√èıªˇww¡)ﬂèÅ$™ùÛ*ã2”3JbLíÅÑ°Ç°••πéÇëÅÅ•ÇcnjQfrbûÇobIFjnb	êì£úüúôZR	÷bìQRR`•Ø_^^Æóò[¨ó_în2EG°<≥$C!(µ8µ®,5E¡-?ØD¡/17U‚,= g`bdd©˛—¡˜£¢a·›ÖåﬂOO=˛]¸%3–±¢gWñ÷Mhù÷ ∑†|Fa∫T¢ﬂÔ ﬂú%Îˆ^ve’=πIs&Ãú'µ#{C§nÍo’¶∆©›ΩS{zgOê˚∞b€¢“ìÁtg5¥T «ˇÊ®ãMê˙Õ∏zÁwõ#ﬂÔÔó„ì[‡\…¿¯üá   ˇˇ   ˇˇ ≤x
+endstreamendobj99 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/c]/Type/Encoding>>endobj98 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/b]/Type/Encoding>>endobj97 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[29/c/b/a]/Type/Encoding>>endobj95 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[30/comma/S]/Type/Encoding>>endobj96 0 obj<</Ascent 705/CapHeight 705/CharSet(/comma/S)/Descent -193/Flags 65540/FontBBox[0 -193 645 705]/FontFamily(CMM I 10)/FontFile3 103 0 R/FontName/EQBYIQ+CMMI10/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 96/Type/FontDescriptor>>endobj103 0 obj<</Filter/FlateDecode/Length 469/Subtype/Type1C>>stream
+Hâbd`ab`dd‰stäÙ‘vˆıı44 âH˛êfÏ˛˙SÚg(Îw˛Ôæﬂß¸IV;ÁTe¶gî(ƒò$	CCKKs#K«‹‘¢Ã‰ƒ<ﬂƒíå‘‹ƒ 'G!8?93µ§¨≈&£§§¿J_øºº\/1∑X/ø(›däéByfIÜBPjqjQYjäÇ[~^âÇ_bn™ƒiz@¿À`¬¿dÃ¿Ã»»‚Ò˚Gﬂ˜ïøC|w¯ ¯›s!Û˜¯—≥EõR≤ ãÚÊÆô>£ TπﬁæûûÈûûÆZ«ˇ¨,˘ÜÜÓŒ©ñ	Ì¶›æÒùSéÔ«œ“U?ñ3~wø¯ΩÊ"3–„ﬁ¢}ùìö⁄∫∫jÎÂ¢ÉXwÜ/Òí˛-¸õÁ7˚o^´±˚j‰øÂ≥nh:Tc)eh©´È˝õy·wÅ≈˜LîÎÈÔÈÈïö⁄“”÷÷Ÿ’—!◊ﬁ¸ª¢C™uB˚ƒ	==3ßÀÌ9¬∏Ì|ÌQÈÔ2ﬂπæK~∏êπ∂f¶|…¢ö~£E•”ß6ırL…\q@ÍŒÌØÓùH¯Õ"ó›^Ÿ*’’›4}jOﬂú~9>πŒïåˇy8   ˇˇ   ˇˇ Ô∑é
+endstreamendobj94 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[27/zero/one/equal/parenright/parenleft]/Type/Encoding>>endobj77 0 obj<</Ascent 705/CapHeight 705/CharSet(/C/D/G/N/R/S/equal/one/parenleft/parenright/zero)/Descent -22/Flags 65540/FontBBox[0 -22 707 705]/FontFamily(CM R 10)/FontFile3 104 0 R/FontName/YZBOCC+CMR10/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 106/Type/FontDescriptor>>endobj104 0 obj<</Filter/FlateDecode/Length 1447/Subtype/Type1C>>stream
+Hâ|î{LìW∆øè⁄~öaô‘.⁄œú”e®d*Rô ﬁp@tÍ≈+çà•Eä îAw®îZ†BQ4-ààV,
+^¬Pt^6t^Ç€Q£—Õâéçd{[f+∫d…˛ÿ?'9Á…˚‰˝ÂyrXfú√≤Ïƒÿ∏ËààYQ1ä¿±á˜\<K≤‹õ›Ö·±ì¶	á}«î‹à¥t]F≤J≠ï«ŒLÙ
+π"44d∂|^``®¸„TeFrb¬nyTÇV≠LM–z.˘˙¥ƒd•V˜fd±Z´M_8wnvvv@Bjf@ZÜjÈòÀlyv≤V-èQf*3>WÓî/O€≠ïØIHU ﬂ¨¿0,3Åe&±b?ñÒgòπƒ2ﬁ∆ã˘åÈ`?dSYß◊L/ì`Ü†e\¨P,ç¢Ê∆WÎÌÏØWêñIÕƒî{—I‡õÎ`é¬OC8¯¿$¥øûòÃ2KπY_¨XA%k—ÍUH!≤%V:Ò"ÍsÌ—™:æ¶ l¡ˇ√Á≥`ñ¡ƒ D‡=ˇF1Ø//◊HÖMá_˙EÉ®RF√íh$}ó˙¢ÇBRaêÈ´ kÍûﬁ…U‘^ı x(g5πß4±`ﬂÅk;ÙK˜™Ô°°≠°¯Ë=;p ÚΩK…ñU)ŒÑ°ÖÁ˙≥ª˘ﬁÔüü«'nW¸(£*⁄/›πˆ»ê]#?_ïıëõ˚zºc˚ÆˆﬂvSÁo√uÎIÿß≤edE—j4;/&u/&◊)«yM˙=tπ'KõâIãVGë^√ŸØíñx¥ÅS
+(E#röìŒŒ«ƒÈÌÁH·Î),ﬁS;!†ìΩÏû#pG¿†¥¡FÏˆíèGáD˘9$;€F∞Î9›$=V…√£øàÚﬁ*∞XûÂpœq¯^q•83éHû]ÜÁRö¡Tk ‰%`_G,ED_lDÙÉRy(e˘5tÀIË¡íﬂ‡l>yÿ'ÅtÜÂõà· êò1sáà•®ºúñ¢ÿèÖÌI[æú≈Kû—h:ﬂìÀv,^In÷¡z‰íúÓ0©¶ô˚¡T§¬£Õú™¢h) ‘∏ºD∞¯√Zà°<(h¶ì_À•Òñ6Ï:Õµô,]hXÙıÌ¨»|nmÌ¸%2*»âV≈°ÙÏòu3xÒ∂,Gâ2ÆÈoÉü®ùí<◊”o§Y˚;≠|-Ÿ◊Ä!úÎ®™æÅ\íqCEjb0Qy˚iNpOÕEIx5'È¢„®§$mçsBèá8∂Ì⁄ü?)ËÃˇ>ë≤±◊üßkh0ùGh|DÉ KÚ˙[Æûƒ‚≈ˇ‡OkuÖ∂
+ œ=OZ_b¨Ã·ÈRÕ1QÉ›hl¿áï∆Ÿ®çK'Ò~H√9+ªMmm›c‡¸H◊QÏ:ƒUÔ≠4VÈ]≥G_L)¨≠4Z¯ƒb√ÆnÓ(ÈÒ0©çqªv≈ô‘&nÑƒß„—0Nê’Dp±	.8|=ÄÑa#C-íW†Ö?§Pœ&ıMfd™;FÏ¸SWNß/œ\H˝ÒpÅÙEÛ¿ıŸ=§3˝V”,˙Ol¢vÛ]“—qó¥{Õ‰ñVX€1‘ «I^<Kíù¯¥äh>ë≠"âgîHuÊí˛8?pË~k±zzVRfƒëzµ.Éè+Ìyñèu}qmlS≈Ù®ß´Å≠æó[ˆÙ¡≠æM-í~¯›5EJ';ÑQ;{Ø»ÓÙ^ÄEMt¡∂§Ø$z+øüT€0l}ìMô—XXÜ‘1¬c©;ŒÃ„=øL–˚.Ü§ckyO·ù‹ÒígGÀéóµ&ço‹S∑kó,26"dwXu˜&¥Æ◊–gl_g,%æÄîÈ0çÁrIô’Ri≤ZP•Ÿ‹v%;˙TOxò0¯º∞§xÂ˝;£∆√˛Â=¡eòÏæ#˝  ˇˇ   ˇˇ ˙›ƒæ
+endstreamendobj85 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[30/c/comma]/Type/Encoding>>endobj92 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/L]/Type/Encoding>>endobj90 0 obj<</Ascent 683/CapHeight 683/CharSet(/H/L)/Descent 0/Flags 65540/FontBBox[0 0 786 683]/FontFamily(CM R 7)/FontFile3 105 0 R/FontName/QNASUS+CMR7/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 117/Type/FontDescriptor>>endobj105 0 obj<</Filter/FlateDecode/Length 368/Subtype/Type1C>>stream
+Hâbd`ab`dd‰	Ùs÷vˆ2ÒEH3vwˇ\ˆ”ûıªˇwW¡)?LÑ@ïŒ˘ïEôÈ%
+1¶…@¬P¡–““\G¡»¿¿R¡17µ(391O¡7±$#57±»…QŒOŒL-©k±…())∞“◊///◊KÃ-÷À/J∑ô¢£PûYí°îZúZTñö¢‡ñüW¢‡óòõ™ rîh2Ë2032≤Ã|˘£ÉÔÁ˝ÓıﬂÆˇæl=„w„WﬂΩb˛iˇ„ùË⁄ﬁi7‰ØgãÏÙÓLOÛÓç‰QI_Ã~£∑1C˛wÂÔGﬂ+ŸÒ®¯3ó=≥≥¡NÆ8ùmoÔÈﬁıNwÓÂQY_Ãn◊9uù¸˜)ﬂ˝ûÇOﬂœ∞Óı?æÉ]ƒ¸S˛˚l—L6ÕÜöﬂ¢ø•’Ÿb∫&Øíˇ±à}M˜åórÎ÷≥ïu˝È(L˝Õ⁄ﬂÖÕ	?N≤Ò…-pÆd`¸œ√	   ˇˇ   ˇˇ ã™=
+endstreamendobj93 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/S]/Type/Encoding>>endobj84 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[30/b/comma]/Type/Encoding>>endobj82 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[30/a/comma]/Type/Encoding>>endobj88 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/G]/Type/Encoding>>endobj91 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/a]/Type/Encoding>>endobj89 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/H]/Type/Encoding>>endobj80 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[30/h/s]/Type/Encoding>>endobj81 0 obj<</Ascent 694/CapHeight 694/CharSet(/h/s)/Descent -10/Flags 131076/FontBBox[0 -10 590 694]/FontFamily(CM R 7)/FontFile3 106 0 R/FontName/TPOKKM+CMR7/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 88/Type/FontDescriptor/XHeight 446>>endobj106 0 obj<</Filter/FlateDecode/Length 463/Subtype/Type1C>>stream
+Hâbd`ab`dd‰		˜ˆˆ’vˆ2ÒEH3v7˛xÙ”ãıªˇwW¡)?Ö@ïŒ˘ïEôÈ%
+1¶…@¬P¡–““\G¡»¿¿R¡17µ(391O¡7±$#57±»…QŒOŒL-©k±…())∞“◊///◊KÃ-÷À/J∑ô¢£PûYí°îZúZTñö¢‡ñüW¢‡óòõ™ rîx2Ñ00›À¿¬P…(Ù£ÉÔ'W˜˙ºÀø'Ìb¸.zÎ{≈-Ê”ø}î∞O¡(*,µTÆÎ˚∂ﬂZ¨ÈÏÁ&∑D…ˇô¬û–ÿÌ%óŒﬁ€}±ÎÜSxT÷≥{5voìˇÓ¡˛Âﬁû≥ßÑD»˝Æ¿≠éÔGD„Úãw˙>·Û˛¢s∫ß‘∂uv◊◊…uv56µ∂q,»Mùò&˝[9”!2{f·‚r˘çY[N6rÏm∫SÎ!ïR´≠ùqÍ|•‹åéÆ˛ZÈ™Óñr˘ﬂ¸ÏU›M3ßÃ[∞pæ\“ˆÉùã•øãÌæxic’ ¬≈Ú©Îb'gL‰∞ûÈ5˝Ä‘Íeõ^}Áò`ï◊+◊–3Ωª_zN˜§yÚ|rú+ˇÛp   ˇˇ   ˇˇ j4º3
+endstreamendobj79 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/R]/Type/Encoding>>endobj78 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[29/D/N/G]/Type/Encoding>>endobj76 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[30/C/D]/Type/Encoding>>endobj74 0 obj<</BaseEncoding/WinAnsiEncoding/Differences[31/V]/Type/Encoding>>endobj75 0 obj<</Ascent 683/CapHeight 683/CharSet(/V)/Descent -21/Flags 65540/FontBBox[0 -21 753 683]/FontFamily(CMM I 12)/FontFile3 107 0 R/FontName/YZBOCC+CMMI12/FontStretch/Normal/FontWeight 400/ItalicAngle 0/StemV 112/Type/FontDescriptor>>endobj107 0 obj<</Filter/FlateDecode/Length 335/Subtype/Type1C>>stream
+Hâbd`ab`dd‰ãårÚwv÷vˆıı44âà˛êfÏ.˚Ÿ˙”ûıªˇww¡)ﬂ/
+Å$™ùÛ*ã2”3JbLíÅÑ°Ç°••πéÇëÅÅ•ÇcnjQfrbûÇobIFjnb	êì£úüúôZR	÷bìQRR`•Ø_^^Æóò[¨ó_în2EG°<≥$C!(µ8µ®,5E¡-?ØD¡/17U‚,= 0g`bddi˝—¡˜„\ŸÇüJ+˛Ùg˛Òˇ«—µW-ﬁ◊œ1µgr˜\©˛ŒâMrï	ùïyπ˘<JÕç›MS∫˙Â7tÙW÷K’‘ñtu…˝>˜ßÕı«z÷˚{ßÕö“=ojCwá\Uygït0õSnoótk}we√§ÓŸ˚˙öä˙‰oˇ˘ÀZ÷◊›1Sz˙ÑæŸSÂ˘‰8W20˛Á·   ˇˇ   ˇˇ ~o{s
+endstreamendobj57 0 obj<</AIS false/BM/Normal/CA 1.0/OP false/OPM 1/SA true/SMask/None/Type/ExtGState/ca 1.0/op false>>endobj58 0 obj<</AIS false/BM/Normal/CA 1.0/OP false/OPM 0/SA true/SMask/None/Type/ExtGState/ca 1.0/op false>>endobj108 0 obj<</CreationDate(D:20260929215413-07'00')/Creator(Adobe Illustrator 30.8 \(Windows\))/ModDate(D:20260929215413-07'00')/Producer(Adobe PDF library 18.00)/Title(three_phase_inverter_current_example)>>endobjxref
+0 109
+0000000000 65535 f
+0000000016 00000 n
+0000000076 00000 n
+0000085815 00000 n
+0000000000 00000 f
+0000106199 00000 n
+0000106341 00000 n
+0000107935 00000 n
+0000109506 00000 n
+0000111075 00000 n
+0000112676 00000 n
+0000112818 00000 n
+0000112961 00000 n
+0000113103 00000 n
+0000113246 00000 n
+0000106486 00000 n
+0000106636 00000 n
+0000106778 00000 n
+0000106923 00000 n
+0000107069 00000 n
+0000107211 00000 n
+0000107356 00000 n
+0000107502 00000 n
+0000107644 00000 n
+0000107789 00000 n
+0000108077 00000 n
+0000108219 00000 n
+0000108360 00000 n
+0000108506 00000 n
+0000108648 00000 n
+0000108789 00000 n
+0000108935 00000 n
+0000109077 00000 n
+0000109218 00000 n
+0000109364 00000 n
+0000109647 00000 n
+0000109788 00000 n
+0000109934 00000 n
+0000110076 00000 n
+0000110217 00000 n
+0000110363 00000 n
+0000110505 00000 n
+0000110646 00000 n
+0000110792 00000 n
+0000110934 00000 n
+0000111217 00000 n
+0000111363 00000 n
+0000111505 00000 n
+0000111646 00000 n
+0000111792 00000 n
+0000111934 00000 n
+0000112075 00000 n
+0000112221 00000 n
+0000112379 00000 n
+0000112526 00000 n
+0000085867 00000 n
+0000086929 00000 n
+0000121806 00000 n
+0000121919 00000 n
+0000096667 00000 n
+0000096795 00000 n
+0000096933 00000 n
+0000097067 00000 n
+0000097204 00000 n
+0000097336 00000 n
+0000095457 00000 n
+0000096092 00000 n
+0000096140 00000 n
+0000097455 00000 n
+0000106086 00000 n
+0000099319 00000 n
+0000097406 00000 n
+0000099687 00000 n
+0000099947 00000 n
+0000121057 00000 n
+0000121139 00000 n
+0000120973 00000 n
+0000116724 00000 n
+0000120887 00000 n
+0000120805 00000 n
+0000119916 00000 n
+0000120000 00000 n
+0000119582 00000 n
+0000113472 00000 n
+0000119494 00000 n
+0000118548 00000 n
+0000114711 00000 n
+0000114793 00000 n
+0000119670 00000 n
+0000119834 00000 n
+0000118718 00000 n
+0000119752 00000 n
+0000118636 00000 n
+0000119412 00000 n
+0000116608 00000 n
+0000115712 00000 n
+0000115800 00000 n
+0000115626 00000 n
+0000115544 00000 n
+0000115462 00000 n
+0000113389 00000 n
+0000113742 00000 n
+0000115051 00000 n
+0000116053 00000 n
+0000117014 00000 n
+0000118958 00000 n
+0000120256 00000 n
+0000121385 00000 n
+0000122032 00000 n
+trailer
+<</Size 109/Root 1 0 R/Info 108 0 R/ID[<5ECBB3F4E19CBE4EAC6C4463A7B301EB><CEC3241B829F9E41884A8D00EEAB6FCE>]>>
+startxref
+122247
+%%EOF
