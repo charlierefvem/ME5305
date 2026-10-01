@@ -1,0 +1,78 @@
+/*
+   Minimal callout styling for insight, note, and algorithm callouts.
+   These callouts use a transparent background, a thin left rule, and a
+   type-specific Lucide icon.
+
+   USAGE
+   Use any of these Obsidian callout types:
+
+     > [!insight] Key idea
+     > A concise conceptual observation.
+
+     > [!note] Reminder
+     > Supporting information or a side note.
+
+     > [!algorithm] Procedure
+     > 1. First step
+     > 2. Second step
+*/
+
+.callout[data-callout="insight"] {
+  /* 1. Force the background transparent and kill the dynamic blending */
+  background-color: transparent !important; 
+  --callout-blend-mode: normal;
+  
+  /* 2. Style your clean, high-contrast left border line */
+  border-left: 1px solid rgb(140,140,140); 
+  padding-left: 10px;
+  
+  /* 3. Strip out the rest of the default bounding box edges */
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0;
+  
+  /* 4. Set the title/icon color and choose the brain icon. */
+  --callout-color: 140, 140, 140;
+  --callout-icon: lucide-brain; 
+}
+
+.callout[data-callout="note"] {
+  /* 1. Force the background transparent and kill the dynamic blending */
+  background-color: transparent !important; 
+  --callout-blend-mode: normal;
+  
+  /* 2. Style your clean, high-contrast left border line */
+  border-left: 1px solid rgb(140,140,140); 
+  padding-left: 10px;
+  
+  /* 3. Strip out the rest of the default bounding box edges */
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0;
+  
+  /* 4. Set the title/icon color and choose the sticky-note icon. */
+  --callout-color: light-gray;
+  --callout-icon: lucide-sticky-note; 
+}
+
+.callout[data-callout="algorithm"] {
+  /* 1. Force the background transparent and kill the dynamic blending */
+  background-color: transparent !important; 
+  --callout-blend-mode: normal;
+  
+  /* 2. Style your clean, high-contrast left border line */
+  border-left: 1px solid rgb(140,140,140); 
+  padding-left: 10px;
+  
+  /* 3. Strip out the rest of the default bounding box edges */
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0;
+  
+  /* 4. Set the title/icon color and choose the code icon. */
+  --callout-color: light-gray;
+  --callout-icon: lucide-square-code; 
+}

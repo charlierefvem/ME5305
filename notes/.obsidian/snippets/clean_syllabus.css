@@ -1,0 +1,31 @@
+/*
+   Hide ordered-list numbers only on notes tagged with the clean-syllabus
+   CSS class.
+
+   USAGE
+   Add this to the note's YAML frontmatter, then write ordered lists normally:
+
+     ---
+     cssclasses:
+       - clean-syllabus
+     ---
+
+     1. First item
+     2. Second item
+
+   The list remains ordered in Markdown, but its visible numbers are hidden.
+*/
+
+/* Live Preview / editing mode */
+.clean-syllabus .cm-formatting-list-ol {
+    display: none !important;
+}
+
+/* Reading mode and Webpage HTML Export */
+.clean-syllabus ol {
+    list-style-type: none !important;
+}
+
+.clean-syllabus ol > li::marker {
+    content: "" !important;
+}

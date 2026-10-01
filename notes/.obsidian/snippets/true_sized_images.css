@@ -1,0 +1,87 @@
+/*
+   Compact note typography.
+   This compensates for figures whose 12 pt text was rendered as 12 px.
+
+   USAGE
+   Passive: enable this snippet for notes/exports that should use the compact
+   12 px text scale and approximately 700 px readable line width. No note-level
+   class or special Markdown syntax is required.
+
+   Despite the filename, this snippet changes note typography and readable
+   width; image sizing itself is handled by image_layout.css.
+*/
+
+.markdown-rendered,
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-content,
+body.publish #center-content,
+body.publish #center-content .obsidian-document,
+body.publish #center-content .markdown-preview-sizer,
+body.publish .obsidian-document {
+    --font-text-size: 12px !important;
+    --table-text-size: 12px !important;
+    --table-header-size: 12px !important;
+    --h1-size: 1.8em !important;
+    --h2-size: 1.5em !important;
+    --h3-size: 1.2em !important;
+    --line-width: min(700px, calc(100vw - 2em)) !important;
+    --line-width-adaptive: min(700px, calc(100vw - 2em)) !important;
+    --file-line-width: min(700px, calc(100vw - 2em)) !important;
+    font-size: 12px !important;
+    line-height: 1.55 !important;
+}
+
+.markdown-rendered p,
+.markdown-rendered li,
+.markdown-preview-view p,
+.markdown-preview-view li,
+.markdown-source-view.mod-cm6 .cm-line,
+body.publish #center-content .markdown-preview-sizer p,
+body.publish #center-content .markdown-preview-sizer li,
+body.publish #center-content .markdown-preview-sizer blockquote,
+body.publish #center-content .markdown-preview-sizer .callout {
+    font-size: 12px !important;
+    line-height: 1.55 !important;
+}
+
+.markdown-rendered table,
+.markdown-rendered th,
+.markdown-rendered td,
+.markdown-preview-view table,
+.markdown-preview-view th,
+.markdown-preview-view td,
+.markdown-source-view.mod-cm6 .cm-html-embed table,
+.markdown-source-view.mod-cm6 .cm-html-embed th,
+.markdown-source-view.mod-cm6 .cm-html-embed td,
+body.publish #center-content .markdown-preview-sizer table,
+body.publish #center-content .markdown-preview-sizer th,
+body.publish #center-content .markdown-preview-sizer td,
+body.publish .obsidian-document table,
+body.publish .obsidian-document th,
+body.publish .obsidian-document td {
+    font-size: 12px !important;
+}
+
+.markdown-rendered h1,
+.markdown-preview-view h1,
+.markdown-source-view.mod-cm6 .cm-header-1,
+body.publish #center-content .markdown-preview-sizer h1,
+body.publish .obsidian-document h1 {
+    font-size: 1.8em !important;
+}
+
+.markdown-rendered h2,
+.markdown-preview-view h2,
+.markdown-source-view.mod-cm6 .cm-header-2,
+body.publish #center-content .markdown-preview-sizer h2,
+body.publish .obsidian-document h2 {
+    font-size: 1.5em !important;
+}
+
+.markdown-rendered h3,
+.markdown-preview-view h3,
+.markdown-source-view.mod-cm6 .cm-header-3,
+body.publish #center-content .markdown-preview-sizer h3,
+body.publish .obsidian-document h3 {
+    font-size: 1.2em !important;
+}

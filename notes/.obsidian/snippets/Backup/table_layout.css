@@ -1,0 +1,56 @@
+/*
+   General table layout.
+   Centers normal tables and supports opt-in wide tables when a table is
+   wrapped in <div class="wide-table-container">.
+*/
+
+.markdown-rendered table,
+.markdown-preview-view table,
+.markdown-source-view.mod-cm6 .cm-html-embed table,
+body.publish .obsidian-document table {
+    margin-inline: auto !important;
+}
+
+.markdown-rendered .table-wrapper,
+.markdown-preview-view .table-wrapper,
+.markdown-rendered div:has(> table),
+.markdown-preview-view div:has(> table),
+body.publish .obsidian-document .table-wrapper,
+body.publish .obsidian-document div:has(> table) {
+    margin-inline: auto !important;
+}
+
+.markdown-rendered div:has(.wide-table-container),
+.markdown-preview-view div:has(.wide-table-container),
+.markdown-source-view.mod-cm6 .cm-embed-block:has(.wide-table-container),
+body.publish .obsidian-document div:has(.wide-table-container) {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.wide-table-container,
+.wide-table-container table,
+.wide-table-container .table-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.wide-table-container {
+    display: block !important;
+    overflow-x: auto !important;
+}
+
+.wide-table-container table {
+    margin-inline: auto !important;
+}
+
+.callout[data-callout="table"]:has(.wide-table-container) {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.callout[data-callout="table"]:has(.wide-table-container) .callout-content {
+    width: 100% !important;
+    max-width: 100% !important;
+}

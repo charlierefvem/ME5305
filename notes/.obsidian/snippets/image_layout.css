@@ -1,0 +1,61 @@
+/*
+   General image layout.
+   Centers images at natural size and shrinks them only when they exceed
+   the readable text width.
+
+   USAGE
+   Passive: enable this CSS snippet and embed images normally, for example:
+
+     ![[example.png]]
+
+   No note-level class or special embed syntax is required.
+*/
+
+.markdown-rendered,
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-content,
+body.publish .obsidian-document {
+    --snippet-readable-width: var(
+        --file-line-width,
+        var(--line-width, var(--line-width-adaptive, 100%))
+    );
+}
+
+.markdown-rendered img,
+.markdown-preview-view img,
+.markdown-rendered canvas,
+.markdown-preview-view canvas,
+body.publish .obsidian-document img,
+body.publish .obsidian-document canvas {
+    display: block !important;
+    width: auto !important;
+    max-width: min(100%, var(--snippet-readable-width)) !important;
+    height: auto !important;
+    margin-inline: auto !important;
+    zoom: 1 !important;
+    transform: none !important;
+}
+
+.markdown-rendered :is(p, div, .el-p, .el-div):has(> img:only-child),
+.markdown-preview-view :is(p, div, .el-p, .el-div):has(> img:only-child),
+body.publish .obsidian-document :is(p, div, .el-p, .el-div):has(> img:only-child) {
+    text-align: center !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content .image-embed {
+    display: block !important;
+    width: fit-content !important;
+    max-width: min(100%, var(--snippet-readable-width)) !important;
+    margin-inline: auto !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content .image-embed img,
+.markdown-source-view.mod-cm6 .cm-embed-block img {
+    display: block !important;
+    width: auto !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin-inline: auto !important;
+    zoom: 1 !important;
+    transform: none !important;
+}

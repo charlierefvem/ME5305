@@ -1,0 +1,59 @@
+.callout[data-callout="insight"] {
+  /* 1. Force the background transparent and kill the dynamic blending */
+  background-color: transparent !important; 
+  --callout-blend-mode: normal;
+  
+  /* 2. Style your clean, high-contrast left border line */
+  border-left: 1px solid rgb(140,140,140); 
+  padding-left: 10px;
+  
+  /* 3. Strip out the rest of the default bounding box edges */
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0;
+  
+  /* 4. Set your accessible slate-blue color palette for the title text and brain icon */
+  --callout-color: 140, 140, 140;
+  --callout-icon: lucide-brain; 
+}
+
+.callout[data-callout="note"] {
+  /* 1. Force the background transparent and kill the dynamic blending */
+  background-color: transparent !important; 
+  --callout-blend-mode: normal;
+  
+  /* 2. Style your clean, high-contrast left border line */
+  border-left: 1px solid rgb(140,140,140); 
+  padding-left: 10px;
+  
+  /* 3. Strip out the rest of the default bounding box edges */
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0;
+  
+  /* 4. Set your accessible slate-blue color palette for the title text and brain icon */
+  --callout-color: light-gray;
+  --callout-icon: lucide-sticky-note; 
+}
+
+.callout[data-callout="algorithm"] {
+  /* 1. Force the background transparent and kill the dynamic blending */
+  background-color: transparent !important; 
+  --callout-blend-mode: normal;
+  
+  /* 2. Style your clean, high-contrast left border line */
+  border-left: 1px solid rgb(140,140,140); 
+  padding-left: 10px;
+  
+  /* 3. Strip out the rest of the default bounding box edges */
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 0;
+  
+  /* 4. Set your accessible slate-blue color palette for the title text and brain icon */
+  --callout-color: light-gray;
+  --callout-icon: lucide-square-code; 
+}

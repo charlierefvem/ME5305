@@ -1,0 +1,130 @@
+/*
+   Numbered code listings and optional output blocks.
+   Supports Obsidian and Webpage HTML Export.
+
+   USAGE
+   Use block_listing for a general code example, or file_listing when the
+   title should be treated as a filename. Listings are numbered automatically.
+
+     > [!block_listing] Example description
+     > ```python
+     > print("Hello")
+     > ```
+
+     > [!file_listing] example.py
+     > ```python
+     > print("Hello")
+     > ```
+
+   To label output as belonging to a listing, put an output callout immediately
+   after that listing (with no intervening block):
+
+     > [!output]
+     > ```text
+     > Hello
+     > ```
+
+   The output title is rewritten as "Output from Listing N" when it directly
+   follows a block_listing or file_listing callout.
+*/ 
+.markdown-preview-view, 
+.markdown-rendered,
+.markdown-preview-sizer { 
+  counter-reset: listing-counter; 
+} 
+
+/* 2. BASE STYLING & INCREMENT LOCKS */ 
+.callout[data-callout="block_listing"], 
+.callout[data-callout="file_listing"] { 
+  counter-increment: listing-counter; 
+}
+
+/* Webpage HTML Export wraps each callout in an .el-div. Increment the
+   wrapper so the value is visible to following sibling output callouts. */
+.markdown-preview-sizer > div:has(> .callout[data-callout="block_listing"]),
+.markdown-preview-sizer > div:has(> .callout[data-callout="file_listing"]) {
+  counter-increment: listing-counter;
+}
+
+.markdown-preview-sizer > div > .callout[data-callout="block_listing"],
+.markdown-preview-sizer > div > .callout[data-callout="file_listing"] {
+  counter-increment: none;
+}
+
+.callout[data-callout="block_listing"], 
+.callout[data-callout="file_listing"], 
+.callout[data-callout="output"] { 
+  background-color: transparent !important; 
+  --callout-blend-mode: normal; 
+  border: none !important; 
+  padding: 0 !important; 
+  --callout-color: 140, 140, 140; 
+}
+
+/* 3. ICON ASSIGNMENTS */
+.callout[data-callout="block_listing"] { --callout-icon: lucide-code; } 
+.callout[data-callout="file_listing"] { --callout-icon: lucide-file-code; } 
+.callout[data-callout="output"] { --callout-icon: lucide-square-terminal; } 
+
+/* 4. CODE BODY POSITIONING */ 
+.callout[data-callout="block_listing"] .callout-content, 
+.callout[data-callout="file_listing"] .callout-content, 
+.callout[data-callout="output"] .callout-content { 
+  margin-top: 2px !important; 
+  padding-top: 0 !important; 
+} 
+
+.callout[data-callout="block_listing"] .callout-content > pre, 
+.callout[data-callout="file_listing"] .callout-content > pre, 
+.callout[data-callout="output"] .callout-content > pre { 
+  margin-top: 0 !important; 
+} 
+
+/* 5. TITLE TEXT STRUCTURE */ 
+.callout[data-callout="block_listing"] .callout-title, 
+.callout[data-callout="file_listing"] .callout-title, 
+.callout[data-callout="output"] .callout-title { 
+  padding-bottom: 6px; 
+  font-size: 0.9em; 
+  font-weight: 600; 
+  text-transform: uppercase; 
+  letter-spacing: 0.05em; 
+} 
+
+/* Enforce Monospace for filenames */
+.callout[data-callout="file_listing"] .callout-title-inner { 
+  font-family: var(--font-monospace); 
+  text-transform: none; 
+} 
+
+/* Inject prefix and reset font */ 
+.callout[data-callout="block_listing"] .callout-title-inner::before, 
+.callout[data-callout="file_listing"] .callout-title-inner::before { 
+  content: "Listing " counter(listing-counter) ": "; 
+  font-weight: bold; 
+  font-family: var(--font-interface), sans-serif; 
+  text-transform: uppercase; 
+  margin-right: 4px;
+}
+
+/* 6. ACCESSIBLE WEBPAGE EXPORT-SAFE OUTPUT SWAP */
+.callout[data-callout="file_listing"] + .callout[data-callout="output"] .callout-title-inner,
+.callout[data-callout="block_listing"] + .callout[data-callout="output"] .callout-title-inner,
+div:has(> .callout[data-callout="file_listing"]) + div > .callout[data-callout="output"] .callout-title-inner,
+div:has(> .callout[data-callout="block_listing"]) + div > .callout[data-callout="output"] .callout-title-inner {
+  visibility: hidden; 
+  position: relative; 
+}
+
+.callout[data-callout="file_listing"] + .callout[data-callout="output"] .callout-title-inner::before,
+.callout[data-callout="block_listing"] + .callout[data-callout="output"] .callout-title-inner::before,
+div:has(> .callout[data-callout="file_listing"]) + div > .callout[data-callout="output"] .callout-title-inner::before,
+div:has(> .callout[data-callout="block_listing"]) + div > .callout[data-callout="output"] .callout-title-inner::before {
+  content: "Output from Listing " counter(listing-counter);
+  visibility: visible; 
+  position: absolute; 
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  white-space: nowrap; 
+}

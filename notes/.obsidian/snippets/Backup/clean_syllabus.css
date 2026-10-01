@@ -1,0 +1,19 @@
+/*
+   Hide ordered-list numbers only on notes tagged with:
+   cssclasses:
+     - clean-syllabus
+*/
+
+/* Live Preview / editing mode */
+.clean-syllabus .cm-formatting-list-ol {
+    display: none !important;
+}
+
+/* Reading mode and Webpage HTML Export */
+.clean-syllabus ol {
+    list-style-type: none !important;
+}
+
+.clean-syllabus ol > li::marker {
+    content: "" !important;
+}
