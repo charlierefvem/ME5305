@@ -41,7 +41,9 @@ $$
 
 > [!figure]
 > ![Cross-sectional view of an idealized three-phase permanent-magnet motor.](../Images/BLDC/PMSM_model_three_phase.svg)
-> *Idealized three-phase permanent-magnet motor with phase axes separated by $120^\circ$ electrical. The figure assumes one pole pair, so $\theta_e=\theta_m$.*
+> Idealized three-phase permanent-magnet motor with phase axes separated by $120^\circ$ electrical.
+>
+> The figure assumes one pole pair, so $\theta_e=\theta_m$.
 
 Differentiating the flux linkages gives the three-phase back-EMFs:
 
@@ -68,7 +70,9 @@ The subscript $n$ denotes the motor neutral point. A three-phase inverter contro
 
 > [!figure]
 > ![Complete per-phase equivalent circuit and its corresponding lumped winding representation.](../Images/BLDC/phase_equiv_circuit.svg)
-> *Complete per-phase equivalent circuit (left) and corresponding lumped winding representation (right). The lumped symbol represents the full terminal behavior of $R_s$, $L_s$, and $e_x$; it is not an ideal inductor.*
+> Complete per-phase equivalent circuit (left) and corresponding lumped winding representation (right).
+>
+> The lumped symbol represents the full terminal behavior of $R_s$, $L_s$, and $e_x$; it is not an ideal inductor.
 
 The three equations are
 
@@ -84,7 +88,9 @@ $$
 
 > [!figure]
 > ![Balanced three-wire wye connection showing terminal and neutral node potentials and positive phase-current directions.](../Images/BLDC/wye.svg)
->*Balanced three-wire wye connection. The quantities $v_a$, $v_b$, $v_c$, and $v_n$ are node potentials measured relative to a common reference. Positive phase current is directed from each motor terminal toward the shared neutral node $n$.*
+> Balanced three-wire wye connection.
+>
+> The quantities $v_a$, $v_b$, $v_c$, and $v_n$ are node potentials measured relative to a common reference. Positive phase current is directed from each motor terminal toward the shared neutral node $n$.
 
 The phase-to-neutral voltages are therefore
 
@@ -166,7 +172,9 @@ where $J$ is combined rotor-and-load inertia, $T_L$ is load torque, and $b$ is a
 
 > [!figure]
 > ![Balanced three-wire delta connection showing terminal-node potentials, line currents, and winding currents.](../Images/BLDC/delta.svg)
-> *Balanced three-wire delta connection. The quantities $v_u$, $v_v$, and $v_w$ are terminal-node potentials measured relative to a common reference. The line currents $i_u$, $i_v$, and $i_w$ are positive into the motor, while winding currents $i_a$, $i_b$, and $i_c$ follow the directions shown.*
+> Balanced three-wire delta connection.
+>
+> The quantities $v_u$, $v_v$, and $v_w$ are terminal-node potentials measured relative to a common reference. The line currents $i_u$, $i_v$, and $i_w$ are positive into the motor, while winding currents $i_a$, $i_b$, and $i_c$ follow the directions shown.
 
 With the displayed winding-current directions, phase $a$ connects from terminal $u$ to $v$, phase $b$ from $v$ to $w$, and phase $c$ from $w$ to $u$. Their winding voltages are therefore
 

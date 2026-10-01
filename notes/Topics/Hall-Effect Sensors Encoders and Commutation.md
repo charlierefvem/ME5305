@@ -22,7 +22,8 @@ status: publication-ready
 > | Six-step or block commutation | Six electrical sectors, often from three Hall sensors           | Two phases driven and one phase floating in each sector | Simple, inexpensive, and well supported by monolithic drivers |
 > | Sinusoidal commutation        | Finer electrical-angle estimate                                 | Approximately sinusoidal phase currents or voltages     | Smoother torque and lower acoustic excitation                 |
 > | Field-oriented control (FOC)  | Continuous electrical-angle estimate and phase-current feedback | Regulated $d$- and $q$-axis currents synthesized by PWM | Precise torque control and high dynamic performance           |
-> Three useful levels of commutation, in order of increasing complexity.
+>
+>  Three useful levels of commutation, in order of increasing complexity.
 
 The ME5305 core path emphasizes Hall-sensored six-step commutation and driver selection. Sinusoidal commutation and FOC are included so students can recognize the terms and evaluate whether a driver IC provides them.
 
@@ -42,7 +43,8 @@ Only one Hall bit changes at each ideal sector boundary. Decreasing $\theta_e$ t
 
 > [!figure]
 > ![Diagram of one electrical revolution divided into six sectors; below are three Hall-sensor waveforms and their binary codes.](../Images/BLDC/hall.svg)
-> *Example three-Hall sequence for increasing electrical angle $\theta_e$.*
+> Example three-Hall sequence for increasing electrical angle $\theta_e$.
+> 
 > The dotted boundaries divide one electrical revolution into six $60^\circ$ sectors. The code written above each sector is ordered as $H_aH_bH_c$. Only one ideal Hall channel changes at each boundary; the mapping is motor- and wiring-dependent, and reverse rotation traverses the codes in the opposite order.
 
 ## Six-Step Commutation
@@ -75,6 +77,7 @@ With the established back-EMF convention, the following ideal sequence produces 
 > |      4 | $[150^\circ,210^\circ)$   |         `110`         |  $Z$  |  $0$  |  $1$  | $c\rightarrow b$; $a$ floating |
 > |      5 | $[210^\circ,270^\circ)$   |         `010`         |  $1$  |  $0$  |  $Z$  | $a\rightarrow b$; $c$ floating |
 > |      6 | $[270^\circ,330^\circ)$   |         `011`         |  $1$  |  $Z$  |  $0$  | $a\rightarrow c$; $b$ floating |
+>
 > Hall sensor commutation lookup table.
 
 > [!figure]
@@ -118,7 +121,8 @@ The block-commutation table describes each phase with the abstract state $S_x\in
 
 > [!figure]
 > ![Signal-flow block diagram for three-phase Hall-sensored block commutation. Hall channels and a direction command feed Hall decoding and the commutation lookup, which produce abstract phase states. Firmware maps those states and a duty request into per-phase enable and timer compare values. Three center-aligned PWM channels share an STM32 timer counter and produce binary gate-driver inputs. Gate-driver blocks insert dead time and produce high- and low-side gate-source voltages for the three inverter half bridges, whose pole voltages drive the motor.](../Images/BLDC/block_commutation_block_diagram.svg)
-> *Signal flow for Hall-sensored block commutation using synchronous slow decay and STM32-aligned timer terminology.*
+> Signal flow for Hall-sensored block commutation using synchronous slow decay and STM32-aligned timer terminology.
+>
 > The Hall code and direction command $\mathrm{DIR}$ select the abstract states $S_a$, $S_b$, and $S_c$. Firmware maps those states and the duty request $d$ into the driver enables $\mathrm{EN}_x$ and timer compare values $\mathrm{CCR}_x$. The three PWM channels share the timer count $\mathrm{CNT}$, auto-reload value $\mathrm{ARR}$, and prescaler $\mathrm{PSC}$. Each binary output $\mathrm{IN}_x$ enters a gate driver that inserts dead time before producing $v_{\mathrm{GS,H},x}$ and $v_{\mathrm{GS,L},x}$. Power connections, protection and fault handling, current sensing, and device-specific configuration interfaces are omitted.
 
 For the active-high PWM convention used here, the timer output is high while $\mathrm{CNT}<\mathrm{CCR}_x$. The exact endpoint behavior and register scaling depend on the selected microcontroller timer, but the conceptual state mapping is:
@@ -129,6 +133,7 @@ For the active-high PWM convention used here, the timer output is high while $\m
 > |         $1$          |       $1$       | Approximately $d\cdot\mathrm{ARR}$   | Center-aligned PWM        | Alternate the active phase between the high-side and low-side states |
 > |         $0$          |       $1$       | $0$                                  | $0$                       | Continuously request the low-side state                              |
 > |         $Z$          |       $0$       | Ignored; set to a safe value         | Don't care                | Disable both switches in the leg                                     |
+>
 > Truth table decoding the tri-state abstract state $S_x$ into binary $\mathrm{IN}_x$ and $\mathrm{EN}_x$ signals.
 
 The assumed driver then interprets $\mathrm{EN}_x$ and $\mathrm{IN}_x$ as follows:
@@ -139,6 +144,7 @@ The assumed driver then interprets $\mathrm{EN}_x$ and $\mathrm{IN}_x$ as follow
 > | $0$ | $X$ | Off | Off | $Z$ |
 > | $1$ | $0$ | Off | On | $0$ |
 > | $1$ | $1$ | On | Off | $1$ |
+>
 > Truth table decoding the binary $\mathrm{IN}_x$ and $\mathrm{EN}_x$ signals into inverter-leg behavior.
 
 Here $X$ means that the input is ignored. When $\mathrm{EN}_x=1$ and $\mathrm{IN}_x$ changes, the gate driver temporarily requests both switches off to insert dead time. Actual gate-source voltages have finite propagation and transition times, so the MOSFET conduction state does not change instantaneously with the logic input.
@@ -173,7 +179,8 @@ Figure 8 extends the same mapping across three consecutive sectors at a constant
 
 > [!figure]
 > ![Gate-driver input and enable waveforms for sectors 4, 5, and 6 at a constant 50 percent block-commutation duty request. The PWM input moves from phase c to phase a as the abstract commutation state changes, while the floating phase is disabled in each sector.](../Images/BLDC/sector_4_5_6_PWM.svg)
-> *Physical driver-interface signals for sectors 4, 5, and 6 using synchronous slow decay and a constant duty request $d=50\%$.*
+> Physical driver-interface signals for sectors 4, 5, and 6 using synchronous slow decay and a constant duty request $d=50\%$.
+>
 > The Hall code and abstract state tuple above each sector come from the six-step table. A phase with $S_x=1$ has $\mathrm{EN}_x=1$ and a PWM waveform on $\mathrm{IN}_x$; a phase with $S_x=0$ has $\mathrm{EN}_x=1$ and $\mathrm{IN}_x=0$; and a phase with $S_x=Z$ has $\mathrm{EN}_x=0$, making its shaded $\mathrm{IN}_x$ value a don't-care condition. Only a few PWM cycles are drawn per sector for legibility; in normal operation, the PWM frequency is much higher than the electrical commutation frequency.
 
 ### Low-energy bring-up
@@ -214,7 +221,8 @@ In a center-aligned implementation, the desired sinusoidal phase commands can be
 
 > [!figure]
 > ![Three sinusoidal timer compare-register trajectories displaced by 120 electrical degrees and centered on one-half of the auto-reload value.](../Images/BLDC/sw_waveform.svg)
-> *Example sinusoidal compare-register commands $\mathrm{CCR}_a$, $\mathrm{CCR}_b$, and $\mathrm{CCR}_c$ over one electrical revolution.*
+> Example sinusoidal compare-register commands $\mathrm{CCR}_a$, $\mathrm{CCR}_b$, and $\mathrm{CCR}_c$ over one electrical revolution.
+>
 > The three commands are separated by $120^\circ$ electrical and centered on $\mathrm{ARR}/2$. In the figure, $m$ denotes their normalized modulation depth, so the extrema are $(1-m)\mathrm{ARR}/2$ and $(1+m)\mathrm{ARR}/2$.
 
 
@@ -222,7 +230,8 @@ FOC uses the measured electrical angle to express the measured phase currents in
 
 > [!figure]
 > ![Closed-loop field-oriented current controller. Direct- and quadrature-axis current commands are compared with measured current components and passed through separate PI controllers. The resulting voltage commands pass through an inverse Park and Clarke transform, the PWM inverter, and the motor electrical dynamics. Motor phase currents pass through shunt-resistor sensing, amplification, analog-to-digital conversion, current reconstruction, and a Clarke and Park transform before returning to the current controllers. A rotor-position sensor and electrical-angle calculation provide the measured electrical angle to both transforms. Electromagnetic torque and load torque feed the separate mechanical-system dynamics.](../Images/BLDC/FOC_current_loop.svg)
-> _High-level inner current-control loop for surface-PMSM FOC._
+> High-level inner current-control loop for surface-PMSM FOC.
+>
 > The $d$- and $q$-axis PI controllers regulate $i_d$ and $i_q$ and produce the voltage commands $v_d^*$ and $v_q^*$. The inverse Park/Clarke transform uses the measured electrical angle $\theta_{e,\mathrm{meas}}$ to form the stationary three-phase command $\mathbf v_{abc}^*$. The sensing path illustrates phase-current measurement using shunt resistors, a programmable-gain amplifier (PGA), an analog-to-digital converter (ADC), and current reconstruction before the measured currents $\mathbf i_{abc,\mathrm{meas}}$ are transformed into $\mathbf i_{dq}$. The rotor-position path measures shaft angle and applies the pole-pair count and calibrated offset so that $\theta_{e,\mathrm{meas}}=p\theta_{m,\mathrm{meas}}+\theta_{e,0}$. A resolver or other position sensor could replace the encoder-based path, while a sensorless estimator would infer electrical angle from available electrical measurements and the motor model. Detailed current-controller decoupling, voltage saturation, anti-windup, field weakening, maximum-torque-per-ampere control, and PWM switching are omitted.
 
 Figure 10 begins with the current commands and therefore does not show an outer speed or position loop. The command $i_q^*$ may be calculated directly from a requested torque or supplied by an outer speed controller; a position controller may in turn surround the speed loop. These outer loops change how $i_q^*$ is generated, but they do not change the basic inner current-loop structure shown here. The illustrated current-sensing chain is also representative rather than universal: a particular motor driver may measure all three phase currents, reconstruct one or more currents from fewer shunts, or integrate some of the amplification and conversion circuitry.

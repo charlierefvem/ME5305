@@ -1,12 +1,12 @@
 {
   "enabledCssSnippets": [
-    "caption_callout",
     "clean_syllabus",
     "image_layout",
     "listing_callout",
     "minimal_callout",
     "table_layout",
     "true_sized_images",
-    "white_image_backgrounds"
+    "white_image_backgrounds",
+    "caption_callout_multiline"
   ]
 }

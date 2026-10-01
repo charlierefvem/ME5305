@@ -1,0 +1,235 @@
+/*
+   Numbered figure and table captions.
+   Handles Obsidian reading mode, editing mode, and Webpage HTML Export.
+
+   USAGE
+   Use Obsidian callouts named "figure" or "table". Numbering is automatic
+   within each note.
+
+   Figure (caption appears below the image):
+
+     > [!figure]
+     > ![[example.png]]
+     > Short description of the figure.
+     >
+     > Optional longer description of the figure.
+
+   The short description is italic and carries the automatic "Figure N -"
+   prefix. Additional paragraphs are upright and are not numbered.
+
+   Table (caption and optional description appear above the table):
+
+     > [!table]
+     > Short description of the table.
+     >
+     > Optional longer description of the table.
+     >
+     > | Column A | Column B |
+     > | --- | --- |
+     > | Value 1 | Value 2 |
+
+   The short description is italic and carries the automatic "Table N -"
+   prefix. Additional paragraphs are upright and are not numbered.
+
+   For an extra-wide table inside a [!table] callout, see table_layout.css.
+*/
+
+.markdown-preview-view,
+.markdown-rendered,
+.markdown-preview-sizer {
+  counter-reset: figure-counter table-counter;
+  --caption-readable-width: var(
+    --file-line-width,
+    var(--line-width, var(--line-width-adaptive, 100%))
+  );
+}
+
+/* Strip default callout chrome. */
+.callout[data-callout="figure"],
+.callout[data-callout="table"] {
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  display: table;
+  margin: 1.5em auto;
+}
+
+.callout[data-callout="figure"] {
+  max-width: min(100%, var(--caption-readable-width)) !important;
+}
+
+.callout[data-callout="figure"] .callout-title,
+.callout[data-callout="table"] .callout-title {
+  display: none !important;
+}
+
+.callout[data-callout="figure"] .callout-content,
+.callout[data-callout="table"] .callout-content {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.callout[data-callout="figure"] .callout-content > *,
+.callout[data-callout="table"] .callout-content > * {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*
+   Text associated with figures and tables shares the same size/color.
+   Use one common text width for the short caption and any longer
+   description. The callout block stays centered, while its text is flush
+   left with a ragged right edge. Upright text is the default; only the
+   primary caption is italicized below.
+*/
+.callout[data-callout="figure"] .callout-content > p:not(:has(img)),
+.callout[data-callout="table"] .callout-content > p:not(:has(table)) {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  font-style: normal;
+  line-height: 1.4;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+/* Figure layout: caption below image. */
+.callout[data-callout="figure"] {
+  counter-increment: figure-counter;
+}
+
+/* Webpage HTML Export wraps each callout in an .el-div. Increment the
+   wrapper so the counter value is visible throughout the exported block. */
+.markdown-preview-sizer > div:has(> .callout[data-callout="figure"]) {
+  counter-increment: figure-counter;
+}
+
+.markdown-preview-sizer > div > .callout[data-callout="figure"] {
+  counter-increment: none;
+}
+
+/* Separate text paragraphs below a figure are descriptions by default. */
+.callout[data-callout="figure"] .callout-content > p:not(:has(img)) {
+  margin-top: 8px !important;
+  margin-bottom: 0 !important;
+}
+
+/*
+   Fallback rendering: if the image paragraph does NOT contain a <br>, the
+   renderer has kept the short caption as the next paragraph. In that case,
+   make only that first paragraph the numbered italic caption.
+*/
+.callout[data-callout="figure"]
+  .callout-content:not(:has(> p:has(img) > br))
+  > p:has(img)
+  + p:not(:has(img)) {
+  font-style: italic;
+}
+
+.callout[data-callout="figure"]
+  .callout-content:not(:has(> p:has(img) > br))
+  > p:has(img)
+  + p:not(:has(img))::before {
+  content: "Figure " counter(figure-counter) " - ";
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*
+   Webpage HTML Export may place the image, a <br>, and the short caption in
+   one paragraph. Style that paragraph as the primary caption and put the
+   prefix after the image embed and before the caption text.
+*/
+.callout[data-callout="figure"] .callout-content > p:has(img) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.callout[data-callout="figure"] .callout-content > p:has(img):has(> br) {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.callout[data-callout="figure"] .callout-content > p:has(img) > .image-embed {
+  display: inline !important;
+}
+
+.callout[data-callout="figure"] .callout-content > p:has(img) > .image-embed img {
+  display: block !important;
+  width: auto !important;
+  max-width: min(100%, var(--caption-readable-width)) !important;
+  height: auto !important;
+  margin-inline: auto !important;
+  margin-bottom: 8px !important;
+  zoom: 1 !important;
+  transform: none !important;
+}
+
+.callout[data-callout="figure"] .callout-content > p:has(img) > br {
+  display: none !important;
+}
+
+.callout[data-callout="figure"]
+  .callout-content
+  > p:has(img):has(> br)
+  > .image-embed::after {
+  content: "Figure " counter(figure-counter) " - ";
+  display: inline;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Table layout: caption and descriptions above table. */
+.callout[data-callout="table"] {
+  counter-increment: table-counter;
+}
+
+.callout[data-callout="table"] table,
+.callout[data-callout="table"] thead,
+.callout[data-callout="table"] tbody,
+.callout[data-callout="table"] tr,
+.callout[data-callout="table"] th,
+.callout[data-callout="table"] td {
+  border-color: var(--background-modifier-border) !important;
+}
+
+/* Webpage HTML Export wraps each callout in an .el-div. Increment the
+   wrapper so the counter value is visible throughout the exported block. */
+.markdown-preview-sizer > div:has(> .callout[data-callout="table"]) {
+  counter-increment: table-counter;
+}
+
+.markdown-preview-sizer > div > .callout[data-callout="table"] {
+  counter-increment: none;
+}
+
+/* Keep all table caption/description paragraphs above the table. */
+.callout[data-callout="table"] .callout-content > p:not(:has(table)) {
+  order: -1;
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+}
+
+/* Only the first text paragraph is the numbered italic table caption. */
+.callout[data-callout="table"]
+  .callout-content
+  > p:not(:has(table)):first-of-type {
+  font-style: italic;
+}
+
+.callout[data-callout="table"]
+  .callout-content
+  > p:not(:has(table)):first-of-type::before {
+  content: "Table " counter(table-counter) " - ";
+  font-weight: bold;
+  font-style: normal;
+}

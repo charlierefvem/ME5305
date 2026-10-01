@@ -20,20 +20,27 @@ Each motor terminal is connected to the midpoint of one half bridge. The high-si
 
 > [!figure]
 > ![Three-phase inverter power stage with three low-side current-shunt resistors and a wye-connected motor.](../Images/BLDC/three_phase_inverter.svg)
-> *Simplified three-phase inverter power stage with six N-channel MOSFETs, their body diodes, three low-side current-shunt resistors $R_{\mathrm{sh},x}$, and a wye-connected motor. The dashed boundaries distinguish the DC bus, power stage, current-sense elements, and motor. The pole potentials $v_a$, $v_b$, and $v_c$, the floating neutral potential $v_n$, and the sense nodes $\mathrm{S}_{\mathrm L,x}$ are all referenced to GND. Figure 4 separates the gate-driver and current-sense-amplifier functions from this power schematic.*
+> Simplified three-phase inverter power stage with six N-channel MOSFETs, their body diodes, three low-side current-shunt resistors $R_{\mathrm{sh},x}$, and a wye-connected motor.
+>
+> The dashed boundaries distinguish the DC bus, power stage, current-sense elements, and motor. The pole potentials $v_a$, $v_b$, and $v_c$, the floating neutral potential $v_n$, and the sense nodes $\mathrm{S}_{\mathrm L,x}$ are all referenced to GND. Figure 4 separates the gate-driver and current-sense-amplifier functions from this power schematic.
 
 > [!figure]
 > ![Example current path for inverter switching state one-zero-zero.](../Images/BLDC/three_phase_inverter_current_example.svg)
+> Driven current path for the ideal switching state $(S_a,S_b,S_c)=(1,0,0)$.
 >
-> *Driven current path for the ideal switching state $(S_a,S_b,S_c)=(1,0,0)$. Current passes through the phase-$a$ high-side MOSFET, enters motor phase $a$, divides between phases $b$ and $c$, and returns through their low-side MOSFETs and shunts. The gray arrows show actual current flow for this example, not the positive phase-current reference directions.*
+> Current passes through the phase-$a$ high-side MOSFET, enters motor phase $a$, divides between phases $b$ and $c$, and returns through their low-side MOSFETs and shunts. The gray arrows show actual current flow for this example, not the positive phase-current reference directions.
 
 > [!figure]
 > ![Example current path for inverter switching state zero-zero-zero.](../Images/BLDC/three_phase_inverter_brake_example.svg)
-> *Low-side dynamic-braking path for the ideal zero state $(S_a,S_b,S_c)=(0,0,0)$. All three motor terminals are connected toward GND through the conducting low-side MOSFETs and shunts. For the instantaneous current directions shown, current enters phase $a$, divides between phases $b$ and $c$, and circulates through the low-side network without drawing power from the positive DC bus.*
+> Low-side dynamic-braking path for the ideal zero state $(S_a,S_b,S_c)=(0,0,0)$.
+>
+> All three motor terminals are connected toward GND through the conducting low-side MOSFETs and shunts. For the instantaneous current directions shown, current enters phase $a$, divides between phases $b$ and $c$, and circulates through the low-side network without drawing power from the positive DC bus.
 
 > [!figure]
 > ![Functional block diagram of a three-input PWM gate driver and three low-side current-sense amplifiers.](../Images/BLDC/three_phase_gate_driver_and_pga.svg)
-> *Functional block diagram of the assumed 3×PWM motor driver. Each binary phase input $\mathrm{IN}_x$ enters a gate-driver block that controls the high- and low-side gate terminals $\mathrm{G}_{\mathrm H,x}$ and $\mathrm{G}_{\mathrm L,x}$ with complementary timing and dead-time insertion; when $\mathrm{EN}_x$ is low, both MOSFETs in that leg are disabled. The charge pump supports high-side operation. Each programmable-gain amplifier (PGA) accepts the low-side sense-node voltage $\mathrm{S}_{\mathrm L,x}$ and produces a conditioned current-sense output $\mathrm{CS}_x$ for the controller. Power pins, protection and fault circuits, configuration interfaces, and other device-specific details are intentionally omitted.*
+> Functional block diagram of the assumed 3×PWM motor driver.
+>
+> Each binary phase input $\mathrm{IN}_x$ enters a gate-driver block that controls the high- and low-side gate terminals $\mathrm{G}_{\mathrm H,x}$ and $\mathrm{G}_{\mathrm L,x}$ with complementary timing and dead-time insertion; when $\mathrm{EN}_x$ is low, both MOSFETs in that leg are disabled. The charge pump supports high-side operation. Each programmable-gain amplifier (PGA) accepts the low-side sense-node voltage $\mathrm{S}_{\mathrm L,x}$ and produces a conditioned current-sense output $\mathrm{CS}_x$ for the controller. Power pins, protection and fault circuits, configuration interfaces, and other device-specific details are intentionally omitted.
 
 ### Gate-drive requirements
 
@@ -105,7 +112,9 @@ With the active-high timer convention used in Figure 5, $d_x\approx\mathrm{CCR}_
 
 > [!figure]
 > ![Center-aligned PWM comparison for three phase-duty commands.](../Images/BLDC/center_aligned_PWM.svg)
-> *Center-aligned, active-high PWM for the example ordering $\mathrm{CCR}_a>\mathrm{CCR}_c>\mathrm{CCR}_b$. The common timer counter $\mathrm{CNT}(t)$ rises from zero to the auto-reload value $\mathrm{ARR}$ and then falls. Each enabled driver input $\mathrm{IN}_x$ is high while $\mathrm{CNT}<\mathrm{CCR}_x$ and low otherwise, producing the symmetric state sequence $(1,1,1)\rightarrow(1,1,0)\rightarrow(1,0,0)\rightarrow(0,0,0)$ and its reverse over one PWM period. The figure shows timer logic before gate-driver dead-time insertion; all three enables are assumed high.*
+> Center-aligned, active-high PWM for the example ordering $\mathrm{CCR}_a>\mathrm{CCR}_c>\mathrm{CCR}_b$.
+>
+> The common timer counter $\mathrm{CNT}(t)$ rises from zero to the auto-reload value $\mathrm{ARR}$ and then falls. Each enabled driver input $\mathrm{IN}_x$ is high while $\mathrm{CNT}<\mathrm{CCR}_x$ and low otherwise, producing the symmetric state sequence $(1,1,1)\rightarrow(1,1,0)\rightarrow(1,0,0)\rightarrow(0,0,0)$ and its reverse over one PWM period. The figure shows timer logic before gate-driver dead-time insertion; all three enables are assumed high.
 
 
 PWM frequency is normally much higher than the electrical rotation frequency. It must be high enough to limit current ripple and acoustic effects, but higher switching frequency also increases switching loss and can tighten timing and layout requirements.
@@ -118,12 +127,16 @@ Motor current cannot change instantaneously. During dead time or an inactive swi
 
 > [!figure]
 > ![Complementary high- and low-side gate-drive waveforms with finite slew and inserted dead time.](../Images/BLDC/deadtime_insertion.svg)
-> *Response of one enabled inverter leg to the binary input $\mathrm{IN}_x(t)$. After each input transition, the conducting MOSFET begins turning off and the complementary gate-source voltage does not begin rising until after the inserted delay $t_\mathrm{dead}$. The finite ramps represent the gate-voltage transition time $t_\mathrm{slew}$; the actual interval during which both MOSFET channels are off also depends on propagation delay, threshold voltage, and the driver IC's definition of dead time. The enable $\mathrm{EN}_x$ is held high in this example.*
+> Response of one enabled inverter leg to the binary input $\mathrm{IN}_x(t)$.
+>
+> After each input transition, the conducting MOSFET begins turning off and the complementary gate-source voltage does not begin rising until after the inserted delay $t_\mathrm{dead}$. The finite ramps represent the gate-voltage transition time $t_\mathrm{slew}$; the actual interval during which both MOSFET channels are off also depends on propagation delay, threshold voltage, and the driver IC's definition of dead time. The enable $\mathrm{EN}_x$ is held high in this example.
 
 
 > [!figure]
 > ![Asynchronous freewheeling through MOSFET body diodes with all gate outputs inactive.](../Images/BLDC/three_phase_inverter_coast_example.svg)
-> *Asynchronous freewheeling with all six gate outputs inactive. For the instantaneous phase-current directions shown, current passes from GND through the phase-$a$ shunt and low-side body diode, enters motor phase $a$, leaves through phases $b$ and $c$, and returns to the positive DC bus through their high-side body diodes. The DC link therefore receives the motor's returned energy.*
+> Asynchronous freewheeling with all six gate outputs inactive.
+>
+> For the instantaneous phase-current directions shown, current passes from GND through the phase-$a$ shunt and low-side body diode, enters motor phase $a$, leaves through phases $b$ and $c$, and returns to the positive DC bus through their high-side body diodes. The DC link therefore receives the motor's returned energy.
 
 Turning every gate off does not make inductive current disappear. The current initially selects whichever body-diode paths satisfy its existing direction, as Figure 7 illustrates. If the source or DC-link circuitry cannot absorb the returned energy, the bus voltage can rise; practical drivers may therefore require suitable capacitance, clamping, braking, or supply-side energy handling.
 
@@ -139,15 +152,21 @@ Two measured phase currents are sufficient for a balanced three-wire motor becau
 
 > [!figure]
 > ![Three low-side leg shunts for phase-current reconstruction.](../Images/BLDC/three_phase_inverter_phase_shunt.svg)
-> *Three-shunt low-side sensing places one resistor $R_{\mathrm{sh},x}$ beneath each inverter leg. The corresponding sense node $\mathrm{S}_{\mathrm L,x}$ remains near GND, which simplifies amplifier common-mode requirements. A shunt measures the associated phase current only while that leg's low-side path conducts, so PWM state and sampling time determine which measurements are useful.*
+> Three-shunt low-side sensing places one resistor $R_{\mathrm{sh},x}$ beneath each inverter leg.
+>
+> The corresponding sense node $\mathrm{S}_{\mathrm L,x}$ remains near GND, which simplifies amplifier common-mode requirements. A shunt measures the associated phase current only while that leg's low-side path conducts, so PWM state and sampling time determine which measurements are useful.
 
 > [!figure]
 > ![One current-shunt resistor in the common inverter return path.](../Images/BLDC/three_phase_inverter_bus_shunt.svg)
-> *Single-shunt DC-link sensing places one resistor $R_\mathrm{sh}$ in the common inverter return. Its voltage represents the instantaneous DC-link current rather than one phase current directly. The arrangement minimizes sensing hardware but requires switching-state-dependent phase-current reconstruction and carefully timed sampling during informative PWM intervals.*
+> Single-shunt DC-link sensing places one resistor $R_\mathrm{sh}$ in the common inverter return.
+>
+> Its voltage represents the instantaneous DC-link current rather than one phase current directly. The arrangement minimizes sensing hardware but requires switching-state-dependent phase-current reconstruction and carefully timed sampling during informative PWM intervals.
 
 > [!figure]
 > ![Three inline phase-current shunts between the inverter and motor.](../Images/BLDC/three_phase_inverter_phase_sense.svg)
-> *Inline phase sensing places one shunt $R_{\mathrm{sh},x}$ in series with each motor lead. Each shunt directly carries its phase current and therefore provides broad observability independent of which low-side MOSFET is on. The differential amplifier must nevertheless resolve a small shunt voltage while tolerating the rapidly changing common-mode voltage of the phase terminal.*
+> Inline phase sensing places one shunt $R_{\mathrm{sh},x}$ in series with each motor lead.
+>
+> Each shunt directly carries its phase current and therefore provides broad observability independent of which low-side MOSFET is on. The differential amplifier must nevertheless resolve a small shunt voltage while tolerating the rapidly changing common-mode voltage of the phase terminal.*
 
 ## Choosing a Monolithic Motor Driver
 

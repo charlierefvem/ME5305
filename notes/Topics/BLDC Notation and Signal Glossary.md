@@ -26,6 +26,7 @@ This glossary collects the mathematical notation, signal names, and register ter
 > | Linear-Algebra Vectors                        | Bold upright lowercase font with no accent              | $\mathbf{i}_{abc}=\begin{bmatrix}i_a&i_b&i_c\end{bmatrix}^{\mathsf T}$                          | Multicomponent column arrays                                                                                                                                            |
 > | Matrices                                      | Bold upright uppercase font with no accent              | $\mathbf{M}=\begin{bmatrix}M_{11}&M_{12}\\M_{21}&M_{22}\end{bmatrix}$                           | Linear transformations and other matrices                                                                                                                               |
 > | Peak or Amplitude Scalars                     | Italic uppercase font with a hat accent                 | $v_a(t)=\hat V_a\sin(\omega_e t)$                                                               | Peak values that must be distinguished from corresponding instantaneous variables; established magnitude parameters such as $\psi_m$ retain their conventional notation |
+>
 > Standard naming and notation conventions used in the collection of notes regarding BLDC and PMSMS motors.
 
 ## Signal and Register Names
@@ -56,6 +57,7 @@ For phase index $x\in\{a,b,c\}$:
 > | $\mathrm{CS}_x$ | Conditioned current-sense output from the driver to the controller |
 > | $v_x(t)$ | Inverter pole potential for phase $x$, measured relative to GND |
 > | $V_\mathrm{DC}$ | DC-bus voltage |
+>
 > A glossary of symbols used in the collection of notes regarding BLDC and PMSMS motors.
 
 ## Usage Rules

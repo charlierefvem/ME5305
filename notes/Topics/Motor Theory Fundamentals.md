@@ -26,7 +26,8 @@ Begin with a stationary coil and a permanent-magnet rotor. The rotor field links
 
 > [!figure]
 > ![Cross-sectional view of a simplified one-phase permanent-magnet motor.](../Images/BLDC/PMSM_model_single_phase.svg)
-> *Cross-sectional view of a simplified one-phase permanent-magnet motor.*
+> Cross-sectional view of a simplified one-phase permanent-magnet motor.
+>
 > The $\otimes$ and $\odot$ symbols indicate current directed into and out of the page, respectively. For positive $i_a$, current enters the page at $a_{(+)}$ and leaves the page at $a_{(-)}$. By the right-hand rule, the positive magnetic axis of the winding points along the positive $\mathrm{a}$-axis shown in the figure. Rotor orientation is defined by the counterclockwise electrical angle $\theta_e$, measured from the positive $\mathrm{a}$-axis to the idealized permanent-magnet field vector $\vec B_\mathrm{pm}$. The figure assumes one pole pair ($p=1$), so $\theta_e=\theta_m$; in general, $\theta_e=p\theta_m$.
 
 ### Flux linkage
@@ -41,7 +42,8 @@ where $\psi_m$ is the peak permanent-magnet flux linkage of one phase.
 
 > [!figure]
 > ![Idealized permanent-magnet flux linkage versus rotor electrical angle.](../Images/BLDC/flux_linkage_profile.svg)
-> *Idealized permanent-magnet flux linkage versus rotor electrical angle.*
+> Idealized permanent-magnet flux linkage versus rotor electrical angle.
+>
 > In the idealized one-phase motor, the permanent-magnet field is assumed to have constant magnitude and a uniform spatial distribution while its direction rotates with the rotor. Consequently, the flux linkage of phase $a$ varies sinusoidally with electrical angle $\theta_e$.
 
 ### Back-EMF
@@ -66,7 +68,8 @@ where $\omega_e=d\theta_e/dt$ is electrical angular speed. The negative sign is 
 
 > [!figure]
 > ![Idealized phase-$a$ back-EMF versus rotor electrical angle at constant speed.](../Images/BLDC/back_emf_profile.svg)
-> *Idealized phase-$a$ back-EMF versus rotor electrical angle at constant speed.*
+> Idealized phase-$a$ back-EMF versus rotor electrical angle at constant speed.
+>
 > For constant positive electrical speed $\omega_e$, the back-EMF follows $-\sin\theta_e$: it is zero when the rotor field is aligned with the phase-$\mathrm{a}$ axis and reaches its peak magnitude $\psi_m\omega_e$ one-quarter electrical revolution later.
 
 ## Electromagnetic Torque
