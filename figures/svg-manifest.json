@@ -2,40 +2,17 @@
   "figures": {
     "figures/BLDC/FOC_current_loop.pdf": {
       "output": "notes/Images/BLDC/FOC_current_loop.svg",
-      "output_sha256": "b00547e316fc62b5082e6bdc8b20de3760dff8562f0e3d82ff50548e41ff81e5",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "6df0562cd3fb35e8408862db865d15a1f3f073e73fb733f734ca0ec39366598d",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "73ae7af36f8668825e1158f1601c920d0719dfe8c8d45fc973155441f1a40763",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 252.0,
@@ -43,45 +20,26 @@
         "paths": 360,
         "source_fonts": 12,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.7056,
+          "limit_255": 3.0
+        },
         "width_pt": 576.0
       }
     },
     "figures/BLDC/PMSM_model_single_phase.pdf": {
       "output": "notes/Images/BLDC/PMSM_model_single_phase.svg",
-      "output_sha256": "bb02f5ee4561610602a1c6b917a16bdcaeeb8414b2efe93f6027d06888586a98",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "cfb52ba24ddc16d08dacc42004df29b8c68029d610dcb60584850bc0a452f57b",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "df4ac3fde7c7aced64e4a153adb5e1c09fbbc051d1c12c0f1e52ea14275bab3a",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 360.0,
@@ -89,45 +47,26 @@
         "paths": 45,
         "source_fonts": 8,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.431,
+          "limit_255": 3.0
+        },
         "width_pt": 432.0
       }
     },
     "figures/BLDC/PMSM_model_three_phase.pdf": {
       "output": "notes/Images/BLDC/PMSM_model_three_phase.svg",
-      "output_sha256": "02e1f3c8dd645d879a91c7d093ca234153841db8cc20b64b60f1c860a2ae8aa7",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "7e763e091aaa812df09c7981d9ff41d57ddcb7f1576dd61755ec58d19e3260e0",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "d577efd024793f00cd8768930922fdd636db6a482482b6a7db44315d080e62bb",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 504.0,
@@ -135,45 +74,26 @@
         "paths": 76,
         "source_fonts": 9,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.3157,
+          "limit_255": 3.0
+        },
         "width_pt": 504.0
       }
     },
     "figures/BLDC/back_emf_profile.pdf": {
       "output": "notes/Images/BLDC/back_emf_profile.svg",
-      "output_sha256": "de3908106bc89cb0e0ed226ae28dac9b0340951464db4c78175785e452eea43c",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "7454047c323ac2ebc5f20e89cd81c58714fb6d5bbb88d367c4bec0f579b28aea",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "ee91c6118880520ae4197781ffdb784ccfbefe5c0ea64c522d7a23d25ecca448",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 312.0,
@@ -181,45 +101,26 @@
         "paths": 97,
         "source_fonts": 6,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.5176,
+          "limit_255": 3.0
+        },
         "width_pt": 600.0
       }
     },
     "figures/BLDC/block_commutation_block_diagram.pdf": {
       "output": "notes/Images/BLDC/block_commutation_block_diagram.svg",
-      "output_sha256": "9867b02ffa40e6873982c77235e2b94a7a26a6a9bd7eaa923b48599dd20e650e",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "4bdafee23e1df35be8bcd96e7d1c6b0ee84b210c287e42f406ac73de2f10f510",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "de70d60f58b7840365a20026fc7374fb9ac09c8bd3aa0499c16f0446b6dce08a",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 360.0,
@@ -227,45 +128,26 @@
         "paths": 701,
         "source_fonts": 6,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.9593,
+          "limit_255": 3.0
+        },
         "width_pt": 792.0
       }
     },
     "figures/BLDC/center_aligned_PWM.pdf": {
       "output": "notes/Images/BLDC/center_aligned_PWM.svg",
-      "output_sha256": "81034fd9ed3b7988b820d72e9a5c7d052de32b2cedb1a2b991f6166cd7ec93a4",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "9d0ece29da4ec0513f22677ac5c3629ce5c3d31ce8577ae15a1879a9fc0c5a47",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "57c9f6d841fc2b0be0c5af11b1ee1c04171f70ed978c148194c39ac2ecda03a0",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 324.0,
@@ -273,45 +155,26 @@
         "paths": 212,
         "source_fonts": 7,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 1.3494,
+          "limit_255": 3.0
+        },
         "width_pt": 297.0
       }
     },
     "figures/BLDC/commutation.pdf": {
       "output": "notes/Images/BLDC/commutation.svg",
-      "output_sha256": "54a0d64d71b05afd717d7b77673c6257edbe5354e5b0276cb902731cf2f9ed6f",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "14527cad047ca15523ad522b6d1025815a2e75d73e7fde422ad55ba50f97a0d9",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "c1ed263142ce5f87c972971ed5d81cb05acfdf9b85991d2ce8826649e3cbc0de",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 288.0,
@@ -319,45 +182,26 @@
         "paths": 195,
         "source_fonts": 9,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.9881,
+          "limit_255": 3.0
+        },
         "width_pt": 288.0
       }
     },
     "figures/BLDC/currents.pdf": {
       "output": "notes/Images/BLDC/currents.svg",
-      "output_sha256": "1b6e708e08fc5f8f95b8052804f4a9d3a8be10f274a92474bbeb5e704f29cee1",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "4d7f67b5e194ceb3da275c148aa460bb55a7afaded2bb1f2300e77d12aff9dff",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "ce36ea6317044bb7df6ca3d45cc8cac5b723d0a4261412df1a2190e3632ff850",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 126.0,
@@ -365,45 +209,26 @@
         "paths": 243,
         "source_fonts": 5,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 1.3805,
+          "limit_255": 3.0
+        },
         "width_pt": 252.0
       }
     },
     "figures/BLDC/deadtime_insertion.pdf": {
       "output": "notes/Images/BLDC/deadtime_insertion.svg",
-      "output_sha256": "0b1a095fff482bed72f9c8b787bee296a6a7715d13c82affeb4329ad4c2c8799",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "087465bc3a66c823b8a582f6bc9d0eeb70928a534303d02cca22ff49869e4f17",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "f055779ebf8f3c205a4eae10b92cf532ff445ad1937ce070811e6f189f6b9f5d",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 252.0,
@@ -411,45 +236,26 @@
         "paths": 95,
         "source_fonts": 6,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.7927,
+          "limit_255": 3.0
+        },
         "width_pt": 288.0
       }
     },
     "figures/BLDC/delta.pdf": {
       "output": "notes/Images/BLDC/delta.svg",
-      "output_sha256": "b028abc085a3bb3f2f7f3ca729d4fa37a24fb5aecbe71b0d8c3d287e029cb000",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "7b66b1b23fc4a924c42deae11a53ebb5118e0cae718085fdb35a8b9f3bf40d89",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "51be5d03ed4a7992f2d2b748256121415ce409f95be5715bb1f9a874574eb3d5",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 216.0,
@@ -457,45 +263,26 @@
         "paths": 54,
         "source_fonts": 2,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.7369,
+          "limit_255": 3.0
+        },
         "width_pt": 216.0
       }
     },
     "figures/BLDC/flux_linkage_profile.pdf": {
       "output": "notes/Images/BLDC/flux_linkage_profile.svg",
-      "output_sha256": "79192fc43bd1cb6918fbb84e6252a690ff9ff552e65fa8d5803d8adcbf299828",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "9f08e905bd42fd10673bba2e68e34425c232f7190b3a5e9fd3361f9c68fecb3b",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "6006190bef94a52e853f8a69a582ea35b24fa1b745139108f3e2438075dca648",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 312.0,
@@ -503,45 +290,26 @@
         "paths": 101,
         "source_fonts": 5,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.5117,
+          "limit_255": 3.0
+        },
         "width_pt": 600.0
       }
     },
     "figures/BLDC/hall.pdf": {
       "output": "notes/Images/BLDC/hall.svg",
-      "output_sha256": "69dd25af79a7516123a6d0529a23d4d0c090d7e83e5009ce82e1a3b10b1bca13",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "d51bccb3131612f63bf15e2dc36c8c22f2990cb516282cb8b2c2be88ba3de40c",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "b407f5b8344b1e357b0186fc59aa4845381d14d6199e28f6ecf0981fd180d771",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 288.0,
@@ -549,45 +317,26 @@
         "paths": 185,
         "source_fonts": 9,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.8692,
+          "limit_255": 3.0
+        },
         "width_pt": 288.0
       }
     },
     "figures/BLDC/hall_and_commutation.pdf": {
       "output": "notes/Images/BLDC/hall_and_commutation.svg",
-      "output_sha256": "286526d482628e619753ec67c72d21d4c11be720a0344617c1927dc8baee7817",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "89a28de3028501d01ca410f753815e2e0a7daeb444211f8d1fcf72f19138738f",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "8658d6db4348eff34cd1c3e33373d056656132c6aa445fb1f750703615617581",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 504.0,
@@ -595,45 +344,26 @@
         "paths": 259,
         "source_fonts": 9,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.8702,
+          "limit_255": 3.0
+        },
         "width_pt": 288.0
       }
     },
     "figures/BLDC/hall_and_commutation_and_currents.pdf": {
       "output": "notes/Images/BLDC/hall_and_commutation_and_currents.svg",
-      "output_sha256": "c1bc30106e9e1b2bbf5ef17735537bd8345ca7875a211890bcd690f42c1113e0",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "5137bd616f4844661ca32483b45462cf50164532822191f16a4762e0a50e642b",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "5609270a716e99db1714fb76f014edab15e5f281d84b7ce9c2a725c37cdfd9d4",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 576.0,
@@ -641,45 +371,26 @@
         "paths": 388,
         "source_fonts": 10,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.8618,
+          "limit_255": 3.0
+        },
         "width_pt": 288.0
       }
     },
     "figures/BLDC/hall_and_commutation_and_currents_and_rotor.pdf": {
       "output": "notes/Images/BLDC/hall_and_commutation_and_currents_and_rotor.svg",
-      "output_sha256": "b63a6b19c333a67f3aac93ac7dde21e57cdb00aa9ff0571eae23772b0ddbc679",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "3f5310217657cc85ea9d06cc60b601217a62c469cfc6753d0dcec2d1616cf7c6",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "41533957f7b05fc731d50cb6dfce9a3c3f6c44e06033797e0b842629c44ad1dc",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 612.0,
@@ -687,45 +398,26 @@
         "paths": 887,
         "source_fonts": 14,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.957,
+          "limit_255": 3.0
+        },
         "width_pt": 288.0
       }
     },
     "figures/BLDC/phase_equiv_circuit.pdf": {
       "output": "notes/Images/BLDC/phase_equiv_circuit.svg",
-      "output_sha256": "552d4334f8ef0e6c85f0df0970606bf69f821b86624ef298b425dbad9aa64838",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "16bd3f43f1bbde79ef0c4f4823297496e7050dc8ab08104f6ac9ee0507c53b6d",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "c6e59507d847c7e42f9372aa01e6793239ea449f175469924456a038f6aab974",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 180.0,
@@ -733,45 +425,26 @@
         "paths": 80,
         "source_fonts": 4,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 1.0123,
+          "limit_255": 3.0
+        },
         "width_pt": 576.0
       }
     },
     "figures/BLDC/rotor.pdf": {
       "output": "notes/Images/BLDC/rotor.svg",
-      "output_sha256": "6c686c4c7a89640e4e85c0e62400c2ccd8cccb7a991f63537bb5c1ac7607bb05",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "185ffcbdb9b9a92b70bdb06727c32c559b852f183dd827fd9e9c403ab7fe4714",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "a698df1eecf12dfb47d4f865db06132202a1667071eca6fa3b196ec0637a03b1",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 108.0,
@@ -779,45 +452,26 @@
         "paths": 620,
         "source_fonts": 8,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 1.9527,
+          "limit_255": 3.0
+        },
         "width_pt": 252.0
       }
     },
     "figures/BLDC/sector_4_5_6_PWM.pdf": {
       "output": "notes/Images/BLDC/sector_4_5_6_PWM.svg",
-      "output_sha256": "fbe2ad67be753d700a36ba055b9b3875b747a8af5cca5992b43f1762a2d9ae33",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "213bfcced7db4b72b0b6f0f5c0906c0704f02d0dd77992a210276eb4e7880b30",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "bc871e9d1eb810b205bed9f2c1e482cb8fac5ba35569d4389c31ac47890b368f",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 360.0,
@@ -825,45 +479,26 @@
         "paths": 318,
         "source_fonts": 7,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 1.0401,
+          "limit_255": 3.0
+        },
         "width_pt": 288.0
       }
     },
     "figures/BLDC/sw_waveform.pdf": {
       "output": "notes/Images/BLDC/sw_waveform.svg",
-      "output_sha256": "3f97486601fa584bd494101750844e4251a498e2cc7929a966ced2f46103f6c6",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "b44176eb7bd190c7ce3842a446b6d2f203d2cb6f1e876f6c6514a9cc923da045",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "f3206089631a7affcd671ae9c3e906644ce90bb26c136bfb89eb3b138473cd4b",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 216.0,
@@ -871,45 +506,26 @@
         "paths": 123,
         "source_fonts": 7,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.8273,
+          "limit_255": 3.0
+        },
         "width_pt": 378.0
       }
     },
     "figures/BLDC/three_phase_gate_driver_and_pga.pdf": {
       "output": "notes/Images/BLDC/three_phase_gate_driver_and_pga.svg",
-      "output_sha256": "8f87e728e3390c928ba9a8fa4492a9510b8113c5d6aad2c24704b45c2edd6dda",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "81e8135c74eb00bbae4316384df0df9489e968b73f0ccde7442d9760338a70ad",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "7f41322d34e71b34c0ec49525e165f0164f0c8211683b62b39d4f7f5b0dc2412",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 522.0,
@@ -917,45 +533,26 @@
         "paths": 259,
         "source_fonts": 5,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.8687,
+          "limit_255": 3.0
+        },
         "width_pt": 288.0
       }
     },
     "figures/BLDC/three_phase_inverter.pdf": {
       "output": "notes/Images/BLDC/three_phase_inverter.svg",
-      "output_sha256": "804d67a28d602e7f89ad0066a5e753a1f02581308f9051751798b1c154a13e66",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "b58652d261be477e81b9d5bead908b7eac144a0f8d09d29392ca5e167d1b207c",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "654d284a7cc47592de9af1f40b3197e5aadaf3fe5a081a961dd1f00054f2e309",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 324.0,
@@ -963,45 +560,26 @@
         "paths": 284,
         "source_fonts": 7,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.3391,
+          "limit_255": 3.0
+        },
         "width_pt": 432.0
       }
     },
     "figures/BLDC/three_phase_inverter_brake_example.pdf": {
       "output": "notes/Images/BLDC/three_phase_inverter_brake_example.svg",
-      "output_sha256": "1dac5ae8868b2b6b0ee9dc10c3ee99a757bd08e20148ea745fe7ff0469418e2d",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "a4fb337670cdd94e31b1eeddf68e3b43eee8b9efc40498f15cfdee62a40fc97d",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "f793570e4fb0122e02ff8ad274becaaeb1d1dba44debdc11467905273ef7c149",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 324.0,
@@ -1009,45 +587,26 @@
         "paths": 423,
         "source_fonts": 7,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.4105,
+          "limit_255": 3.0
+        },
         "width_pt": 432.0
       }
     },
     "figures/BLDC/three_phase_inverter_bus_shunt.pdf": {
       "output": "notes/Images/BLDC/three_phase_inverter_bus_shunt.svg",
-      "output_sha256": "b31e235854b275f0551df9381fd7058167584a8d31f85deca06c9ca3056169c5",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "b605e72c9d7762041e59b9adb6b38510ddc7ebe8ca2897d57e3163147ab89b2b",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "40a76f3c3cdc5e11d5c2978508da3690ab60b9c30ea1af154bd6a94efb859f7f",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 324.0,
@@ -1055,45 +614,26 @@
         "paths": 206,
         "source_fonts": 6,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.3125,
+          "limit_255": 3.0
+        },
         "width_pt": 432.0
       }
     },
     "figures/BLDC/three_phase_inverter_coast_example.pdf": {
       "output": "notes/Images/BLDC/three_phase_inverter_coast_example.svg",
-      "output_sha256": "30ddb8106735a344747340415c63f4b88587d5a7b3c9979912ee5d226b9c1c29",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "22df3a2d35b787decd3a1f1493a5bd72072086edb8dd98d6379e60e20ce26a0c",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "3e9629ec24a3d7c2fa85b0a0fb5a584e3861b1cf9c795cda9b2f32f084f63c70",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 324.0,
@@ -1101,45 +641,26 @@
         "paths": 495,
         "source_fonts": 7,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.4591,
+          "limit_255": 3.0
+        },
         "width_pt": 432.0
       }
     },
     "figures/BLDC/three_phase_inverter_current_example.pdf": {
       "output": "notes/Images/BLDC/three_phase_inverter_current_example.svg",
-      "output_sha256": "5d6ef6de47d96aade2283b5ed2a10bec303ff84fc246cbc6306350870c46f4bc",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "15194e3cf0b29a01daeecc1112f089d77dfa666acc378ccb6caea45af4e5ba45",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "76c877a8041c2be6032fa6fdb5c405f7215aee868d689f72147db986743ce0fe",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 324.0,
@@ -1147,45 +668,26 @@
         "paths": 474,
         "source_fonts": 7,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.4344,
+          "limit_255": 3.0
+        },
         "width_pt": 432.0
       }
     },
     "figures/BLDC/three_phase_inverter_phase_sense.pdf": {
       "output": "notes/Images/BLDC/three_phase_inverter_phase_sense.svg",
-      "output_sha256": "6a7a8dd0fefe86d7b08bcb980c0c3c9a0312bcde88152406d015e5356581a580",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "b8c1c80fb5a336f32fb7a74f76b2c3a8d633fa9ed352a8b3885169324b0501af",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "e6ff011e2e0c2c5776c1d543a9e8c18762f6bab4d333910d37d13f9adb9cb847",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 324.0,
@@ -1193,45 +695,26 @@
         "paths": 220,
         "source_fonts": 6,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.2849,
+          "limit_255": 3.0
+        },
         "width_pt": 432.0
       }
     },
     "figures/BLDC/three_phase_inverter_phase_shunt.pdf": {
       "output": "notes/Images/BLDC/three_phase_inverter_phase_shunt.svg",
-      "output_sha256": "3663b7b5cdc1beac4614d4681d70420c18a8e349c9c9da5f1e0e8c440199e6df",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "8d58b72921aa6b0f15df10b096c9270dadf3c1f25fbf489a7b5ee2df536c457f",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "1cd54b81d2df6f982ec8fc015344ebe07a4cc7cb68832fbfdacd56f1615c0c1f",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 324.0,
@@ -1239,45 +722,26 @@
         "paths": 220,
         "source_fonts": 6,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.3069,
+          "limit_255": 3.0
+        },
         "width_pt": 432.0
       }
     },
     "figures/BLDC/wye.pdf": {
       "output": "notes/Images/BLDC/wye.svg",
-      "output_sha256": "071c0eecc0d1e043ce3bd1f4f8a6e9d8b168615f6c22ec02fdc6564c76c246fa",
-      "pipeline_sha256": "17f14eed52ab4e863b5f072f7df8bdc5cf4972e3d2d86ad455f1825d39cc6259",
+      "output_sha256": "452634cc28e4d1b59cd1e9ae4a103a3c3d3dd238f7ce6b7acc41463321f5fe47",
+      "pipeline_sha256": "06aff2cd068b0474a701b0cc96ddcc963ffb29d302ff93912be656310c0c3f18",
       "source_sha256": "12809aa1d4fdae4066f53ea37ebacfaca525098317b914f6210045b6b8c777c6",
       "toolchain": {
-        "ghostscript": "10.07.0",
-        "gs_binary": "95855fb18d4e3f3ae428a3e15edef2ce6fd3a85c7c40fcb32aad140364305dd8",
-        "machine": "AMD64",
-        "pdf2svg_binary": "87a005f36917a289b96afe540f8c6d3cfccbd75d3fdd4a39f674457b12291df5",
-        "pdf2svg_libraries": {
-          "iconv.dll": "3970b3daee0ac40eac3a2c5742312ed72138d411f7deb42af08f88bb5c84db6d",
-          "libbz2-1.dll": "a623c6c69a9ae10106d865f49a887a1286caf64bcc3d765a257d3fdabbbd1d31",
-          "libcairo-2.dll": "3f1788f6709e73f3df8eb0ec2953f65baf85e623ce7493ac9b8a93f1ff6c0edb",
-          "libffi-6.dll": "6674a01d321b12a7aa6eed5ad402ea3158bae4970886e769b6698b4e28220bb4",
-          "libfreetype-6.dll": "7697dd47e063bf34b06a9c273454503affda9d4bc76a0de6c8ad53985cda8f5d",
-          "libgcc_s_seh-1.dll": "f820af89b29a5da453b9815dc60b6f9d09cf7315187b22759d3d8b2331c884b4",
-          "libgio-2.0-0.dll": "08883d63e6701d4bae814b679edd072a9c6db7974282e2a1f032d16dd8bd8de2",
-          "libglib-2.0-0.dll": "1844a2e8a8f09e2743be531d5ae23c4e3bbc545b7b0e21067c4234a9306e2475",
-          "libgmodule-2.0-0.dll": "1ce5c24d5ac955fb81e4a746f491cb5949a8f59eae5277a8718f1d761265e3d3",
-          "libgobject-2.0-0.dll": "da21a13edeedc6fc122018e2da958e547e2003275ac7185179f09118375b8ab8",
-          "libintl-8.dll": "4769d2917c5a8d9824ed15221d309d4ba258f86869799b4595d6e17256832e6a",
-          "libjpeg-62.dll": "ff4c8df59e402a798f72a47c9b9f7816560a695d1d7026b16a1c59d1e4848100",
-          "liblcms2-2.dll": "8fe226cad7d6f33e78c6b6b7db5592a627614993d9210924a1429c7be6ff6709",
-          "libopenjpeg-1.dll": "935d6317a352010ecbd4183e53f1cd86adb3eff3a5d13eb922e303a991e52847",
-          "libpixman-1-0.dll": "bf128890b3ea539f1454f0333b05d65223db031f240b76035bda80a9800319ab",
-          "libpng16-16.dll": "44c9f634529e30aadf739a6095e1cd5cc279aef9df2b5a1b174aa12d9e602239",
-          "libpoppler-49.dll": "2768a4bce48885cf929460c7531929c65f5f743e432fab8c9b547aec43282230",
-          "libpoppler-glib-8.dll": "05251d391b6bfbf1f92d4e14e6afaaf3a27bcce1c70e893c329321b9fa0c0ffd",
-          "libstdc++-6.dll": "d422114613dc95071116c2da89cf28d4149e1d49a9598a2339282b3a5ea9a3a2",
-          "libtiff-5.dll": "50b49b392a2c42538b2819d1555c469e655e720d150520c0bea662bd174b187d",
-          "libwinpthread-1.dll": "a91b08e52b8ab3dab6561ac42f4f6b10a87a5ad1aec3df42a7da444d41c439ec",
-          "zlib1.dll": "fb6b1f1c01d1ba7a90d75b0a36afdce86ce9ceb992dad22e33319ddc3b90204c"
-        },
+        "ghostscript": "10.00.0",
+        "gs_binary": "df9d6e10e74eb937b85e2db0c4172d7092bc7cbd80374f488570d75a6dfb64e7",
+        "machine": "x86_64",
+        "packages": "ghostscript=10.0.0~dfsg-11+deb12u8\nlibcairo2=1.16.0-7\nlibpoppler-glib8=22.12.0-2+deb12u3\nlibpoppler126=22.12.0-2+deb12u3\nlibrsvg2-bin=2.54.7+dfsg-1~deb12u1\npdf2svg=0.2.3-4\npython3-pil=9.4.0-1.1+deb12u1",
+        "pdf2svg_binary": "db4a52f76fb5ee5338821f3119820880d9a7a2db3381a71f6d5902547fa87dfb",
         "pypdf": "6.10.0",
-        "system": "Windows"
+        "system": "Linux"
       },
       "validation": {
         "height_pt": 216.0,
@@ -1285,6 +749,10 @@
         "paths": 39,
         "source_fonts": 2,
         "source_images": 0,
+        "visual": {
+          "blurred_mean_error_255": 0.5003,
+          "limit_255": 3.0
+        },
         "width_pt": 216.0
       }
     }
