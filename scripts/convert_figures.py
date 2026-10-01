@@ -169,9 +169,13 @@ def discover(root: Path, include_untracked=False) -> list[str]:
         if folded in existing and existing[folded] != output:
             raise ValueError(f"Output has a case-only collision: {output}")
         outputs[folded] = path
+    # Check the entire index for collisions before touching the filesystem.
+    # On Linux, an uppercase index-only fixture can sort before the real file;
+    # on Windows both spellings resolve to the same file.
+    for path in paths:
         if not inside(root, path).is_file():
             raise ValueError(f"Tracked PDF is missing; stage its intended removal first: {path}")
-        inside(root, output)
+        inside(root, destination(path))
     return paths
 
 
