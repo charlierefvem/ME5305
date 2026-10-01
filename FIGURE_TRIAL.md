@@ -14,7 +14,13 @@ The trial selected PDF 1.4 instead of the planned 1.7 intermediate. Ghostscript 
 
 ## GitHub and delivery validation
 
-The actual Linux Action trial is pending at this record's initial creation. Native Windows checks alone do not verify the frozen container or repository push permissions. Record the run result here after the trial.
+The [Linux Action trial passed](https://github.com/charlierefvem/ME5305/actions/runs/36930777554): the pinned container built, all 16 conversion/validation tests passed (including the Linux-only renderer test), all 28 PDFs converted, and the bot pushed generated commit `af202b7`. That commit was pulled into the local vault. CI used Ghostscript 10.00.0, pdf2svg 0.2.3, and the exact Debian package revisions recorded in the manifest. Poppler-versus-librsvg errors ranged from 0.2849 to 1.9527/255; every output remained vector-only.
+
+The first CI attempt exposed a filename-collision check whose error order differed on Linux. The converter now checks all candidate output names before checking source-file existence; the corrected run passed. Six additional publication tests passed locally, covering stale sources, a race during push, permission failures, unchanged output, and staging only generated files; they are included in subsequent CI runs.
+
+The final Linux-generated assets were then rendered again in Chromium (all 28) and Firefox (the same four examples), compared with the original PDFs, and visually reviewed in contact sheets. All comparisons stayed below 3/255. Local unchanged and forced regeneration had also produced byte-identical output and manifest with the native Windows toolchain. Cross-platform byte identity is not expected or required.
+
+All 28 moved PDFs were checked against their original Git blobs and were byte-identical. All 27 BLDC image links resolve with exact filename case. The final figure commit excludes the instructor's unrelated Obsidian-setting changes. Temporary diagnostics remain ignored in `.figure-build/`.
 
 A fresh Obsidian preview and full Webpage HTML Export using these SVGs remain instructor-side delivery checks. Browser image-element checks passed, but are not a substitute for the actual vault/export integration. No new HTML has been published by this figure task.
 
