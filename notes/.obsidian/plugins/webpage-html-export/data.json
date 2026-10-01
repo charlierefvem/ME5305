@@ -10,8 +10,11 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "",
-    "filesToExport": [],
+    "exportPath": "C:\\Repositories\\Sites\\ME5305\\build",
+    "filesToExport": [
+      "Topics",
+      "index.md"
+    ],
     "useFallbackRenderer": false,
     "addBodyClasses": true,
     "addMathjaxStyles": true,
