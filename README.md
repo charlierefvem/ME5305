@@ -1,42 +1,31 @@
-# ME5305 notes and class resources
+# ME5305 website publication
 
-This repository maintains the Obsidian notes and web publication for **ME5305: Mechatronics III** at Cal Poly San Luis Obispo. The course emphasizes embedded hardware realization, PCB design, firmware, bring-up, validation, and integrated student projects.
+This branch holds the exported website for **ME5305: Mechatronics III**. Author and maintain the Obsidian vault on `main`; use `gh-pages` for the generated publication files.
 
-Most curriculum development occurs in `C:\Repositories\mechatronics`. Selected, reviewed artifacts are ported here for student use. `C:\Repositories\Sites\ME4305` supplies the analogous note and publishing conventions. Work in this project changes only files under `C:\Repositories\Sites\ME5305`.
+## Branch layout
 
-## Repository structure
+- `docs/`: tracked website output, including `.nojekyll`.
+- `build/`: ignored local staging for the Obsidian HTML export.
+- `notes/` and `figures/`: ignored on this branch; their tracked sources belong to `main`.
+- `AGENTS.md` and this README: publication guidance.
 
-| Location | Purpose |
-| --- | --- |
-| `notes/` on `main` | Obsidian vault and student-facing Markdown, images, and downloads |
-| `figures/` on `main` | Editable and publication-source figures |
-| `build/` on either branch | Untracked staging for the complete HTML export |
-| `docs/` on `gh-pages` | Tracked HTML and assets served by GitHub Pages |
-| Root Markdown files on `main` | Maintainer and agent guidance, outside the exported vault |
+## Publication sequence
 
-Open **`notes/`**, rather than the repository root, as the Obsidian vault. Add note-family folders as content arrives; do not populate them with empty instructional stubs.
-
-## Working sequence
-
-1. Develop curriculum in mechatronics and select the reviewed artifact to port.
-2. Import and maintain the publication copy in `notes/` on `main`, recording provenance.
-3. Export selected student-facing pages using Webpage HTML Export to `build/`.
-4. Preview and validate the complete export.
-5. Switch to `gh-pages`, synchronize the export into tracked `docs/`, review, commit, and publish when requested.
+1. On `main`, finish and commit source changes, then export the complete selected site using **Webpage HTML Export** into `C:\Repositories\Sites\ME5305\build`.
+2. Confirm `build/index.html` and all required assets exist and preview the export. Save/close Obsidian before switching branches.
+3. Switch to `gh-pages` and synchronize the **contents** of `build/` into `docs/`, removing obsolete generated files while preserving `.nojekyll` and any configured `CNAME`.
+4. Check navigation, images, equations, styling, downloads, and paths under `/ME5305/`. Stage with `git add -A -- docs`, inspect the changes, and commit with the source `main` revision and exporter details.
+5. When publishing, push `gh-pages` and use GitHub Pages' branch source `gh-pages` with folder `/docs`. Verify the deployment and live site.
 6. Return to `main` for further authoring.
 
-See [PUBLISHING.md](PUBLISHING.md) before the first export or branch switch.
+Read the full runbook without changing branches:
 
-## Guidance
+```powershell
+git show main:PUBLISHING.md
+```
 
-- [AGENTS.md](AGENTS.md) establishes repository-wide working rules.
-- [COURSE_CONTEXT.md](COURSE_CONTEXT.md) records course scope and authoritative source locations.
-- [NOTE_STYLE_GUIDE.md](NOTE_STYLE_GUIDE.md) defines note families and editorial conventions.
-- [NOTE_WORKFLOWS.md](NOTE_WORKFLOWS.md) covers conversion, revision, imports, and review.
-- [PUBLISHING.md](PUBLISHING.md) documents initial setup and subsequent releases.
+## Current setup status
 
-## Setup status
+The publication branch has been separated from the authoring tree. `docs/.nojekyll` establishes the tracked output directory. No HTML export was present in `build/` when this branch was prepared, so `docs/index.html` and the exported site assets still need to be generated and copied before the first release. GitHub Pages settings and a live deployment have not been verified.
 
-At the guidance baseline on **2026-10-01**, the repository had no commits and only empty `notes/`, `figures/`, and `build/` directories. The configured remote was `https://github.com/charlierefvem/ME5305`; no local or remote-tracking `gh-pages` branch was present. Remote hosting settings were not inspected.
-
-This guidance establishes the workflow. Initial content, Obsidian configuration, a tested export, the publication branch, and GitHub Pages configuration remain to be set up. Update this status as those steps are completed.
+Creating this branch from `main` preserved shared Git history. Removing authoring files here does not remove them from `main`; no history rewrite is needed.
