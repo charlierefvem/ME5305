@@ -1,0 +1,9 @@
+# Local HTML export staging; keep this rule on both branches.
+/build/
+
+# Generated site is ignored on main only. Track docs/ on gh-pages.
+/docs/
+
+# Personal Obsidian workspace state, not shared vault configuration.
+/notes/.obsidian/workspace.json
+/notes/.obsidian/workspace-mobile.json
