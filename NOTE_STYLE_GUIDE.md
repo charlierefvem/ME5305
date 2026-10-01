@@ -51,7 +51,7 @@ Use wiki-links for vault navigation and portable relative Markdown links for ass
 
 Keep required reading on the current page. Avoid empty reference stubs and broken links to future pages. Do not link student pages to local drives, another vault's filesystem, private Canvas image previews, or upstream working files. Copy the selected asset into this vault and retain provenance.
 
-Store editable figure sources under `figures/` and publication copies inside `notes/`. ME5305 has no automated figure pipeline yet. Preserve the relationship between source and output and inspect any SVG/PDF conversion before use. Detailed image alt text should explain meaningful components and relationships; a visible caption should be brief.
+Store editable figure sources under `figures/` and publication copies inside `notes/`. Tracked PDFs under `figures/` generate SVGs at matching paths under `notes/Images/` through the main-branch Action. Follow [FIGURE_WORKFLOW.md](FIGURE_WORKFLOW.md), preserve editable originals, and review conversions before use. Detailed image alt text should explain meaningful components and relationships; a visible caption should be brief.
 
 ## Callouts and code
 

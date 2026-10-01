@@ -7,6 +7,7 @@ The instructor's chosen workflow is **Obsidian on `main` → Webpage HTML Export
 | Item | `main` | `gh-pages` |
 | --- | --- | --- |
 | `notes/`, `figures/` | Authoritative publication sources, tracked as populated | Not part of the publication tree |
+| `.figure-build/` | Ignored figure-conversion scratch | Ignored; never copy into the website |
 | `build/` | Ignored export staging | Ignored export staging; survives normal branch switching |
 | `docs/` | Ignored generated output | Tracked complete website |
 | Root guidance | Full maintainer guidance | Keep a short branch README and agent instructions explaining the publication contract |
@@ -40,6 +41,7 @@ Create a branch-specific `.gitignore` with:
 
 ```gitignore
 /build/
+/.figure-build/
 /notes/
 /figures/
 ```
@@ -52,11 +54,11 @@ The expected default project URL from the configured remote is `https://charlier
 
 ## Routine release
 
-1. **Prepare sources on `main`.** Check branch and working tree, finish content review, verify assets and navigation, and commit the intended source snapshot. Record its commit ID. Do not carry unrelated tracked modifications across branches.
+1. **Prepare sources on `main`.** Check branch and working tree, finish content review, verify assets and navigation, and commit the intended source snapshot. For PDF changes, push `main`, wait for the figure Action to pass, and pull its generated SVG commit before exporting. Record its commit ID. Do not carry unrelated tracked modifications across branches.
 2. **Export a complete site into `build/`.** Use a full export for releases. An incremental export into an empty staging directory is incomplete; an incremental export into an old directory can retain removed pages. Inspect exporter settings and verify the resulting inventory. Preserve any output still needed before refreshing staging.
 3. **Preview the export.** Serve it through a local HTTP preview when possible and test navigation, search if enabled, equations, custom callouts, code, images, downloads, and narrow screens. Check that links and assets will work under the `/ME5305/` project path; origin-root paths such as `/site-lib/...` may resolve outside the project. Check nested pages as well as `index.html`.
 4. **Switch branches.** Save/close Obsidian, confirm a clean tracked tree, then use `git switch gh-pages`. The ignored `build/` remains the transfer area. Check the branch and export root again before copying anything.
-5. **Synchronize `docs/`.** Treat `build/` as the complete generated-site snapshot. Copy its contents so `build/index.html` becomes `docs/index.html`. Remove stale generated files absent from the new export; a simple overwrite-only copy is insufficient. Preserve intentional branch-managed files such as `.nojekyll` and an existing, configured `CNAME`. Do not introduce a custom domain file speculatively.
+5. **Synchronize `docs/`.** Treat `build/` as the complete generated-site snapshot. Copy its contents so `build/index.html` becomes `docs/index.html`. Remove stale generated files absent from the new export; a simple overwrite-only copy is insufficient. Preserve intentional branch-managed files such as `.nojekyll` and an existing, configured `CNAME`. If replacing all generated content, recreate an empty `docs/.nojekyll` before committing. Do not introduce a custom domain file speculatively.
 6. **Review the publication tree.** Verify `docs/index.html`, generated assets, and `docs/.nojekyll`. Inspect deletions and file counts for an unexpectedly empty or partial export. Preview `docs/` as the final payload, including project-path behavior.
 7. **Stage and review.** Use `git add -A -- docs`, then `git diff --cached --stat` and `git diff --cached --check`. Inspect the staged changes, including removed files. If files are unexpectedly missing from staging, use `git check-ignore -v` on the affected paths. Do not stage `build/` or stray vault files.
 8. **Commit and publish within the requested scope.** Record the source `main` commit, exporter version, export date, significant settings changes, and verification performed in the release commit message or a branch-root release record. Push `gh-pages` when publication is authorized. Check the Pages deployment result and the actual live pages; a successful local export alone is not a verified deployment.

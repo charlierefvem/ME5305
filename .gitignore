@@ -7,3 +7,9 @@
 # Personal Obsidian workspace state, not shared vault configuration.
 /notes/.obsidian/workspace.json
 /notes/.obsidian/workspace-mobile.json
+
+# Python bytecode from local figure conversion and tests.
+__pycache__/
+
+# Conversion tools, disposable intermediates, and review images are not site output.
+/.figure-build/

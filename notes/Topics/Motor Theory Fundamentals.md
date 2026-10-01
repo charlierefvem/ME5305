@@ -25,7 +25,7 @@ The naming convention and notation style used throughout this lecture series are
 Begin with a stationary coil and a permanent-magnet rotor. The rotor field links the coil differently as the rotor turns. That changing flux linkage produces a voltage at the coil terminals.
 
 > [!figure] Figure 1
-> ![Cross-sectional view of a simplified one-phase permanent-magnet motor.](images/BLDC/PMSM_model_single_phase.pdf)
+> ![Cross-sectional view of a simplified one-phase permanent-magnet motor.](../Images/BLDC/PMSM_model_single_phase.svg)
 >
 > *Cross-sectional view of a simplified one-phase permanent-magnet motor.*
 >
@@ -42,7 +42,7 @@ $$
 where $\psi_m$ is the peak permanent-magnet flux linkage of one phase.
 
 > [!figure] Figure 2
-> ![Idealized permanent-magnet flux linkage versus rotor electrical angle.](images/BLDC/flux_linkage_profile.pdf)
+> ![Idealized permanent-magnet flux linkage versus rotor electrical angle.](../Images/BLDC/flux_linkage_profile.svg)
 >
 > *Idealized permanent-magnet flux linkage versus rotor electrical angle.*
 >
@@ -69,7 +69,7 @@ $$
 where $\omega_e=d\theta_e/dt$ is electrical angular speed. The negative sign is a consequence of the selected angle, terminal polarity, and flux-linkage definitions.
 
 > [!figure] Figure 3
-> ![Idealized phase-$a$ back-EMF versus rotor electrical angle at constant speed.](images/BLDC/back_emf_profile.pdf)
+> ![Idealized phase-$a$ back-EMF versus rotor electrical angle at constant speed.](../Images/BLDC/back_emf_profile.svg)
 >
 > *Idealized phase-$a$ back-EMF versus rotor electrical angle at constant speed.*
 >

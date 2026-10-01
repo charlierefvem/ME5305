@@ -39,7 +39,7 @@ Three binary Hall signals permit eight codes, but only six normally occur in a c
 Only one Hall bit changes at each ideal sector boundary. Decreasing $\theta_e$ traverses the codes in the opposite order. This mapping is only an example: actual Hall order and polarity depend on sensor placement, connector pinout, phase wiring, and direction of rotation. Use the motor documentation or determine the mapping experimentally at low energy.
 
 > [!figure] Figure 1
-> ![Diagram of one electrical revolution divided into six sectors; below are three Hall-sensor waveforms and their binary codes.](images/BLDC/hall.pdf)
+> ![Diagram of one electrical revolution divided into six sectors; below are three Hall-sensor waveforms and their binary codes.](../Images/BLDC/hall.svg)
 >
 > *Example three-Hall sequence for increasing electrical angle $\theta_e$.*
 >
@@ -76,7 +76,7 @@ With the established back-EMF convention, the following ideal sequence produces 
 |      6 | $[270^\circ,330^\circ)$   |         `011`         |  $1$  |  $Z$  |  $0$  | $a\rightarrow c$; $b$ floating |
 
 > [!figure] Figure 2
-> ![Composite diagram of one electrical revolution divided into six sectors. Three Hall-sensor waveforms and their binary codes appear above ideal tri-state phase commands. Beneath the waveforms, six wye-connected winding diagrams show the driven current path and six motor cross sections show the rotor permanent-magnet field at the center of each sector.](images/BLDC/hall_and_commutation_and_currents_and_rotor.pdf)
+> ![Composite diagram of one electrical revolution divided into six sectors. Three Hall-sensor waveforms and their binary codes appear above ideal tri-state phase commands. Beneath the waveforms, six wye-connected winding diagrams show the driven current path and six motor cross sections show the rotor permanent-magnet field at the center of each sector.](../Images/BLDC/hall_and_commutation_and_currents_and_rotor.svg)
 >
 > *Example Hall-sensored six-step commutation sequence for positive torque and increasing electrical angle.*
 >
@@ -85,7 +85,7 @@ With the established back-EMF convention, the following ideal sequence produces 
 The table defines one internally consistent Hall and phase-excitation mapping, not a universal lookup table. To implement six-step commutation on an unfamiliar motor, associate each observed Hall code with the appropriate driven phase pair and verify the result at low energy. Reversing the desired torque while holding rotor position fixed swaps the high and low commands for the two active phases. Reversing the direction of rotor motion causes the measured Hall codes to occur in the reverse order.
 
 > [!figure] Figure 3
-> ![Ideal tri-state phase commands for phases a, b, and c over the six Hall sectors.](images/BLDC/commutation.pdf)
+> ![Ideal tri-state phase commands for phases a, b, and c over the six Hall sectors.](../Images/BLDC/commutation.svg)
 > *Ideal tri-state phase commands for the example six-step sequence.*
 >
 > The levels show the requested sector states; PWM, dead time, and current recirculation are omitted.
@@ -97,14 +97,14 @@ Within each ideal sector, current enters the motor through the phase commanded h
 Actual winding current does not change instantaneously at a sector boundary. Inductance, back-EMF, PWM, dead time, and the selected freewheel strategy determine how current transfers between phases. Figures 2 and 4 therefore show the ideal commanded path used to understand the sequence, not every instantaneous semiconductor-conduction state.
 
 > [!figure] Figure 4
-> ![Six wye-connected winding diagrams showing the ideal driven-current path in each Hall sector.](images/BLDC/currents.pdf)
+> ![Six wye-connected winding diagrams showing the ideal driven-current path in each Hall sector.](../Images/BLDC/currents.svg)
 >
 > *Ideal winding-current path in each six-step sector.*
 >
 > Black windings are intentionally driven, gray windings are floating, and arrows show conventional current from the phase connected toward the positive DC bus to the phase connected toward the DC return.
 
 > [!figure] Figure 5
-> ![Six motor cross sections showing rotor permanent-magnet orientation at the center of each Hall sector.](images/BLDC/rotor.pdf)
+> ![Six motor cross sections showing rotor permanent-magnet orientation at the center of each Hall sector.](../Images/BLDC/rotor.svg)
 >
 > *Rotor permanent-magnet orientation at the center of each electrical sector for the one-pole-pair illustration.*
 >
@@ -113,7 +113,7 @@ Actual winding current does not change instantaneously at a sector boundary. Ind
 Torque or speed is commonly adjusted by applying PWM to one of the active legs, or by using a driver-specific recirculation pattern. The exact strategy changes current ripple, switching loss, braking behavior, and current-sense visibility. The implementation developed below applies PWM to the phase whose abstract state is $S_x=1$ and uses the low-side zero state for synchronous slow decay.
 
 > [!figure] Figure 6
-> ![Animation cycling through the six ideal commutation sectors of a one-pole-pair motor. In each frame, two phase-field vectors combine into a resultant stator field while the rotor permanent-magnet field advances by 60 electrical degrees.](images/BLDC/rotor_animation.gif)
+> ![Animation cycling through the six ideal commutation sectors of a one-pole-pair motor. In each frame, two phase-field vectors combine into a resultant stator field while the rotor permanent-magnet field advances by 60 electrical degrees.](../Images/BLDC/rotor_animation.gif)
 >
 > *Animated relationship among phase excitation, the resultant stator field, and rotor orientation during one electrical revolution of ideal six-step commutation.*
 >
@@ -124,7 +124,7 @@ Torque or speed is commonly adjusted by applying PWM to one of the active legs, 
 The block-commutation table describes each phase with the abstract state $S_x\in\{1,0,Z\}$. The microcontroller must translate that three-state request into timer settings and binary logic signals that the assumed gate-driver interface can accept. Figure 7 shows this signal flow using STM32-aligned timer terminology. It is a feedforward signal-flow diagram rather than a feedback-control diagram; the physical dependence of the Hall signals on rotor position is not drawn as a return path.
 
 > [!figure] Figure 7
-> ![Signal-flow block diagram for three-phase Hall-sensored block commutation. Hall channels and a direction command feed Hall decoding and the commutation lookup, which produce abstract phase states. Firmware maps those states and a duty request into per-phase enable and timer compare values. Three center-aligned PWM channels share an STM32 timer counter and produce binary gate-driver inputs. Gate-driver blocks insert dead time and produce high- and low-side gate-source voltages for the three inverter half bridges, whose pole voltages drive the motor.](images/BLDC/block_commutation_block_diagram.pdf)
+> ![Signal-flow block diagram for three-phase Hall-sensored block commutation. Hall channels and a direction command feed Hall decoding and the commutation lookup, which produce abstract phase states. Firmware maps those states and a duty request into per-phase enable and timer compare values. Three center-aligned PWM channels share an STM32 timer counter and produce binary gate-driver inputs. Gate-driver blocks insert dead time and produce high- and low-side gate-source voltages for the three inverter half bridges, whose pole voltages drive the motor.](../Images/BLDC/block_commutation_block_diagram.svg)
 >
 > *Signal flow for Hall-sensored block commutation using synchronous slow decay and STM32-aligned timer terminology.*
 > 
@@ -177,7 +177,7 @@ This example fixes one decay strategy so that the signal path is explicit. Other
 Figure 8 extends the same mapping across three consecutive sectors at a constant $50\%$ duty request. The PWM waveform moves from phase $c$ in sector 4 to phase $a$ in sectors 5 and 6 because the phase commanded by $S_x=1$ changes with the commutation table. At each boundary, the enable pattern changes so that the newly floating phase is disabled and the two active phases implement the next driven current path.
 
 > [!figure] Figure 8
-> ![Gate-driver input and enable waveforms for sectors 4, 5, and 6 at a constant 50 percent block-commutation duty request. The PWM input moves from phase c to phase a as the abstract commutation state changes, while the floating phase is disabled in each sector.](images/BLDC/sector_4_5_6_PWM.pdf)
+> ![Gate-driver input and enable waveforms for sectors 4, 5, and 6 at a constant 50 percent block-commutation duty request. The PWM input moves from phase c to phase a as the abstract commutation state changes, while the floating phase is disabled in each sector.](../Images/BLDC/sector_4_5_6_PWM.svg)
 >
 > *Physical driver-interface signals for sectors 4, 5, and 6 using synchronous slow decay and a constant duty request $d=50\%$.*
 >
@@ -220,7 +220,7 @@ In a center-aligned implementation, the desired sinusoidal phase commands can be
 
 
 > [!figure] Figure 9
-> ![Three sinusoidal timer compare-register trajectories displaced by 120 electrical degrees and centered on one-half of the auto-reload value.](images/BLDC/sw_waveform.pdf)
+> ![Three sinusoidal timer compare-register trajectories displaced by 120 electrical degrees and centered on one-half of the auto-reload value.](../Images/BLDC/sw_waveform.svg)
 >
 > *Example sinusoidal compare-register commands $\mathrm{CCR}_a$, $\mathrm{CCR}_b$, and $\mathrm{CCR}_c$ over one electrical revolution.*
 >
@@ -230,7 +230,7 @@ In a center-aligned implementation, the desired sinusoidal phase commands can be
 FOC uses the measured electrical angle to express the measured phase currents in coordinates that rotate with the rotor. For the surface-PMSM operating region emphasized here, the direct-axis current command is normally $i_d^*=0$, while the quadrature-axis command $i_q^*$ sets the requested torque. Separate current controllers produce the rotating-frame voltage commands $v_d^*$ and $v_q^*$, which are transformed back into three-phase voltage commands for the PWM inverter.
 
 > [!figure] Figure 10
-> ![Closed-loop field-oriented current controller. Direct- and quadrature-axis current commands are compared with measured current components and passed through separate PI controllers. The resulting voltage commands pass through an inverse Park and Clarke transform, the PWM inverter, and the motor electrical dynamics. Motor phase currents pass through shunt-resistor sensing, amplification, analog-to-digital conversion, current reconstruction, and a Clarke and Park transform before returning to the current controllers. A rotor-position sensor and electrical-angle calculation provide the measured electrical angle to both transforms. Electromagnetic torque and load torque feed the separate mechanical-system dynamics.](images/BLDC/FOC_current_loop.pdf)
+> ![Closed-loop field-oriented current controller. Direct- and quadrature-axis current commands are compared with measured current components and passed through separate PI controllers. The resulting voltage commands pass through an inverse Park and Clarke transform, the PWM inverter, and the motor electrical dynamics. Motor phase currents pass through shunt-resistor sensing, amplification, analog-to-digital conversion, current reconstruction, and a Clarke and Park transform before returning to the current controllers. A rotor-position sensor and electrical-angle calculation provide the measured electrical angle to both transforms. Electromagnetic torque and load torque feed the separate mechanical-system dynamics.](../Images/BLDC/FOC_current_loop.svg)
 >
 > _High-level inner current-control loop for surface-PMSM FOC._
 >

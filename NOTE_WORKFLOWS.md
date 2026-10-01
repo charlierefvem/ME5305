@@ -53,7 +53,7 @@ Do not modify the upstream source or its tracking files from this project. Repor
 4. Before adopting custom callouts, inspect the relevant ME4305 styles and any styles already present locally. Port only needed CSS, enable it deliberately, and verify exported appearance. Do not claim automatic numbering without checking it.
 5. Retain ordinary code fences for short snippets and text diagrams; inspect blank lines after quoted callouts and remove duplicated labels.
 
-There is no ME5305 PDF-to-SVG workflow at the guidance baseline. If automation is added later, document its input/output mapping and validation before treating generated files as reproducible.
+The PDF-to-SVG Action scans tracked PDFs under `figures/` on every main push and generates matching SVGs under `notes/Images/`. It outlines fonts in disposable copies, validates the whole batch, and commits successful outputs and their manifest. Follow [FIGURE_WORKFLOW.md](FIGURE_WORKFLOW.md); pull the generated commit before Obsidian export. Keep conversion scratch in `.figure-build/`, separate from HTML staging.
 
 ## Prepare for publication
 

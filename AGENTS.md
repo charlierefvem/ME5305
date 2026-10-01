@@ -16,6 +16,7 @@ Maintain the Obsidian vault and publication copies of notes and class resources 
 - [NOTE_STYLE_GUIDE.md](NOTE_STYLE_GUIDE.md): note families, Markdown, links, callouts, and technical style.
 - [NOTE_WORKFLOWS.md](NOTE_WORKFLOWS.md): editing, source conversion, importing, provenance, and validation.
 - [PUBLISHING.md](PUBLISHING.md): branch setup, Obsidian export, staging, release checks, and recovery.
+- [FIGURE_WORKFLOW.md](FIGURE_WORKFLOW.md): PDF source mapping, automatic SVG conversion, validation, and diagnostics.
 
 Read the relevant note and source material before editing. Prefer current authoritative files and explicit decisions over old chat summaries. Inspect `git status` and the current branch; preserve unrelated user work.
 
@@ -36,7 +37,8 @@ Flag suspected technical errors rather than silently changing their meaning. Use
 ## Repository and branch rules
 
 - On `main`, `notes/` is the Obsidian vault; `figures/` holds editable figure sources. Keep maintainer guidance outside the vault.
-- `build/` is disposable, untracked export staging on both branches. Never use it for unique source material.
+- `build/` is disposable, untracked export staging on both branches. Never use it for unique source material. Figure-conversion scratch belongs in ignored `.figure-build/`, separate from the HTML payload.
+- Tracked PDFs under `figures/` generate matching SVGs under `notes/Images/` through the main-branch Action. Preserve editable sources, review generated figures, and pull the generated commit before HTML export. Follow `FIGURE_WORKFLOW.md`; do not hand-edit generated SVGs.
 - `docs/` is ignored on `main` and **tracked on `gh-pages`**. HTML is produced by Obsidian's **Webpage HTML Export** community plugin.
 - Make note corrections on `main`, then re-export. Do not hand-edit generated HTML as the durable fix or merge the publication tree back into `main`.
 - Do not assume `gh-pages`, plugin configuration, custom CSS, figure automation, or a live site exists. Check current state and follow the publishing runbook.
