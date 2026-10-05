@@ -1,3 +1,17 @@
+## Current source ownership — 2026-10-02
+
+Durable curriculum is now authored in **`D:\Repositories\mechatronics`**, the canonical curriculum repository. Open its `notes/` folder as the note vault and `courses/` as the human-review vault; its root vault is retired. This repository serves student publication/deployment and retains its former source collection as a transition snapshot.
+
+This ownership rule supersedes instructions below or in older runbooks that describe `notes/` or `figures/` as independently maintained sources, recommend opening this vault for authoring, or prescribe a development-to-site editable-copy workflow. Make durable corrections in the master repository, including its shared reference area. Follow that repository's root and course guidance. Do not edit the retained Markdown, figure sources, or vault settings here as parallel curriculum.
+
+The source collection was migrated from `c971962daa47d35cfb36e1546f674a8de2abcd3b` on `main`, with a clean working tree. The master migration record contains exact per-file source hashes, destination paths, and reconciliation evidence. Source draft/review status was preserved.
+
+Existing publication branches, HTML, staging, and conversion tools remain intact. The old export and figure-conversion instructions are transition history; they do not describe an implemented publisher from the new master paths. Preserve the site and source snapshot until Obsidian visual verification and publication continuity checks are complete. Publication automation and redundant-source retirement are later work.
+
+See [CONTENT_OWNERSHIP.md](CONTENT_OWNERSHIP.md) for the current locations and verification limits.
+
+## Historical repository guidance
+
 # ME5305 notes and class resources
 
 This repository maintains the Obsidian notes and web publication for **ME5305: Mechatronics III** at Cal Poly San Luis Obispo. The course emphasizes embedded hardware realization, PCB design, firmware, bring-up, validation, and integrated student projects.
